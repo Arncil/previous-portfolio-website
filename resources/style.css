@@ -1,20 +1,91 @@
+/* FONTS */
+@font-face {
+    font-family: "ExocetLight";
+    src: url("./fonts/ExocetLight.ttf");
+}
+
+@font-face {
+    font-family: "ExocetHeavy";
+    src: url("./fonts/ExocetHeavy.ttf");
+}
+
+/* GENERAL SETTINGS */
 html {
-    font-size: 10px;
+    font-size: clamp(16px, 3vw, 32px);
 }
 
 body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     background-color: #570404;
     color: #fff;
     text-align: center;
 }
 
-h1 {
-    font-size: 3rem;
+a {
+    text-decoration: none;
 }
 
-#avatar {
-    height: 20rem;
-    width: 20rem;
+
+/* HEADER */
+header {
+    background-image: url(./images/background-images/background-image-nav.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 0.3rem 1rem #000;
+    position: fixed;
+    top: 0;
+}
+
+nav {
+    display: flex;
+}
+
+header li {
+    font-size: clamp(9px, 3vw, 18px);
+    width: 4.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ExocetLight';
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-image: linear-gradient(90deg, #4d0d0b, #c41812,#4d0d0b) 1;
+    outline: 0.1rem double #95764C;
+    padding: 0.15rem;
+    margin-right: 1rem;
+    background: linear-gradient(90deg,#4d0d0b, #69120f);
+    box-shadow: 0 0.1rem 0.3rem #000;
+    text-shadow: 0.05rem 0.05rem rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+
+
+}
+
+header li:hover {
+    background: linear-gradient(90deg,#350908, #2b0403);
+    border-image: linear-gradient(90deg, #660b05, #c41212,#660b05) 1;
+    outline: 0.15rem double #d1a567;
+    font-weight: bold;
+}
+
+header .avatar {
+    height: 2.2rem;
+    width: 2.2rem;
     border-radius: 50%;
-    border: 0.2rem solid #fff;
+    position: fixed;
+    top: 0.15rem;
+    left: 0.15rem;
+    box-shadow: 0 0.3rem 1rem #000;
 }
