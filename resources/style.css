@@ -1,55 +1,66 @@
 /* FONTS */
 @font-face {
     font-family: "ExocetLight";
-    src: url("./fonts/ExocetLight.ttf");
-}
-
+    src: url("./fonts/ExocetLight.ttf");}
 @font-face {
     font-family: "ExocetHeavy";
-    src: url("./fonts/ExocetHeavy.ttf");
-}
+    src: url("./fonts/ExocetHeavy.ttf");}
 
 /* GENERAL SETTINGS */
 html {
-    font-size: clamp(16px, 3vw, 32px);
-}
-
+    font-size: clamp(16px, 3vw, 32px);}
 body {
     box-sizing: border-box;
-    height: 50rem;
     margin: 0;
     padding: 0;
-    background-color: #570404;
+    max-width: 100%;
+    background: #570404 url(./images/background-images/body-background.jpg) repeat-y top;
+    background-size: cover;
     color: #fff;
     text-align: center;
+    display: grid;
+    grid-template: repeat(16, 1fr) / repeat(16, 1fr);
+    grid-template-areas: 
+    /* MAIN   0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1   MAIN */
+    /* GRID   1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6   GRID */
+    /* 01 */ "h h h h h h h h h h h h h h h h" /* 01 */
+    /* 02 */ "h h h h h h h h h h h h h h h h" /* 02 */
+    /* 03 */ ". . . . . . . . . . . . . . . ." /* 03 */
+    /* 04 */ "m m m m m m m m m m m m m m m m" /* 04 */
+    /* 05 */ "m m m m m m m m m m m m m m m m" /* 05 */
+    /* 06 */ "m m m m m m m m m m m m m m m m" /* 06 */
+    /* 07 */ "m m m m m m m m m m m m m m m m" /* 07 */
+    /* 08 */ "m m m m m m m m m m m m m m m m" /* 08 */
+    /* 09 */ "m m m m m m m m m m m m m m m m" /* 09 */
+    /* 10 */ "m m m m m m m m m m m m m m m m" /* 10 */
+    /* 11 */ "m m m m m m m m m m m m m m m m" /* 11 */
+    /* 12 */ "m m m m m m m m m m m m m m m m" /* 12 */
+    /* 13 */ "m m m m m m m m m m m m m m m m" /* 13 */
+    /* 14 */ "m m m m m m m m m m m m m m m m" /* 14 */
+    /* 15 */ "m m m m m m m m m m m m m m m m" /* 15 */
+    /* 16 */ "f f f f f f f f f f f f f f f f" /* 16 */
+    /* MAIN   0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1   MAIN */
+    /* GRID   1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6   GRID */;
 }
-
+    
 a {
-    text-decoration: none;
-}
-
+    text-decoration: none;}
 
 /* HEADER */
 header {
+    grid-area: h;
     background: #000 url(./images/background-images/background-image-nav.png) no-repeat center;
     background-size: cover;
     width: 100%;
-    min-height: 2.5rem;
-    max-height: 4rem;
     margin-bottom: 0.5rem;
     box-shadow: 0 0.3rem 1rem #000;
-    position: fixed;
-    top: 0;
     overflow: auto;
     display: flex;
     align-items: center;
+    z-index: 10;
 }
-
 nav {
-    width: 100%;
-
-}
-
+    width: 100%;}
 header ul {
     height: 100%;
     display: flex;
@@ -57,10 +68,7 @@ header ul {
     list-style-type: none;
     flex-wrap: wrap;
     margin: 0;
-    padding: 0;
-
-}
-
+    padding: 0;}
 header li {
     font-size: clamp(9px, 2vw, 18px);
     width: 4.5rem;
@@ -78,37 +86,36 @@ header li {
     box-shadow: 0 0.1rem 0.3rem #000;
     text-shadow: 0.05rem 0.05rem rgba(255, 255, 255, 0.25);
     cursor: pointer;
-
-
 }
-
 header li:hover {
     background: linear-gradient(90deg,#350908, #2b0403);
     border-image: linear-gradient(90deg, #660b05, #c41212,#660b05) 1;
     outline: 0.15rem double #d1a567;
-    font-weight: bold;
-}
+    font-weight: bold;}
 
+/* MAIN */
+main {
+    position: relative;
+    top: 3.5rem;
+}
+main {
+    grid-area: m;
+    background-image: url(./images/background-images/mountain-landscape.png);
+    background-size: 100vw;
+    min-height: 60vw;
+    max-height: 70vw;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 0;
+    padding: 0;
+}
 
 /* FOOTER */
 footer {
+    margin: 0;
+    padding: 0;
+    grid-area: f;
     background-color: #000;
     opacity: 0.5;
     width: 100%;
-    min-height: 1.25rem;
-    max-height: 2rem;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    display: inline-flex;
-}
-
-footer .avatar {
-    height: 1.1rem;
-    width: 1.1rem;
-    border-radius: 50%;
-    box-shadow: 0 0.3rem 1rem #000;
-    position: fixed;
-    bottom: 0.075rem;
-    left: 49%;
-}
+    display: inline-flex;}
