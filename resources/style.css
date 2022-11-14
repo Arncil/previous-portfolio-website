@@ -1,0 +1,13 @@
+html {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+#avatar {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
