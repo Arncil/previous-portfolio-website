@@ -1,3 +1,12 @@
+
+/* General Settings */
+*, *::before, *::after {
+    box-sizing: border-box;}
+html {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;}
+
 /* FONTS */
 @font-face {
     font-family: "ExocetLight";
@@ -6,98 +15,87 @@
     font-family: "ExocetHeavy";
     src: url("./fonts/ExocetHeavy.ttf");}
 
-/* GENERAL SETTINGS */
-html {
-    font-size: clamp(16px, 3vw, 32px);
-}
+/* MAIN */
 body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    /* max-width: 100vw;
-    height: 100vw; */
-    background: #570404 url(./images/background-images/body-background.jpg) repeat-y top;
+    background-image: url("./images/background-images/old-forrest-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    color: #fff;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
     text-align: center;
 }
-    
-a {
-    text-decoration: none;}
 
-/* HEADER */
-header {
-    background: #000 url(./images/background-images/background-image-nav.png) no-repeat center;
-    background-size: cover;
-    width: 100%;
-    margin-bottom: 0.5rem;
-    box-shadow: 0 0.3rem 1rem #000;
-    overflow: auto;
-    /* display: flex; */
+main {
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-areas: ". n n n n n n n n n n n n n n .";
-    /* align-items: center; */
-    z-index: 10;
-    position: sticky;
-}
-nav {
-    grid-area: n;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "a b c";
+    place-items: center;
     width: 100%;
-    display: inline-flex;
-    justify-content: center;
-
-}
-header ul {
-    height: 100%;
-    display: inline-flex;
-    justify-content: center;
-    list-style-type: none;
-    /* flex-wrap: wrap; */
+    height: 100vh;
     margin: 0;
-    padding: 0;}
-header li {
-    font-size: clamp(3px, 1.5vw, 14px);
-    width: 10vw;
-    /* display: inline-flex; */
+    padding: 0;
+}
+
+.container {
+    grid-area: b;
+    width: 98%;
+    height: 90%;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'ExocetLight';
+    text-transform: uppercase;
+    font-size: 4vw;
+    border-image: url(./images/frames/h1-border-frame.png);
+    border-image-slice: 360 0 213 0;
+    border-image-repeat: stretch;
+    border-image-width: 19vw 0vw 13vw;
+    border-style: solid;
+    margin: 3vw;
+    padding: 6vw 0 2vw;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+}
+li {
+    font-size: 1.5vw;
+    width: 15vw;
     font-family: 'ExocetLight';
     text-transform: uppercase;
     color: #fff;
-    border-width: 0.15rem;
+    border-width: 0.3vw;
     border-style: solid;
     border-image: linear-gradient(90deg, #4d0d0b, #c41812,#4d0d0b) 1;
-    outline: 0.1rem double #95764C;
-    padding: 0.25rem;
-    margin: 0.5rem 0.25rem;
+    outline: 0.3vw double #4d3b24;
+    padding: 0.25vw 1vw;
+    margin-bottom: 1vw;
     background: linear-gradient(90deg,#4d0d0b, #69120f);
     box-shadow: 0 0.1rem 0.3rem #000;
-    text-shadow: 0.05rem 0.05rem rgba(255, 255, 255, 0.25);
+    text-shadow: 0.025rem 0.025rem rgb(255 255 255 / 25%);
     cursor: pointer;
 }
-header li:hover {
+li:hover {
     background: linear-gradient(90deg,#350908, #2b0403);
     border-image: linear-gradient(90deg, #660b05, #c41212,#660b05) 1;
-    outline: 0.15rem double #d1a567;
+    outline: 0.5vw double #d1a567;
     font-weight: bold;}
-
-/* MAIN */
-main {
-    margin: 0;
-    padding: 0;
+a {
+    color: #fff;
+    font-family: "ExocetLight";
+    text-transform: uppercase;
+    text-decoration: none;
 }
-
-/* FOOTER */
-footer {
-    height: 2rem;
-    margin: 0;
-    padding: 0;
-    background: #000 url(./images/background-images/background-image-nav.png) no-repeat center;
-    background-size: cover;
-    box-shadow: 0rem -0.3rem 1rem #000;
-    width: 100%;
-    display: inline-flex;
-    z-index: 5;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+#menu-background {
+    position: fixed;
+    top: 3.5vw;
+    left: 34vw;
+    z-index: -1;
+    width: 33vw;
 }
