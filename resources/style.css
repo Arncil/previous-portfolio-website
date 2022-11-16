@@ -22,7 +22,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    overflow: hidden;
     text-align: center;
 }
 
@@ -117,5 +116,11 @@ a {
         padding: 0.25vw 1vw;
         margin-bottom: 2vw;
         cursor: pointer;
+    }
+}
+
+@media (max-width: 400px) {
+    #menu-background {
+        width: 90vw;
     }
 }
