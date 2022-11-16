@@ -17,6 +17,7 @@ html {
 
 /* MAIN */
 body {
+    background-color: #3b5a6c;
     background-image: url("./images/background-images/old-forrest-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -122,6 +123,7 @@ a {
 @media (max-width: 500px) {
     #menu-background {
         width: 95vw;
+        height: 150vw;
     }
 
 
