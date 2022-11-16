@@ -95,7 +95,7 @@ a {
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px) and (min-width: 501px){
     #menu-background {
         width: 65vw;
     }
@@ -115,12 +115,34 @@ a {
         outline: 0.6vw double #4d3b24;
         padding: 0.25vw 1vw;
         margin-bottom: 2vw;
-        cursor: pointer;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     #menu-background {
-        width: 90vw;
+        width: 95vw;
     }
+
+
+    h1 {
+        font-size: 11vw;
+        border-image-width: 15vw 0vw 12vw;
+        border-image-slice: 305 0 170 0;
+        margin: 0 -6vw 4vw;
+        padding: 11vw 0 4vw;
+    }
+    li {
+        font-size: 5.5vw;
+        width: 49vw;
+        border-width: 0.8vw;
+        outline: 0.8vw double #4d3b24;
+        padding: 1.25vw 1vw;
+        margin-bottom: 2.5vw;
+    }
+    nav {
+        width: 50vw;
+    
+    }
+
+
 }
