@@ -42,7 +42,11 @@ header {
     width: 100%;
     margin: 0;
     padding: 0;
+    /* position */
+    display: grid;
+    place-items: center;
 }
+
 .menu-icon {
     position: fixed;
     top: max(4vh, 4vw);
@@ -103,6 +107,22 @@ main {
     place-items: center;
 }
 
+h1 {
+    /* box model */
+    margin: 0;
+    padding: 0;
+    /* text */
+    font-size: 4vw;
+    font-family: 'ExocetLight';
+    color: #fff;
+    text-transform: uppercase;
+}
+
+li {
+    /* box model */
+    width: 90%;
+    height: 70%;
+}
 .menu {
     /* box model */
     width: 40vw;
@@ -125,19 +145,12 @@ main {
     place-items: center;
     /* other */
     box-sizing: content-box;
-    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
-
-h1 {
-    /* box model */
-    margin: 0;
-    padding: 0;
-    /* text */
-    font-size: 4vw;
-    font-family: 'ExocetLight';
-    color: #fff;
-    text-transform: uppercase;
-}
+.menu::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, and Opera */
+  }
 
 .frame {
     /* box model */
@@ -204,11 +217,7 @@ h1 {
     font-weight: bold;
 }
 
-li {
-    /* box model */
-    width: 90%;
-    height: 70%;
-}
+
 
 /* RESPONISIVENESS */
 @media (min-width: 1001px) {
