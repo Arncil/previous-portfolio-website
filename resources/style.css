@@ -23,8 +23,14 @@ body {
     background-size: cover;
     /* other */
     text-align: center;
-    overflow: hidden;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
+body::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, and Opera */
+  }
+
 
 /* FONTS */
 @font-face {
@@ -145,12 +151,8 @@ li {
     place-items: center;
     /* other */
     box-sizing: content-box;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+
 }
-.menu::-webkit-scrollbar {
-    display: none;  /* Chrome, Safari, and Opera */
-  }
 
 .frame {
     /* box model */
@@ -225,7 +227,7 @@ li {
 
 #character-description {
     /* background */
-    background-image: url(./images/background-images/page-background-fill.jpg);
+    background-image: url(./images/background-images/page-background-gentle-fill.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -244,13 +246,23 @@ li {
     grid-template-rows: 1fr 4fr;
 }
 
+#character-description p {
+    color: #fff;
+    font-family: 'ExocetLight';
+    text-transform: uppercase;
+    text-align: left;
+    align-self: flex-start;
+    justify-self: flex-start;
+    margin: 2vw;
+}
+
 #character-heading {
     margin: min(3vh, 3vw) 0 0 0;
     grid-row: 1 / 1;
 }
 
 #character-picture {
-    height: min(70vh, 140vw);
+    height: min(75vh, 120vw);
     grid-column: 2 / 2;
 }
 
@@ -344,7 +356,7 @@ li {
 
     h1 {
         /* text */
-        font-size: min(8vw, 12vh);
+        font-size: 6vw;
     }
 
     li {
@@ -396,17 +408,10 @@ li {
 
     #character-page {
         height: 100vh;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-
-    #character-description {
-        grid-area: 1 / 1 / 1 / 1;
     }
 
     #character-picture {
-        grid-area: 2 / 1 / 2 / 1;
-
+        height: min(50vh, 100vw);
     }
 
 }
