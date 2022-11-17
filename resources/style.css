@@ -1,19 +1,26 @@
-
 /* General Settings */
-*, *::before, *::after {
-    box-sizing: border-box;}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 16px;
     margin: 0;
-    padding: 0;}
+    padding: 0;
+}
 
 /* FONTS */
 @font-face {
     font-family: "ExocetLight";
-    src: url("./fonts/ExocetLight.ttf");}
+    src: url("./fonts/ExocetLight.ttf");
+}
+
 @font-face {
     font-family: "ExocetHeavy";
-    src: url("./fonts/ExocetHeavy.ttf");}
+    src: url("./fonts/ExocetHeavy.ttf");
+}
 
 /* MAIN */
 body {
@@ -26,9 +33,7 @@ body {
     text-align: center;
     overflow: hidden;
 }
-h1 {
 
-}
 main {
     display: grid;
     place-items: center;
@@ -36,8 +41,22 @@ main {
     width: 100%;
 }
 
-nav {
-    width: 30vw;
+.menu {
+    width: 40vw;
+    height: min(90vh, 60vw);
+    background-image: url(./images/background-images/menu-background-fill.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-image-source: url(./images/background-images/menu-background.png);
+    border-image-slice: 8%;
+    border-image-width: 2vw;
+    border-image-repeat: round;
+    border-style: solid;
+    display: grid;
+    padding: 2vw 0;
+    grid-template-rows: 1fr 3fr;
+    place-items: center;
 
 }
 
@@ -46,117 +65,130 @@ h1 {
     font-family: 'ExocetLight';
     text-transform: uppercase;
     font-size: 4vw;
-    border-image: url(./images/frames/h1-border-frame.png);
-    border-image-slice: 360 0 213 0;
-    border-image-repeat: stretch;
-    border-image-width: 19vw 0vw 13vw;
-    border-style: solid;
-    margin: 1vw 3vw 5vw;
-    padding: 6vw 0 2vw;
+    margin: 0;
+    padding: 0;
 }
-ul {
+
+.frame {
+    width: 100%;
+    padding: 0 5vw;
+}
+
+#menu-bottom-frame {
+    margin: 0 0 1.5vw 0;
+}
+
+.menu-buttons {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: grid;
+    grid-template-rows: repeat(6, 1fr);
     place-items: center;
+    height: 100%;
+    width: 70%;
 }
-li {
-    font-size: 1.5vw;
-    width: 15vw;
+.button {
+    font-size: min(3vw, 3vh);
+    display: grid;
+    place-items: center;
     font-family: 'ExocetLight';
     text-transform: uppercase;
     color: #fff;
     border-width: 0.3vw;
     border-style: solid;
-    border-image: linear-gradient(90deg, #4d0d0b, #c41812,#4d0d0b) 1;
+    border-image: linear-gradient(90deg, #4d0d0b, #c41812, #4d0d0b) 1;
     outline: 0.3vw double #4d3b24;
     padding: 0.25vw 1vw;
-    margin-bottom: 1vw;
-    background: linear-gradient(90deg,#4d0d0b, #69120f);
+    margin: 0;
+    background: linear-gradient(90deg, #4d0d0b, #69120f);
     box-shadow: 0 0.1rem 0.3rem #000;
     text-shadow: 0.025rem 0.025rem rgb(255 255 255 / 25%);
     cursor: pointer;
 }
-li:hover {
-    background: linear-gradient(90deg,#350908, #2b0403);
-    border-image: linear-gradient(90deg, #660b05, #c41212,#660b05) 1;
+
+.button:hover {
+    background: linear-gradient(90deg, #350908, #2b0403);
+    border-image: linear-gradient(90deg, #660b05, #c41212, #660b05) 1;
     outline: 0.5vw double #d1a567;
-    font-weight: bold;}
+    font-weight: bold;
+}
+
+li {
+    width: 90%;
+    height: 70%;
+}
+
 a {
     color: #fff;
     font-family: "ExocetLight";
     text-transform: uppercase;
     text-decoration: none;
 }
-#menu-background {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 35vw;
-    transform: translate(-50%, -50%);
-    z-index: -1;
 
-}
+/* RESPONISIVENESS */
 
-@media (max-width: 800px) and (min-width: 501px){
+@media (max-width: 800px) and (min-width: 501px) {
 
     body {
         background-image: url("./images/background-images/old-forrest-background-regular.jpg");
     }
 
-    #menu-background {
-        width: 65vw;
-    }
-
-    h1 {
-        font-size: 8vw;
-        border-image-width: 24vw 0vw 12vw;
-        border-image-slice: 383 0 215 0;
-        margin: 0 -8vw 4vw;
-        padding: 12vw 0 4vw;
-    }
-
-    li {
+    .button {
         font-size: 3.5vw;
-        width: 30vw;
         border-width: 0.7vw;
         outline: 0.6vw double #4d3b24;
         padding: 0.25vw 1vw;
         margin-bottom: 2vw;
     }
+
+    li {
+        width: 30vw;
+
+    }
+    h1 {
+        font-size: 8vw;
+    }
+    .menu {
+        width: 70vw;
+        height: min(90vh, 90vw);
+        border-image-width: 3vw;
+    }
+    .frame {
+        padding: 0 10vw;
+    }
+
 }
 
 @media (max-width: 500px) {
-    #menu-background {
-        width: 95vw;
-        height: 150vw;
-    }
 
     body {
         background-image: url("./images/background-images/old-forrest-background-low.jpg");
     }
 
     h1 {
-        font-size: 11vw;
-        border-image-width: 15vw 0vw 12vw;
-        border-image-slice: 305 0 170 0;
-        margin: 0 -6vw 16vw;
-        padding: 15vw 0 7vw;
+        font-size: 12vw;
     }
 
-    li {
+    .button {
         font-size: 5.5vw;
-        width: 49vw;
         border-width: 0.8vw;
         outline: 0.8vw double #4d3b24;
         padding: 1.25vw 1vw;
         margin-bottom: 2.5vw;
     }
-    nav {
-        width: 50vw;
-    
+
+    li {
+        width: 49vw;
     }
 
+    .menu {
+        width: 90vw;
+        height: min(90vh, 130vw);
+        border-image-width: 4vw;
+    }
+    .frame {
+        padding: 0 20vw;
+    }
 
 }
