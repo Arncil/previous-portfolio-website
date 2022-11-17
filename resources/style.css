@@ -1,14 +1,29 @@
-/* General Settings */
-*,
-*::before,
-*::after {
+/* GENERAL SETTINGS */
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
 html {
-    font-size: 16px;
+    /* box model */
     margin: 0;
     padding: 0;
+    /* text */
+    font-size: 16px;
+}
+
+body {
+    /* box model */
+    height: 100vh;
+    margin: 0;
+    /* background */
+    background-color: #3b5a6c;
+    background-image: url("./images/background-images/old-forrest-background-high.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* other */
+    text-align: center;
+    overflow: hidden;
 }
 
 /* FONTS */
@@ -21,141 +36,246 @@ html {
     font-family: "ExocetHeavy";
     src: url("./fonts/ExocetHeavy.ttf");
 }
-
-/* MAIN */
-body {
-    background-color: #3b5a6c;
-    background-image: url("./images/background-images/old-forrest-background-high.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    text-align: center;
-    overflow: hidden;
+/* HEADER */
+header {
+    /* box model */
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-
-main {
+.menu-icon {
+    position: fixed;
+    top: max(4vh, 4vw);
+    right: max(4vh, 4vw);
+    width: max(4vh, 4vw);
+    display: none;
+    z-index: 5;
+}
+.top-menu-nav {
+    /* box model */
+    width: 100%;
+    height: min(13vh, 30vw);
+    margin: 0;
+    padding: 0;
+    /* position */
     display: grid;
     place-items: center;
-    height: 100vh;
-    width: 100%;
-}
-
-.menu {
-    width: 40vw;
-    height: min(90vh, 60vw);
+    /* background */
     background-image: url(./images/background-images/menu-background-fill.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    /* border */
     border-image-source: url(./images/background-images/menu-background.png);
     border-image-slice: 8%;
-    border-image-width: 2vw;
+    border-image-width: 1rem;
+    border-image-repeat: round;
+     border-style: solid;
+}
+
+
+.top-menu-ul {
+    /* box model */
+    width: 100%;
+    padding: 0 2vw;
+    margin: 0;
+    /* position */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1vw;
+    place-items: center;
+    /* other */
+    list-style-type: none;
+}
+
+
+.top-menu-button {
+    font-size: min(2vw, 2vh);
+
+}
+/* MAIN */
+main {
+    /* box model */
+    width: 100%;
+    height: 100vh;
+    /* position */
+    display: grid;
+    place-items: center;
+}
+
+.menu {
+    /* box model */
+    width: 40vw;
+    height: min(85vh, 60vw);
+    padding: 2vw;
+    /* background */
+    background-image: url(./images/background-images/menu-background-fill.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border */
+    border-image-source: url(./images/background-images/menu-background.png);
+    border-image-slice: 8%;
+    border-image-width: 2rem;
     border-image-repeat: round;
     border-style: solid;
+    /* position */
     display: grid;
-    padding: 2vw 0;
     grid-template-rows: 1fr 3fr;
     place-items: center;
-
+    /* other */
+    box-sizing: content-box;
+    overflow: scroll;
 }
 
 h1 {
-    color: #fff;
-    font-family: 'ExocetLight';
-    text-transform: uppercase;
-    font-size: 4vw;
+    /* box model */
     margin: 0;
     padding: 0;
+    /* text */
+    font-size: 4vw;
+    font-family: 'ExocetLight';
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .frame {
+    /* box model */
     width: 100%;
     padding: 0 5vw;
 }
 
 #menu-bottom-frame {
+    /* box model */
     margin: 0 0 1.5vw 0;
 }
 
 .menu-buttons {
-    list-style-type: none;
+    /* box model */
+    width: 70%;
+    height: 100%;
     margin: 0;
     padding: 0;
+    /* position */
     display: grid;
     grid-template-rows: repeat(6, 1fr);
+    row-gap: 1vw;
     place-items: center;
-    height: 100%;
-    width: 70%;
+    /* other */
+    list-style-type: none;
+
 }
-.button {
+.menu-button {
     font-size: min(3vw, 3vh);
+}
+
+.button {
+    /* box model */
+    margin: 0;
+    padding: 0.25vw 1vw;
+    /* position */
     display: grid;
     place-items: center;
+    /* text */
     font-family: 'ExocetLight';
-    text-transform: uppercase;
     color: #fff;
-    border-width: 0.3vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0.1rem 0.1rem rgb(255 255 255 / 25%);
+    /* background */
+    background: linear-gradient(90deg, #4d0d0b, #69120f);
+    /* border */
+    border-width: 0.3rem;
     border-style: solid;
     border-image: linear-gradient(90deg, #4d0d0b, #c41812, #4d0d0b) 1;
-    outline: 0.3vw double #4d3b24;
-    padding: 0.25vw 1vw;
-    margin: 0;
-    background: linear-gradient(90deg, #4d0d0b, #69120f);
-    box-shadow: 0 0.1rem 0.3rem #000;
-    text-shadow: 0.025rem 0.025rem rgb(255 255 255 / 25%);
+    outline: 0.4rem double #4d3b24;
+    /* other */
+    box-shadow: 0 0.5rem 0.5rem #000;
     cursor: pointer;
 }
 
 .button:hover {
+    /* background */
     background: linear-gradient(90deg, #350908, #2b0403);
+    /* border */
     border-image: linear-gradient(90deg, #660b05, #c41212, #660b05) 1;
-    outline: 0.5vw double #d1a567;
+    outline-color: #d1a567;
+    /* text */
     font-weight: bold;
 }
 
 li {
+    /* box model */
     width: 90%;
     height: 70%;
 }
 
-a {
-    color: #fff;
-    font-family: "ExocetLight";
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
 /* RESPONISIVENESS */
+@media (min-width: 1001px) {
+    .menu-icon {
+        display: none !important;
+    }
 
-@media (max-width: 800px) and (min-width: 501px) {
+    .top-menu-nav {
+        display: grid !important;
+    }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
 
     body {
+        /* background */
         background-image: url("./images/background-images/old-forrest-background-regular.jpg");
     }
 
-    .button {
-        font-size: 3.5vw;
-        border-width: 0.7vw;
-        outline: 0.6vw double #4d3b24;
-        padding: 0.25vw 1vw;
-        margin-bottom: 2vw;
+    h1 {
+        /* text */
+        font-size: 8vw;
     }
 
     li {
+        /* box model */
         width: 30vw;
+    }
+   
+    .button {
+        /* box model */
+        padding: 0.25vw 1vw;
+        /* text */
+        font-size: 3.5vw;
+    }
 
-    }
-    h1 {
-        font-size: 8vw;
-    }
     .menu {
+        /* box model */
         width: 70vw;
         height: min(90vh, 90vw);
-        border-image-width: 3vw;
+        /* border */
+        border-image-width: 1rem;
+
     }
+
     .frame {
+        /* box model */
         padding: 0 10vw;
+    }
+
+    .top-menu-nav {
+        display: none;
+        position: fixed;
+        right: 1vw;
+        top: 1vw;
+        height: 60vh;
+        width: 50vw;
+    }
+
+    .top-menu-ul {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        row-gap: 3vh;
+    }
+
+    #show-menu-icon {
+        display: block;
+
     }
 
 }
@@ -163,32 +283,60 @@ a {
 @media (max-width: 500px) {
 
     body {
+        /* background */
         background-image: url("./images/background-images/old-forrest-background-low.jpg");
     }
 
     h1 {
+        /* text */
         font-size: 12vw;
     }
 
-    .button {
-        font-size: 5.5vw;
-        border-width: 0.8vw;
-        outline: 0.8vw double #4d3b24;
-        padding: 1.25vw 1vw;
-        margin-bottom: 2.5vw;
-    }
-
     li {
+        /* box model */
         width: 49vw;
     }
 
-    .menu {
-        width: 90vw;
-        height: min(90vh, 130vw);
-        border-image-width: 4vw;
+    .button {
+        /* box model */
+        padding: 1vw 1vw;
+        /* text */
+        font-size: 5.5vw;
+        /* border */
+        border-width: 0.8vw;
+        outline: 0.8vw double #4d3b24;
     }
+
+    .menu {
+        /* box model */
+        width: 90vw;
+        height: min(90vh, 140vw);
+        /* border */
+        border-image-width: 1rem;
+    }
+
     .frame {
+        /* box model */
         padding: 0 20vw;
+    }
+
+    .top-menu-nav {
+        display: none;
+        position: fixed;
+        right: 1vw;
+        top: 1vw;
+        height: 65vh;
+        width: 70vw;
+    }
+
+    .top-menu-ul {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        row-gap: 3vh;
+    }
+
+    #show-menu-icon {
+        display: block;
     }
 
 }
