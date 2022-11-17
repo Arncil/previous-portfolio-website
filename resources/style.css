@@ -74,6 +74,11 @@ h1 {
     color: #fff;
     text-transform: uppercase;
 }
+li {
+    /* box model */
+    width: 90%;
+    height: 70%;
+}
 
 /* HOME */
 .menu-icon {
@@ -169,11 +174,6 @@ h1 {
     place-items: center;
     /* other */
     list-style-type: none;
-}
-.menu-buttons li {
-    /* box model */
-    width: 90%;
-    height: 70%;
 }
 .menu-button {
     /* text */
