@@ -163,7 +163,7 @@ li {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
-menu::-webkit-scrollbar {
+.menu::-webkit-scrollbar {
     /* position */
     display: none;  /* Chrome, Safari, and Opera */
 }
@@ -239,6 +239,7 @@ menu::-webkit-scrollbar {
     /* box model */
     width: 98%;
     height: min(80vh, 160vw);
+    padding: min(1vw, 1vh);
     /* background */
     background-image: url(./images/background-images/page-background-gentle-fill.png);
     background-position: center;
@@ -257,6 +258,7 @@ menu::-webkit-scrollbar {
     grid-template: 1fr 4fr / 3fr 2fr;
     column-gap: 2vw;
     /* other */
+    box-sizing: content-box;
     overflow: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
