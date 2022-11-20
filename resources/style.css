@@ -402,6 +402,35 @@ li {
     grid-area: e;
     justify-self: right;
 }
+
+/* CONTACT */
+#contact-page {
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    height: calc(100vh - min(13vh, 30vw));
+}
+#contact-form {
+    width: 100%;
+    grid-row: 1 / 1;
+}
+#contact-social {
+    grid-row: 2 / 2;
+}
+#contact-social-list {
+    display: inline-flex;
+    width: min(90vw, 20vh);
+    /* grid-template-columns: repeat(7, 1fr);
+    column-gap: min(2vw, 2vh); */
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.contact-social-image {
+    max-width: min(10vw, 10vh);
+    min-width: min(6vw, 6vh);
+    margin: 0 min(1vw, 1vh);
+}
 /* RESPONISIVENESS BIG SCREEN*/
 @media (min-width: 1101px) {
 
@@ -486,71 +515,75 @@ li {
         display: block;
     }
 
-        /* CHARACTER */
-        #character-page {
-            /* box model */
-            height: 100vh;
-        }
-        #character-picture {
-            /* box model */
-            height: min(70vh, 140vw);
-            /* position */
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        #character-description {
-            /* box model */
-            height: 78vh;
-            width: 95vw;
-            /* position */
-            z-index: 5;
-            display: none;
-            grid-template: 1fr 3fr 2fr 4fr/ 1fr;
-            row-gap: min(4vw, 4vh);
-        }
-        #character-heading {
-            grid-row: 1 / 1;
-            grid-column: 1 / 1;
-        }
-        #character-details {
-            grid-row: 2 / 2;
-            grid-column: 1 / 1;
-            width: 90%;
-            justify-self: center;
-        }
-        .table-data {
-            font-size: min(2vh, 2vw);
-        }
-        #character-graph {
-            grid-row: 3 / 3;
-            grid-column: 1 / 1;
-        }
-        #character-show-more {
-            /* position */
-            display: grid;
-        }
-        #character-page {
-            /* position */
-            grid-template: 1fr / 1fr;
-        }
-        #character-heading h1 {
-            /* text */
-            font-size: 10vw;
-        }
-        .page-heading-frame {
-            /* box model */
-            width: 70vw;
-        }
-        .character-button h2 {
-            font-size: min(3.5vw, 3.5vh);
-        }
-        .character-button {
-            width: min(30vw, 30vh);
-            height: min(6vw, 6vh);
-        }
+    /* CHARACTER */
+    #character-page {
+        /* box model */
+        height: 100vh;
+    }
+    #character-picture {
+        /* box model */
+        height: min(70vh, 140vw);
+        /* position */
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #character-description {
+        /* box model */
+        height: 78vh;
+        width: 95vw;
+        /* position */
+        z-index: 5;
+        display: none;
+        grid-template: 1fr 3fr 2fr 4fr/ 1fr;
+        row-gap: min(4vw, 4vh);
+    }
+    #character-heading {
+        grid-row: 1 / 1;
+        grid-column: 1 / 1;
+    }
+    #character-details {
+        grid-row: 2 / 2;
+        grid-column: 1 / 1;
+        width: 90%;
+        justify-self: center;
+    }
+    .table-data {
+        font-size: min(2vh, 2vw);
+    }
+    #character-graph {
+        grid-row: 3 / 3;
+        grid-column: 1 / 1;
+    }
+    #character-show-more {
+        /* position */
+        display: grid;
+    }
+    #character-page {
+        /* position */
+        grid-template: 1fr / 1fr;
+    }
+    #character-heading h1 {
+        /* text */
+        font-size: 10vw;
+    }
+    .page-heading-frame {
+        /* box model */
+        width: 70vw;
+    }
+    .character-button h2 {
+        font-size: min(3.5vw, 3.5vh);
+    }
+    .character-button {
+        width: min(30vw, 30vh);
+        height: min(6vw, 6vh);
+    }
 
+    /* CONTACT */
+    #contact-page {
+        height: 100vh;
+    }
 }
 
 /* RESPONISIVENESS SMALL SCREEN */
@@ -692,6 +725,22 @@ li {
     .character-button {
         width: min(30vw, 30vh);
         height: min(6vw, 6vh);
+    }
 
+    /* CONTACT */
+    #contact-page {
+        height: 100vh;
+    }
+    #contact-social-list {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #contact-social {
+        height: 25vh;
+    }
+    .contact-social-image, #contact-social-list li {
+        max-width: min(20vw, 20vh);
+        min-width: min(10vw, 10vh);
+        margin: 0 min(0.6vw, 0.6vh);
     }
 }
