@@ -481,9 +481,13 @@ li {
     font-family: 'ExocetLight';
     display: inline-block;
     font-size: min(3vw, 3vh);
+    margin-bottom: min(2vw, 2vh);
 }
 #contact-form {
     width: 100%;
+}
+#contact-form-heading {
+    margin-top: min(2vw, 2vh);
 }
 /* RESPONISIVENESS BIG SCREEN*/
 @media (min-width: 1101px) {
@@ -801,5 +805,11 @@ li {
     }
     #contact-message {
         height: min(45vw, 45vh);
+    }
+    .contact-input-text {
+        height: 4vh;
+    }
+    #contact-form-area .button {
+        margin-bottom: min(4vw, 4vh);
     }
 }
