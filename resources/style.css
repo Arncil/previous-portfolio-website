@@ -406,12 +406,8 @@ li {
 /* CONTACT */
 #contact-page {
     display: grid;
-    grid-template-rows: 4fr 1fr;
+    grid-template-rows: 5fr 1fr;
     height: calc(100vh - min(13vh, 30vw));
-}
-#contact-form {
-    width: 100%;
-    grid-row: 1 / 1;
 }
 #contact-social {
     grid-row: 2 / 2;
@@ -430,6 +426,64 @@ li {
     max-width: min(10vw, 10vh);
     min-width: min(6vw, 6vh);
     margin: 0 min(1vw, 1vh);
+}
+#contact-form-area {
+    /* box model */
+    width: min(95vw, 120vh);
+    height: min(95%, 150vw);
+    /* background */
+    background-image: url(./images/background-images/page-background-gentle-fill.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border */
+    border-image-source: url(./images/background-images/menu-background.png);
+    border-image-slice: 8%;
+    border-image-width: 1rem;
+    border-image-repeat: round;
+    border-style: solid;
+
+    grid-row: 1 / 1;
+    display: grid;
+    place-items: center;
+
+}
+
+#contact-form-area label {
+    /* text */
+    font-family: 'ExocetLight';
+    color: #fff;
+    text-transform: uppercase;
+}
+#contact-form-area input, #contact-form-area textarea {
+    color: #fff;
+    font-size: min(1.8vh, 1.8vw);
+    font-family: Verdana, sans-serif;
+}
+.contact-input-text {
+    width: 80%;
+    background: linear-gradient(180deg, #3f3f3f, #131313);
+    border-color: #4d3b24;
+    border-style: solid;
+    border-radius: 0.4rem;
+    border-width: 0.1rem;
+}
+#contact-message {
+    width: 80%;
+    height: min(8vw, 8vh);
+    background: linear-gradient(180deg, #3f3f3f, #131313);
+    border-color: #4d3b24;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+}
+#contact-form-area .button {
+    font-family: 'ExocetLight';
+    display: inline-block;
+    font-size: min(3vw, 3vh);
+}
+#contact-form {
+    width: 100%;
 }
 /* RESPONISIVENESS BIG SCREEN*/
 @media (min-width: 1101px) {
@@ -584,8 +638,10 @@ li {
     #contact-page {
         height: 100vh;
     }
+    #contact-message {
+        height: min(20vw, 20vh);
+    }
 }
-
 /* RESPONISIVENESS SMALL SCREEN */
 @media (max-width: 500px) {
 
@@ -742,5 +798,8 @@ li {
         max-width: min(20vw, 20vh);
         min-width: min(10vw, 10vh);
         margin: 0 min(0.6vw, 0.6vh);
+    }
+    #contact-message {
+        height: min(45vw, 45vh);
     }
 }

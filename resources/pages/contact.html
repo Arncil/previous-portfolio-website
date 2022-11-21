@@ -22,7 +22,22 @@
             </ul>
         </nav>
         <main id="contact-page">
-            <section id="contact-form">
+            <section id="contact-form-area">
+                <div>
+                <img class="page-heading-frame" id="contact-top-frame" src="../images/frames/h1-top-frame.png">
+                <h1>Contact</h1>
+                <img class="page-heading-frame" id="contact-bottom-frame" src="../images/frames/h1-bottom-frame.png">
+                </div>
+                <form id="contact-form" method="POST" action=""">
+                    <br>
+                    <label for="contact-email">E-Mail:</label><br>
+                    <input class="contact-input-text" type="text" id="contact-email" name="contact-email" required><br><br>
+                    <label for="contact-email-title">Title:</label><br>
+                    <input class="contact-input-text" type="text" id="contact-email-title" name="contact-email-title" required><br><br>
+                    <label for="contact-message">Message:</label><br>
+                    <textarea id="contact-message" name="contact-message" required></textarea><br><br>
+                    <input id="contact-send-button" class="button" type="submit" value="Send E-Mail">
+                </form>
             </section>
             <section id="contact-social">
                 <ul id="contact-social-list">
