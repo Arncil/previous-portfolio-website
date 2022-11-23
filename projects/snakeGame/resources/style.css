@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(5px);
+    box-sizing: border-box;
 }
 
 #game-board {
@@ -20,14 +21,19 @@ body {
     height: 95vmin;
     display: grid;
     grid-template: repeat(21, 1fr) / repeat(21, 1fr);
+
 }
 
 .snake {
     background-color: #693f07;
-    border: 0.25vmin solid #fff;
+    background: linear-gradient(180deg, #e26161, #29f0e6);
+    border: 0.25vmin solid rgb(238, 227, 227);
+    border-radius: 50%;
 }
 
 .food {
     background-color: #490b07;
     border: 0.25vmin solid #fff;
+    border-radius: 50%;
+
 }
