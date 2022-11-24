@@ -396,7 +396,6 @@ main {
     top: 0;
     /* animation */
     transition: all 0.5s;
-
 }
 .side-menu ul {
     /* box model */
@@ -437,6 +436,10 @@ main {
 /* ◀️◀️ CLASS: SIDE-MENU ◀️◀️ */
 /* 📱📱📱   SMALL  SCREEN  📱📱📱  */
 @media (max-width: 500px) {
+    .side-menu {
+        /* border */
+        border-image-width: 3vmin;
+    }
     .side-menu ul {
         /* position */
         row-gap: 12vmin;
@@ -589,9 +592,6 @@ main {
         /* box model */
         width: 76vmin;
         height: 156vmin;
-        /* border */
-        border-image-slice: 35%;
-        border-image-width: 20vmin;
     }
     #main-menu li {
         /* box model */
