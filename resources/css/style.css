@@ -535,7 +535,7 @@ main {
 }
 #main-menu::before {
     /* box model */
-    content: '';
+    /* content: ''; */
     width: 78.5vmin;
     height: 93.5vmin;
     /* border */
