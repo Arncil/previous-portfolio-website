@@ -111,6 +111,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body {
     /* box model */
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     width: 100vw;
     margin: 0;
     padding: 0;
@@ -173,8 +174,8 @@ h2 {
 }
 main {
     /* box model */
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     /* position */
     display: grid;
     place-items: center;
@@ -373,7 +374,7 @@ main {
 .side-menu {
     /* box model */
     width: 70vw;
-    height: 100vh;
+    height: 100%;
     /* background */
     background-color: var(--color-red-100);
     background-image: url(../images/background-images/menu-background-fill.png);
@@ -535,7 +536,7 @@ main {
 }
 #main-menu::before {
     /* box model */
-    /* content: ''; */
+    content: '';
     width: 78.5vmin;
     height: 93.5vmin;
     /* border */
