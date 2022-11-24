@@ -528,8 +528,6 @@ main {
     /* animation */
     transition: all 0.5s;
     /* other */
-    box-shadow: 1vmin 1vmin 3vmin #000;
-    box-sizing: content-box;
     overflow: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
