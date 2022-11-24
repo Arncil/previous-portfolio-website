@@ -4,31 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Character</title>
 </head>
-<body>
-    <header>
+<body class="slide-in-fwd-center">
+    <header id="top-menu-header">
         <img id="show-menu-icon" class="menu-icon" src="../images/icons/show-menu-white-icon.png">
         <img id="hide-menu-icon" class="menu-icon" src="../images/icons/show-menu-gold-icon.png">
-        <nav class="top-menu-nav" id="top-menu-nav">
-            <ul class="top-menu-ul">
-                <li><a class="button top-menu-button" href="../../index.html">Home</a></li>
-                <li><a class="button top-menu-button" href="./skills.html">Skills</a></li>
-                <li><a class="button top-menu-button" href="./collection.html">Collection</a></li>
-                <li><a class="button top-menu-button" href="./history.html">History</a></li>
-                <li><a class="button top-menu-button" href="./contact.html">Contact</a></li>
-                <li><a class="button top-menu-button" href="./afternote.html">Afternote</a></li>
+        <nav id="top-menu" class="top-menu">
+            <ul>
+                <li><a class="button" href="../../index.html">Home</a></li>
+                <li><a class="button button-pressed" href="#">Character</a></li>
+                <li><a class="button" href="./skills.html">Skills</a></li>
+                <li><a class="button" href="./collection.html">Collection</a></li>
+                <li><a class="button" href="./history.html">History</a></li>
+                <li><a class="button" href="./contact.html">Contact</a></li>
+                <li><a class="button" href="./afternote.html">Afternote</a></li>
             </ul>
         </nav>
     </header>
     <main id="character-page">
+        <nav id="side-menu" class="side-menu">
+            <ul>
+                <li><a class="button" href="../../index.html">Home</a></li>
+                <li><a class="button button-pressed" href="#">Character</a></li>
+                <li><a class="button" href="./skills.html">Skills</a></li>
+                <li><a class="button" href="./collection.html">Collection</a></li>
+                <li><a class="button" href="./history.html">History</a></li>
+                <li><a class="button" href="./contact.html">Contact</a></li>
+                <li><a class="button" href="./afternote.html">Afternote</a></li>
+            </ul>
+        </nav>
         <section id="character-description">
-            <div id="character-heading">
-                <img class="page-heading-frame" id="character-top-frame" src="../images/frames/h1-top-frame.png">
-                <h1>Character</h1>
-                <img class="page-heading-frame" id="character-bottom-frame" src="../images/frames/h1-bottom-frame.png">
-            </div>
+            <h1>Character</h1>
+            <figure id="character-graph">
+                <img src="../images/other/character-graph.png" alt="Graph of character trades">
+                <p class="character-graph-description" id="character-graph-description-1">Communication<br>& Teamwork</p>
+                <p class="character-graph-description" id="character-graph-description-2">Creative<br>Mindset</p>
+                <p class="character-graph-description" id="character-graph-description-3">Problem<br>Solving Skills</p>
+                <p class="character-graph-description" id="character-graph-description-4">Performance<br>Under Pressure</p>
+                <p class="character-graph-description" id="character-graph-description-5">Technical<br>Skills</p>
+            </figure>
             <table id="character-details">
                 <tr>
                     <td><p class="table-data table-data-first">Name:</p></td>
@@ -56,7 +72,7 @@
                 </tr>
                 <tr>
                     <td><p class="table-data table-data-first">Academy:</p></td>
-                    <td><p class="table-data table-data-second">WSB University in Poznań</p></td>
+                    <td><p class="table-data table-data-second">WSB University in Poznan</p></td>
                 </tr>
                 <tr>
                     <td><p class="table-data table-data-first ghost-data">space</p></td>
@@ -80,31 +96,21 @@
                 </tr>
                 <tr>
                     <td><p class="table-data table-data-first">Location:</p></td>
-                    <td><p class="table-data table-data-second">Poznań, Poland</p></td>
+                    <td><p class="table-data table-data-second">Poznan, Poland</p></td>
                 </tr>
                 <tr>
-                    <td><p class="table-data table-data-first">Character created:</p></td>
+                    <td><p class="table-data table-data-first">Created:</p></td>
                     <td><p class="table-data table-data-second">06/12/1997</p></td>
                 </tr>
             </table>
-            <figure id="character-graph">
-                <img id="character-graph-image" src="../images/other/character-graph.png" alt="Graph of character trades">
-                <p class="character-graph-description" id="character-graph-description-1">Communication<br>& Teamwork</p>
-                <p class="character-graph-description" id="character-graph-description-2">Creative<br>Mindset</p>
-                <p class="character-graph-description" id="character-graph-description-3">Problem<br>Solving Skills</p>
-                <p class="character-graph-description" id="character-graph-description-4">Performance<br>Under Pressure</p>
-                <p class="character-graph-description" id="character-graph-description-5">Technical<br>Skills</p>
-            </figure>
         </section>
-        <img id="character-picture" src="../images/character/main-character.png" alt="Picture of Milosz Jackowiak">
-        <div id="character-show-more" class="button character-button">
-            <h2>Show more</h2>
-        </div>
-        <div id="character-show-less" class="button character-button">
-            <h2>Show less</h2>
-        </div>
+        <figure id="character-picture">
+            <img src="../images/character/main-character.png" alt="Picture of Milosz Jackowiak">
+        </figure>
+        <p id="character-show-picture" class="button character-show">Show<br>Picture</p>
+        <p id="character-show-page" class="button character-show">Show<br>Page</p>
     </main>
-    <script src="../secondary.js"></script>
-    <script src="../character.js"></script>
 </body>
+<script src="../javascript/main.js"></script>
+<script src="../javascript/character.js"></script>
 </html>
