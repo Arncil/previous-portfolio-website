@@ -488,11 +488,14 @@ main {
 
 /* 🏠 🏠🏠 🏠🏠 🏠 */ 
 /* 🏠 PAGE: HOME 🏠 */
+#main-menu-body {
+    /* position */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #main {
     /* position */
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     display: grid;
     place-items: center;
 }
