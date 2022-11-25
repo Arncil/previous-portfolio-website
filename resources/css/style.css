@@ -1046,6 +1046,7 @@ main {
     font-size: var(--font-size-200);
     font-family: Verdana, sans-serif;
     text-align: left;
+    text-transform: none;
 }
 #contact-message {
     /* box model */
