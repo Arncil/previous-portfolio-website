@@ -508,7 +508,7 @@ main {
     /* box model */
     width: 70vmin;
     height: 85vmin;
-    padding: 5vmin;
+    padding: 2vmin;
     /* background */
     background-image: url(../images/background-images/black-background-blur.png);
     background-position: center;
@@ -523,7 +523,7 @@ main {
     /* position */
     display: grid;
     grid-template-rows: 1fr 3fr;
-    row-gap: 5vmin;
+    row-gap: 2vmin;
     place-items: center;
     /* animation */
     transition: all 0.5s;
@@ -539,8 +539,8 @@ main {
 #main-menu::before {
     /* box model */
     content: '';
-    width: 78.5vmin;
-    height: 93.5vmin;
+    width: 68vmin;
+    height: 83vmin;
     /* border */
     border-image-source: url(../images/frames/page-frame.png);
     border-image-slice: 35%;
@@ -564,8 +564,8 @@ main {
 }
 #main-menu li {
     /* box model */
-    width: 45vmin;
-    height: 6vmin;
+    width: 40vmin;
+    height: 5vmin;
     margin: 4vmin;
     /* position */
     display: grid;
@@ -574,7 +574,7 @@ main {
 #main-menu a {
     /* text */
     text-decoration: none;
-    font-size: var(--font-size-400);
+    font-size: var(--font-size-300);
 }
 
 /* 🏠 🏠🏠 🏠🏠 🏠 */ 
@@ -591,9 +591,9 @@ main {
     }
     #main-menu::before {
         /* box model */
-        width: 87vw;
-        height: 84vh;
-        height: calc(var(--vh, 1vh) * 84);
+        width: 76vw;
+        height: 78vh;
+        height: calc(var(--vh, 1vh) * 78);
     }
     #main-menu li {
         /* box model */
@@ -603,7 +603,7 @@ main {
     }
     #main-menu a {
         /* text */
-        font-size: var(--font-size-600);
+        font-size: var(--font-size-500);
     }
 }
 
@@ -1087,21 +1087,21 @@ main {
     }
     #contact-form label {
         /* text */
-        font-size: var(--font-size-500);
+        font-size: var(--font-size-400);
     }
     .contact-input-text {
         /* box model */
         width: 80%;
-        height: 8vmin;
+        height: 6vmin;
         /* border */
         border-radius: 2vmin;
-        border-width: 0.5vmin;
+        border-width: 0.3vmin;
         /* text */
-        font-size: var(--font-size-400);
+        font-size: var(--font-size-300);
     }
     #contact-message {
         /* box model */
-        height: 30vmin;
+        height: 25vmin;
     }
     #contact-form button {
         /* box model */
