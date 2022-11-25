@@ -554,6 +554,7 @@ main {
 #main-menu h1 {
     /* position */
     grid-row: 1 / 1;
+    margin-top: 2vmin;
 }
 #main-menu ul {
     /* position */
