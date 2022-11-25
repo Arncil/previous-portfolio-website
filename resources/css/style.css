@@ -790,7 +790,7 @@ main {
     #character-page {
         /* position */
         grid-template-columns: 1fr;
-        grid-template-rows: 10fr 1fr;
+        grid-template-rows: 1fr 10vmin;
     }
     #character-description {
         /* box model */
@@ -839,6 +839,7 @@ main {
         /* position */
         grid-column: 1 / 1;
         grid-row: 3 / 3;
+        align-self: baseline;
     }
     #character-graph img {
         /* box model */
@@ -846,14 +847,15 @@ main {
     }
     .character-show {
         /* box model */
-        width: 19vmin;
+        width: 30vmin;
         height: 6vmin;
+        margin-bottom: 2vh;
         /* position */
         display: grid;
         place-items: center;
         grid-row: 2 / 2;
         /* text */
-        font-size: var(--font-size-200);
+        font-size: var(--font-size-250);
     }
     #character-show-page {
         /* position */
@@ -864,7 +866,7 @@ main {
 /* 👱🏻 👱🏻👱🏻👱🏻 👱🏻👱🏻👱🏻 👱🏻 */
 /* 👱🏻 PAGE: CHARACTER 👱🏻 */
 /* 📱📱 SMALL  SCREEN 📱📱 */
-@media (max-width: 800px) {
+@media (max-width: 750px) {
     #character-picture img{
         /* box model */
         width: 45vmin;
@@ -874,7 +876,30 @@ main {
         font-size: var(--font-size-250)
     }
 }
+@media (max-width: 650px) {
+    #character-picture img{
+        /* box model */
+        width: 45vmin;
+    }
+    .table-data {
+        /* text */
+        font-size: var(--font-size-250)
+    }
+    .character-graph-description {
+        /* text */
+        font-size: var(--font-size-250);
+    }
+    #character-graph img {
+        /* box model */
+        width: 21vmin;
+    }
+}
 @media (max-width: 500px) {
+    #character-page {
+        /* position */
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 13vmin;
+    }
     #character-picture img{
         /* box model */
         width: 65vmin;
@@ -888,16 +913,16 @@ main {
     #character-description {
         /* box model */
         width: 95vw;
-        height: 80vh;
-        height: calc(var(--vh, 1vh) * 80);
+        height: 88vh;
+        height: calc(var(--vh, 1vh) * 88);
         /* position */
         grid-template-rows: 1fr 4fr 3fr;
     }
     #character-description::before {
         /* box model */
         width: 91vw;
-        height: 78vh;
-        height: calc(var(--vh, 1vh) * 78);
+        height: 86vh;
+        height: calc(var(--vh, 1vh) * 86);
     }
     #character-details {
         /* box model */
@@ -1005,7 +1030,6 @@ main {
 #contact-form label {
     /* text */
     font-size: var(--font-size-250);
-    color: rgba(255, 255, 255, 0.50);
 }
 .contact-input-text {
     /* box model */
