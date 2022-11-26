@@ -70,6 +70,10 @@
 	-webkit-animation: slide-in-fwd-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-fwd-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+.heartbeat {
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
 @-webkit-keyframes slide-in-fwd-center {
     0% {
       -webkit-transform: translateZ(-1400px);
@@ -94,6 +98,91 @@
       opacity: 1;
     }
 }
+@-webkit-keyframes swirl {   
+    from {
+      transform: rotateY(-360deg);
+    }
+    to {
+      transform: rotateY(0deg);
+    }
+} 
+@keyframes swirl {   
+    from {
+      transform: rotateY(-360deg);
+    }
+    to {
+      transform: rotateY(0deg);
+    }
+}
+@-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
   
   
 /* ⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️ */
@@ -1197,11 +1286,9 @@ main {
 }
 .slide {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 1vmin;
     width: 21vmin;
     height: 30vmin;
-    /* border-radius: 3vmin; */
     /* border */
     border-image-source: url(../images/frames/page-background-frame.png);
     border-image-slice: 8%;
@@ -1213,8 +1300,9 @@ main {
     grid-template-rows: 1fr 5fr;
     background: linear-gradient(180deg, var(--color-red-100-80),var(--color-red-200-80), rgba(0, 0, 0, 0.8));
     transition: all 0.2s linear;
- }
- .slide::before {
+    box-shadow: 0 0 1vmin 0 rgba(255, 255, 255, 0.5);
+}
+.slide::before {
     /* box model */
     content: '';
     width: 19vmin;
@@ -1231,9 +1319,7 @@ main {
     transition: all 0.5s;
 }
 .slide p {
-    /* border: 3px inset rgb(0, 0, 0); */
-    /* border-radius: 100%; */
-    margin-top: 2vmin;
+    margin-top: 3vmin;
     font-size: var(--font-size-200);
     grid-row: 1 / 1;
     text-shadow: 0 0.5vmin 0.5vmin #000;
@@ -1242,15 +1328,15 @@ main {
     width: 80%;
 }
 .slide:hover {
-    width: 25vmin;
-    height: 36vmin;
-    transform: translate(-35%, -35%);
+    transform: translate(-50%, -50%);
     cursor: pointer;
-    box-shadow: 0 0 1vmin 0 #fff;
+    box-shadow: 0 0 2vmin 0 #fff;
+    border-image-width: 1.5vmin;
+    background: linear-gradient(180deg, var(--color-red-100),var(--color-red-200), #000);
+    top: 0;
 }
 .slide:hover::before {
-    width: 23vmin;
-    height: 34vmin;
+
 }
 .slide.slide-one {
     transform: rotateY(0deg) translateZ(var(--translateZ));
@@ -1279,14 +1365,6 @@ main {
 .slide.slide-nine {
     transform: rotateY(320deg) translateZ(var(--translateZ));
 }
-@keyframes swirl {   
-    from {
-      transform: rotateY(-360deg);
-    }
-    to {
-      transform: rotateY(0deg);
-    }
-} 
 
 /* 🥁 🥁🥁🥁 🥁🥁🥁 🥁 */
 /* 🥁 PAGE:   SKILLS  🥁 */
