@@ -110,10 +110,10 @@
 }
 @keyframes show-card-animation {
     0% {
-        transform: rotateY(calc(var(--i)*40deg)) translateZ(60vmin) scale(1);
+        transform: rotateY(calc(var(--i)*40deg)) translateZ(40vmin) scale(1);
     }
     50% {
-        transform: rotateY(calc(var(--i)*40deg)) translateZ(60vmin) scale(1.5);
+        transform: rotateY(calc(var(--i)*40deg)) translateZ(40vmin) scale(1.5);
     }
     100% {
         transform: rotateY(calc(var(--i)*40deg)) translateZ(40vmin) scale(1.2);
@@ -1204,13 +1204,19 @@ main {
 /* 🥁 PAGE:  SKILLS 🥁 */
 #skills-page {
     /* position */
-    grid-template-rows: 10vmin 1fr 3fr;
+    grid-template-rows: 10vmin 1fr 3fr 10vmin;
 }
 #skills-page h1 {
     /* box model */
     margin-top: 3vmin;
     /* position */
     grid-row: 2 / 2;
+}
+#skills-page h2 {
+    /* position */
+    grid-row: 4 / 4;
+    /* text */
+    font-size: var(--font-size-300);
 }
 .show-skill {
     display: none;
@@ -1248,7 +1254,8 @@ main {
         transform: perspective(1000px) rotateY(360deg);
     }
 }
-.slider div {
+.slider a {
+    text-decoration: none;
     display: grid;
     place-items: center;
     position: absolute;
@@ -1266,7 +1273,7 @@ main {
     border-style: solid;
     background: linear-gradient(180deg, var(--color-red-100-80),var(--color-red-200-80), rgba(0, 0, 0, 0.8));
 }
-.slider div::before {
+.slider a::before {
     /* box model */
     content: '';
     width: 18vmin;
@@ -1282,7 +1289,7 @@ main {
     /* animation */
     transition: all 0.5s;
 }
-.slider div:hover {
+.slider a:hover {
     cursor: pointer;
     box-shadow: 0 0 2vmin 0 #fff;
     border-image-width: 1.5vmin;
@@ -1311,7 +1318,7 @@ main {
 @media (max-width: 1100px) {
     #skills-page {
         /* position */
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 2fr 10vmin;
     }
     #skills-page h1 {
         /* position */
@@ -1320,8 +1327,10 @@ main {
     #skill-categories {
         grid-row: 2 / 2;
     }
-    .slider {
-        margin-bottom: 40vmin;
+    #skills-page h2 {
+        grid-row: 3 / 3;
+        /* text */
+        font-size: var(--font-size-400);
     }
 }
 /* 🥁 🥁🥁🥁🥁🥁🥁 🥁 */
@@ -1330,18 +1339,22 @@ main {
 @media (max-width: 500px) {
     #skills-page {
         /* position */
-        grid-template-rows: 1fr 2fr;
+        grid-template-rows: 1fr 2fr 20vh;
     }
     .slider {
-        margin-bottom: 70vmin;
+        position: relative;
+        width: 40vmin;
+        height: 40vmin;
+        transform-style: preserve-3d;
+        animation: rotate 30s linear infinite;
     }
-    .slider div {
+    .slider a {
         width: 30vmin;
         height: 45vmin;
-        transform: rotateY(calc(var(--i)*40deg)) translateZ(50vmin);
+        transform: rotateY(calc(var(--i)*40deg)) translateZ(60vmin);
         animation: show-card-animation-small-screen 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
     }
-    .slider div::before {
+    .slider a::before {
         /* box model */
         content: '';
         width: 28vmin;
@@ -1360,5 +1373,11 @@ main {
     .slider p {
         font-size: var(--font-size-300);
         text-shadow: 0 1vmin 1vmin #000;
+    }
+    #skills-page h2 {
+        grid-row: 3 / 3;
+        align-self: baseline;
+        /* text */
+        font-size: var(--font-size-700);
     }
 }
