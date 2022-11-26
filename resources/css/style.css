@@ -1288,6 +1288,7 @@ main {
 .slide {
     position: absolute;
     top: 1vmin;
+    left: 1vmin;
     width: 21vmin;
     height: 30vmin;
     /* border */
