@@ -1278,7 +1278,7 @@ main {
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
-    transform: rotateY(-360deg) translateZ(-412px);
+    transform: rotateY(-360deg) translateZ(--translateZ);
     animation: swirl 50s steps(10000, end) infinite;
 	-webkit-animation: swirl 50s steps(10000, end) infinite;
 }
@@ -1330,7 +1330,6 @@ main {
     width: 80%;
 }
 .slide:hover {
-    transform: translate(-50%, -50%);
     cursor: pointer;
     box-shadow: 0 0 2vmin 0 #fff;
     border-image-width: 1.5vmin;
@@ -1366,6 +1365,20 @@ main {
 }
 .slide.slide-nine {
     transform: rotateY(320deg) translateZ(var(--translateZ));
+}
+.show-skill {
+    display: none;
+    grid-row: 3/3;
+}
+#hide-skill {
+    width: 20vmin;
+    height: 5vmin;
+    position: fixed;
+    bottom: 5vmin;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: var(--font-size-300);
+    display: none;
 }
 
 /* 🥁 🥁🥁🥁 🥁🥁🥁 🥁 */
