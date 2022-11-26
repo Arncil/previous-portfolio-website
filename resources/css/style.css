@@ -1279,7 +1279,8 @@ main {
     height: 100%;
     transform-style: preserve-3d;
     transform: rotateY(-360deg) translateZ(-412px);
-    animation: swirl 50s steps(10000, end) infinite; 
+    animation: swirl 50s steps(10000, end) infinite;
+	-webkit-animation: swirl 50s steps(10000, end) infinite;
 }
 .carousel:hover {
     animation-play-state: paused;
@@ -1300,7 +1301,7 @@ main {
     grid-template-rows: 1fr 5fr;
     background: linear-gradient(180deg, var(--color-red-100-80),var(--color-red-200-80), rgba(0, 0, 0, 0.8));
     transition: all 0.2s linear;
-    box-shadow: 0 0 1vmin 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 1vmin 0 rgba(255, 255, 255, 0.2);
 }
 .slide::before {
     /* box model */
