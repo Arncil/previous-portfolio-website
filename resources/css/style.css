@@ -25,7 +25,9 @@
     --font-size-small-screen-100: 5vmin;
     /* colors */
     --color-red-100: hsl(0, 100%, 10%);
+    --color-red-100-80: hsla(0, 100%, 10%, 0.8);
     --color-red-200: hsl(0, 100%, 15%);
+    --color-red-200-80: hsla(0, 100%, 15%, 0.8);
     --color-red-300: hsl(0, 100%, 25%);
     --color-red-400: hsl(0, 100%, 30%);
     --color-red-500: hsl(0, 100%, 40%);
@@ -44,6 +46,8 @@
     --color-gray-300: hsl(0, 0%, 45%);
     --color-gray-400: hsl(0, 0%, 60%);
     --color-gray-500: hsl(0, 0%, 75%);
+
+    --translateZ: 40vmin;
 }
 
 /* ✒️ ✒️✒️ ✒️ */
@@ -94,7 +98,7 @@
   
 /* ⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️⚙️ */
 /* ⚙️  GENERAL SETTINGS  ⚙️ */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, button, cite, code, del, dfn, em, img, ins, input, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, textarea {
+* {
     /* box model */
     margin: 0;
     padding: 0;
@@ -1159,4 +1163,152 @@ main {
         /* box model */
         width: 15vmin;
     }
+}
+
+/* 🥁 🥁🥁🥁🥁🥁🥁 🥁 */
+/* 🥁 PAGE:  SKILLS 🥁 */
+#skills-page {
+    /* position */
+    grid-template-rows: 10vmin 1fr 3fr;
+}
+#skills-page h1 {
+    /* box model */
+    margin-top: 3vmin;
+    /* position */
+    grid-row: 2 / 2;
+}
+.carousel-wrapper {
+    grid-row: 3 / 3;
+    position: relative;
+    width: 30vmin;
+    perspective: 100vmin;
+    margin-bottom: 30%;
+}
+.carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: rotateY(-360deg) translateZ(-412px);
+    animation: swirl 50s steps(10000, end) infinite; 
+}
+.carousel:hover {
+    animation-play-state: paused;
+}
+.slide {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 21vmin;
+    height: 30vmin;
+    /* border-radius: 3vmin; */
+    /* border */
+    border-image-source: url(../images/frames/page-background-frame.png);
+    border-image-slice: 8%;
+    border-image-width: 1.2vmin;
+    border-image-repeat: round;
+    border-style: solid;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr 5fr;
+    background: linear-gradient(180deg, var(--color-red-100-80),var(--color-red-200-80), rgba(0, 0, 0, 0.8));
+    transition: all 0.2s linear;
+ }
+ .slide::before {
+    /* box model */
+    content: '';
+    width: 19vmin;
+    height: 28vmin;
+    /* border */
+    border-image-source: url(../images/frames/page-frame.png);
+    border-image-slice: 35%;
+    border-image-width: 6vmin;
+    border-image-repeat: round;
+    border-style: solid;
+    /* position */
+    position: absolute;
+    /* animation */
+    transition: all 0.5s;
+}
+.slide p {
+    /* border: 3px inset rgb(0, 0, 0); */
+    /* border-radius: 100%; */
+    margin-top: 2vmin;
+    font-size: var(--font-size-200);
+    grid-row: 1 / 1;
+    text-shadow: 0 0.5vmin 0.5vmin #000;
+}
+.slide img {
+    width: 80%;
+}
+.slide:hover {
+    width: 25vmin;
+    height: 36vmin;
+    transform: translate(-35%, -35%);
+    cursor: pointer;
+    box-shadow: 0 0 1vmin 0 #fff;
+}
+.slide:hover::before {
+    width: 23vmin;
+    height: 34vmin;
+}
+.slide.slide-one {
+    transform: rotateY(0deg) translateZ(var(--translateZ));
+}
+.slide.slide-two {
+    transform: rotateY(40deg) translateZ(var(--translateZ));
+}
+.slide.slide-three {
+    transform: rotateY(80deg) translateZ(var(--translateZ));
+}
+.slide.slide-four {
+    transform: rotateY(120deg) translateZ(var(--translateZ));
+}
+.slide.slide-five {
+    transform: rotateY(160deg) translateZ(var(--translateZ));
+}
+.slide.slide-six {
+    transform: rotateY(200deg) translateZ(var(--translateZ));
+}
+.slide.slide-seven {
+    transform: rotateY(240deg) translateZ(var(--translateZ));
+}
+.slide.slide-eight {
+    transform: rotateY(280deg) translateZ(var(--translateZ));
+}
+.slide.slide-nine {
+    transform: rotateY(320deg) translateZ(var(--translateZ));
+}
+@keyframes swirl {   
+    from {
+      transform: rotateY(-360deg);
+    }
+    to {
+      transform: rotateY(0deg);
+    }
+} 
+
+/* 🥁 🥁🥁🥁 🥁🥁🥁 🥁 */
+/* 🥁 PAGE:   SKILLS  🥁 */
+/* 💻  MEDIUM SCREEN 💻 */
+@media (max-width: 1100px) {
+    #skills-page {
+        /* position */
+        grid-template-rows: 1fr 1fr;
+    }
+    #skills-page h1 {
+        /* position */
+        grid-row: 1 / 1;
+    }
+    .carousel-wrapper {
+        grid-row: 2 / 2;
+        margin-bottom: 100%;
+    }
+}
+
+/* 🥁 🥁🥁🥁🥁🥁🥁 🥁 */
+/* 🥁 PAGE:  SKILLS  🥁 */
+/* 📱📱 SMALL  SCREEN 📱📱 */
+@media (max-width: 500px) {
+
 }
