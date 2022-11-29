@@ -1363,6 +1363,7 @@ main {
         font-size: var(--font-size-400);
     }
 }
+
 /* 🥁 🥁🥁🥁🥁🥁🥁 🥁 */
 /* 🥁 PAGE:  SKILLS  🥁 */
 /* 📱📱 SMALL  SCREEN 📱📱 */
@@ -1418,17 +1419,17 @@ main {
         font-size: var(--font-size-700);
     }
 }
-#frontend-page {
+
+
+/* 🎹🎹🎹🎹 🎹🎹🎹🎹 */
+/* 🎹 SKILLS: PAGES 🎹 */
+.skills-pages {
     /* position */
     grid-template-rows: 10vmin 1fr 3fr;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1vmin
 }
-/* ✨✨✨✨ ✨✨✨✨ */
-/* ✨ PAGE: FRONTEND ✨ */
-#frontend-page h1 {
-    /* box model */
-    margin-top: 1vmin;
+.skills-pages h1 {
     /* text */
     font-size: var(--font-size-700);
     /* position */
@@ -1504,7 +1505,7 @@ main {
 }
 .container-skills-nav ul {
     display: none;
-    grid-template-columns: repeat(auto-fit, minmax(max-content, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(max-content, 1fr));
     place-items: center;
     row-gap: 1vmin;
     width: 100%;
@@ -1514,10 +1515,8 @@ main {
     /* position */
     grid-column: 1 / 1;
     justify-self: right;
-
-    grid-template-columns: repeat(auto-fit, minmax(max-content, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(max-content, 1fr));
     row-gap: 1vmin;
-
 }
 .container-categories-nav li, .container-skills-nav li{
     /* box model */
@@ -1554,7 +1553,77 @@ main {
     /* animation */
 	animation: jello-horizontal 0.9s both;
     /* other */
-    box-shadow: 0 0 3vmin 0 var(--color-gold-500);
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 1;
+}
+
+/* 🎹🎹🎹🎹 🎹🎹🎹🎹 */
+/* 🎹 SKILLS: PAGES 🎹 */
+/* 💻  MEDIUM SCREEN 💻 */
+@media (max-width: 1100px) {
+    .skills-pages {
+        /* position */
+        grid-template-rows: 1fr 3fr;
+    }
+    .skills-pages h1 {
+        /* position */
+        grid-row: 1 / 1;
+    }
+    .container-skills {
+        /* box model */
+        width: 50vmin;
+        /* position */
+        grid-row: 2 / 2;
+    }
+    .container-skills::before {
+        /* box model */
+        width: 48vmin;
+        height: 58vmin;
+    }
+    .container-skills-nav, .container-categories-nav {
+        /* box model */
+        width: 20vmin;
+        /* position */
+        grid-row: 2 / 2;
+    }
+}
+
+/* 🎹🎹🎹🎹 🎹🎹🎹🎹 */
+/* 🎹 SKILLS: PAGES 🎹 */
+/* 📱📱 SMALL  SCREEN 📱📱 */
+@media (max-width: 500px) {
+    .skills-pages {
+        /* position */
+        grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 5vmin
+    }
+    .skills-pages h1 {
+        /* position */
+        grid-row: 2 / 2;
+        grid-column: span 2;
+    }
+    .container-skills {
+        /* box model */
+        width: 90vmin;
+        /* position */
+        grid-row: 3 / 3;
+        grid-column: span 2;
+    }
+    .container-skills::before {
+        /* box model */
+        width: 88vmin;
+        height: 58vmin;
+    }
+    .container-categories-nav {
+        width: 42vmin;
+        grid-row: 4 / 4;
+        grid-column: 1 / 1;
+    }
+    .container-skills-nav {
+        width: 42vmin;
+        grid-row: 4 / 4;
+        grid-column: 2 / 2;
+    }
+    
 }
