@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.48 75.49">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #435ba9;
+      }
+
+      .cls-3 {
+        fill: #ebebeb;
+      }
+
+      .cls-4 {
+        fill: #4767b0;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="layer1">
+      <g id="g3013">
+        <polygon id="polygon2989" class="cls-2" points="53.48 14.84 48.61 69.42 26.71 75.49 4.87 69.43 0 14.84 53.48 14.84"/>
+        <polygon id="polygon2991" class="cls-4" points="44.44 65.95 48.6 19.3 26.74 19.3 26.74 70.85 44.44 65.95"/>
+        <polygon id="polygon2993" class="cls-3" points="11.16 39.55 11.76 46.24 26.74 46.24 26.74 39.55 11.16 39.55"/>
+        <polygon id="polygon2995" class="cls-3" points="26.74 26 26.72 26 9.95 26 10.56 32.69 26.74 32.69 26.74 26"/>
+        <polygon id="polygon2997" class="cls-3" points="26.74 63.9 26.74 56.94 26.71 56.94 19.26 54.93 18.78 49.59 15.16 49.59 12.06 49.59 13 60.1 26.71 63.91 26.74 63.9"/>
+        <path id="path2999" class="cls-1" d="M12.59,0h8.11V3.39h-4.72v3.39h4.72v3.39H12.59V0Z"/>
+        <path id="path3001" class="cls-1" d="M22.32,0h8.11V2.95h-4.72v.59h4.72v6.78h-8.11v-3.1h4.72v-.59h-4.72V0Z"/>
+        <path id="path3003" class="cls-1" d="M32.05,0h8.11V2.95h-4.72v.59h4.72v6.78h-8.11v-3.1h4.72v-.59h-4.72V0Z"/>
+        <polygon id="polygon3005" class="cls-1" points="34.96 46.24 34.19 54.93 26.72 56.94 26.72 63.91 40.45 60.1 40.55 58.97 42.12 41.35 42.28 39.55 43.49 26 26.72 26 26.72 32.69 36.15 32.69 35.54 39.55 26.72 39.55 26.72 46.24 34.96 46.24"/>
+      </g>
+    </g>
+  </g>
+</svg>

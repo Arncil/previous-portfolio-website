@@ -67,6 +67,9 @@ for (let i = 0; i < categories.length; i++) {
         resetContent()
         skills[i].style.display = 'grid'
         categories[i].classList.add('skill-element-chosen')
+        skills[i].children[0].classList.add('skill-element-chosen')
+        content[i].style.display = 'grid'
+        content[i].children[0].style.display = 'grid'
     })
 }
 

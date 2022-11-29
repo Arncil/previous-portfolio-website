@@ -1480,15 +1480,6 @@ main {
     /* animation */
     transition: all 0.5s;
 }
-.container-skills article {
-    display: grid;
-    place-items: center;
-
-}
-.container-skills article:hover {
-    box-shadow: 0 0 2vmin 0 #fff;
-    animation: jello-horizontal 0.9s both;
-}
 .container-skills-nav, .container-categories-nav {
     /* box model */
     width: 25vmin;
@@ -1556,6 +1547,54 @@ main {
     cursor: pointer;
     opacity: 1;
 }
+.container-skills article {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+.container-skills-title {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 1vmin;
+}
+.container-skills h2 {
+    font-size: var(--font-size-400);
+}
+.container-skills h3 {
+    font-size: var(--font-size-200);
+    line-height: 5vmin;
+}
+.container-skills img {
+    display: grid;
+    place-items: center;
+    width: 8vmin;
+    animation: heartbeat 1.5s ease-in-out infinite both;
+}
+.container-skills-description ul {
+    list-style-type: '⚔️';
+}
+.container-skills-description li {
+    padding-left: 1vmin;
+    text-align: left;
+    line-height: 3vmin;
+    position: relative;
+    left: 2vmin;
+    font-size: var(--font-size-150);
+}
+.container-skills h4 {
+    font-size: var(--font-size-200);
+    font-weight: 700;
+    line-height: 4vmin;
+}
+.container-skills figure {
+    width: 100%;
+    height: 5vmin;
+    display: inline-flex;
+}
+.container-skills figure img {
+    animation: rotate 5s ease-in-out infinite;
+}
 
 /* 🎹🎹🎹🎹 🎹🎹🎹🎹 */
 /* 🎹 SKILLS: PAGES 🎹 */
@@ -1602,6 +1641,8 @@ main {
         /* position */
         grid-row: 2 / 2;
         grid-column: span 2;
+        /* text */
+        font-size: var(--font-size-small-screen-600);
     }
     .container-skills {
         /* box model */
@@ -1625,5 +1666,23 @@ main {
         grid-row: 4 / 4;
         grid-column: 2 / 2;
     }
-    
+    .container-categories-nav li, .container-skills-nav li{
+        /* text */
+        font-size: var(--font-size-400);
+        text-shadow: 0 0.5vmin 0.5vmin #000;
+    }
+    .container-skills h2 {
+        font-size: var(--font-size-600);
+    }
+    .container-skills h3 {
+        font-size: var(--font-size-400);
+    }
+    .container-skills-description li {
+        font-size: var(--font-size-250);
+        line-height: 4vmin;
+    }
+    .container-skills h4 {
+        font-size: var(--font-size-300);
+        line-height: 5vmin;
+    }
 }
