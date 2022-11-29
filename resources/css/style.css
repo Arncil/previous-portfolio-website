@@ -1591,9 +1591,12 @@ main {
     width: 100%;
     height: 5vmin;
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 .container-skills figure img {
     animation: rotate 5s ease-in-out infinite;
+    padding: 0 1vmin;
 }
 
 /* 🎹🎹🎹🎹 🎹🎹🎹🎹 */
@@ -1668,7 +1671,7 @@ main {
     }
     .container-categories-nav li, .container-skills-nav li{
         /* text */
-        font-size: var(--font-size-400);
+        font-size: var(--font-size-300);
         text-shadow: 0 0.5vmin 0.5vmin #000;
     }
     .container-skills h2 {
