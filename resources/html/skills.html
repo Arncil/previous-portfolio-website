@@ -37,7 +37,7 @@
         </nav>
         <h1>Skills</h1>
         <section id="skill-categories">
-            <article class="slider">
+            <article id="slider" class="slider">
                 <a style="--i:1" href="./skills/generic.html">
                     <p>Generic</p>
                     <img src="../images/skills/main/generic.svg">
@@ -76,9 +76,14 @@
                 </a>
             </article>
         </section>
-        <h2>Select category</h2>
+        <section class="skill-slider-control">
+            <div id="skill-speed-up-button" class="button">Faster</div>
+            <h2>Select category</h2>
+            <div id="skill-slow-down-button" class="button">Slower</div>
+        </section>
     </main>
 </body>
 <script src="../javascript/main.js"></script>
 <script src="../javascript/mobileSizeFix.js"></script>
+<script src="../javascript/skillsSlider.js"></script>
 </html>

@@ -1240,7 +1240,7 @@ main {
 /* 🥁 PAGE:  SKILLS 🥁 */
 #skills-page {
     /* position */
-    grid-template-rows: 10vmin 1fr 3fr 10vmin;
+    grid-template-rows: 10vmin 2fr 6fr 2fr 1fr;
 }
 #skills-page h1 {
     /* box model */
@@ -1248,13 +1248,20 @@ main {
     /* position */
     grid-row: 2 / 2;
 }
-#skills-page h2 {
+.skill-slider-control {
     /* position */
-    grid-row: 4 / 4;
+    grid-row: 5 / 5;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+.skill-slider-control h2 {
+    /* position */
+    grid-column: 2 / 2;
     /* text */
     font-size: var(--font-size-300);
 }
-#skill-categories {
+    #skill-categories {
     /* position */
     grid-row: 3/3;
     display: grid;
@@ -1264,14 +1271,28 @@ main {
     /* box model */
     width: 20vmin;
     height: 20vmin;
-    margin-bottom: 20vmin;
+    /* margin-bottom: 20vmin; */
     /* position */
     position: relative;
     transform-style: preserve-3d;
     /* animation */
     animation: rotate 30s linear infinite;
 }
-
+.slider-speed-up {
+    animation-duration: 5s;
+}
+#skill-speed-up-button {
+    width: 25vmin;
+    height: 5vmin;
+    grid-column: 1 / 1;
+    font-size: var(--font-size-300);
+}
+#skill-slow-down-button {
+    width: 25vmin;
+    height: 5vmin;
+    grid-column: 3 / 3;
+    font-size: var(--font-size-300);
+}
 .slider a {
     /* box model */
     width: 20vmin;
@@ -1348,7 +1369,7 @@ main {
 @media (max-width: 1100px) {
     #skills-page {
         /* position */
-        grid-template-rows: 1fr 2fr 10vmin;
+        grid-template-rows: 2fr 6fr 2fr 1fr;
     }
     #skills-page h1 {
         /* position */
@@ -1357,10 +1378,9 @@ main {
     #skill-categories {
         grid-row: 2 / 2;
     }
-    #skills-page h2 {
-        grid-row: 3 / 3;
-        /* text */
-        font-size: var(--font-size-400);
+    .skill-slider-control {
+        /* position */
+        grid-row: 4 / 4;
     }
 }
 
@@ -1411,12 +1431,33 @@ main {
         font-size: var(--font-size-300);
         text-shadow: 0 1vmin 1vmin #000;
     }
-    #skills-page h2 {
+    .skill-slider-control {
         /* position */
         grid-row: 3 / 3;
-        align-self: baseline;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 5vmin
+    }
+    .skill-slider-control h2 {
+        /* position */
+        grid-column: span 2;
+        grid-row: 2 / 2;
         /* text */
-        font-size: var(--font-size-700);
+        font-size: var(--font-size-600);
+    }
+    #skill-speed-up-button {
+        width: 35vmin;
+        height: 8vmin;
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+        font-size: var(--font-size-400);
+    }
+    #skill-slow-down-button {
+        width: 35vmin;
+        height: 8vmin;
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+        font-size: var(--font-size-400);
     }
 }
 
@@ -1595,6 +1636,8 @@ main {
     text-align: left;
     line-height: 3vmin;
     font-size: var(--font-size-150);
+    /* animation */
+    transition: all 0.5s;
 }
 .container-skills h4 {
     /* text */
@@ -1613,9 +1656,13 @@ main {
 }
 .container-skills figure img {
     /* box model */
-    padding: 1vmin;
+    padding: 1.5vmin;
     /* animations */
     animation: rotate 5s ease-in-out infinite;
+}
+.container-skills figure img:hover {
+    /* animations */
+    padding: 0
 }
 
 /* 🎹🎹🎹🎹 🎹🎹🎹🎹 */
