@@ -1988,7 +1988,8 @@ main {
     justify-content: space-around;
 }
 
-#collection a {
+#collection-web-panel,
+#collection-design-panel {
     /* box model */
     width: 60vmin;
     height: 70vmin;
@@ -2006,14 +2007,6 @@ main {
     transition: all 0.5s;
 }
 
-#collection h2 {
-    transform: translateY(-70%);
-}
-
-#collection a:hover {
-    transform: scale(1);
-}
-
 #collection-web-panel {
     /* background */
     background-image: url(../images/collection/collection-web.svg);
@@ -2023,13 +2016,28 @@ main {
     background-image: url(../images/collection/collection-design.svg);
 }
 
+#collection-web-panel h2,
+#collection-design-panel h2 {
+    transform: translateY(-70%);
+}
+
+#collection-web-panel:hover,
+#collection-design-panel:hover {
+    transform: scale(1);
+}
+
+
+
 @media (max-width: 800px) and (min-width: 501px) {
-    #collection a {
+
+    #collection-web-panel,
+    #collection-design-panel {
         width: 40vmin;
         height: 45vmin;
     }
 
-    #collection h2 {
+    #collection-web-panel h2,
+    #collection-design-panel h2 {
         font-size: var(--font-size-500);
     }
 }
