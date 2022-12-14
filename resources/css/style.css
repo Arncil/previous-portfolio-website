@@ -2026,8 +2026,9 @@ main {
     transform: scale(1);
 }
 
-
-
+/*  👑👑👑👑 👑👑👑👑 */
+/* 👑 PAGE: COLLECTION 👑 */
+/* 💻  MEDIUM   SCREEN 💻 */
 @media (max-width: 800px) and (min-width: 501px) {
 
     #collection-web-panel,
@@ -2042,8 +2043,52 @@ main {
     }
 }
 
+/*  👑👑👑👑 👑👑👑👑 */
+/* 👑 PAGE: COLLECTION 👑 */
+/* 📱📱 SMALL   SCREEN 📱📱 */
 @media (max-width: 500px) {
     #collection {
+        flex-direction: column;
+    }
+}
+
+/*  👑👑👑👑 👑👑👑👑 */
+/* 👑 COLLECTION:  WEB 👑 */
+#web-dev-projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#gradient-generator, #match-pairs-game {
+    /* box model */
+    width: 50vmin;
+    height: 70vmin;
+    /* background */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border */
+    border-image-source: url(../images/frames/page-background-frame.png);
+    border-image-slice: 8%;
+    border-image-width: 2vmin;
+    border-image-repeat: round;
+    border-style: solid;
+}
+
+#gradient-generator {
+    /* background */
+    background-image: url(../images/collection/web-dev/gradient-generator.png);
+}
+#match-pairs-game {
+    /* background */
+    background-image: url(../images/collection/web-dev/match-pairs-game.png);
+}
+
+/*  👑👑👑👑 👑👑👑👑 */
+/* 👑 PAGE: COLLECTION 👑 */
+/* 📱📱 SMALL   SCREEN 📱📱 */
+@media (max-width: 500px) {
+    #web-dev-projects {
         flex-direction: column;
     }
 }
