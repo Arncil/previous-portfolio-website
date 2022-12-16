@@ -2054,16 +2054,28 @@ main {
 
 /*  👑👑👑👑 👑👑👑👑 */
 /* 👑 COLLECTION:  WEB 👑 */
-#web-dev-projects {
+.web-dev-projects {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-#gradient-generator, #match-pairs-game {
+
+.previous-project,
+.next-project {
+    width: 25vmin;
+    height: 6vmin;
+    font-size: var(--font-size-200);
+    text-decoration: none;
+}
+
+.web-dev-projects article {
     /* box model */
-    width: 50vmin;
-    height: 70vmin;
+    width: 60vw;
+    height: 70vh;
+    height: calc(var(--vh, 1vh) * 85);
+    margin-top: 10vmin;
     /* background */
+    background-image: url(../images/background-images/black-background-blur.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2073,22 +2085,124 @@ main {
     border-image-width: 2vmin;
     border-image-repeat: round;
     border-style: solid;
+    /* position */
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 5fr;
+    /* other */
+    overflow: scroll;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
-#gradient-generator {
-    /* background */
-    background-image: url(../images/collection/web-dev/gradient-generator.png);
-}
-#match-pairs-game {
-    /* background */
-    background-image: url(../images/collection/web-dev/match-pairs-game.png);
+.web-dev-projects article::-webkit-scrollbar {
+    /* position */
+    display: none;
+    /* Chrome, Safari, and Opera */
 }
 
-/*  👑👑👑👑 👑👑👑👑 */
-/* 👑 PAGE: COLLECTION 👑 */
-/* 📱📱 SMALL   SCREEN 📱📱 */
-@media (max-width: 500px) {
-    #web-dev-projects {
-        flex-direction: column;
+.web-dev-projects h2 {
+    grid-column: 1 / span 2;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.web-dev-projects div {
+    grid-row: 2 / 2;
+    grid-column: 1 / 1;
+    width: 80%;
+    display: grid;
+    row-gap: 4vmin;
+}
+
+.web-dev-projects div h3 {
+    text-align: justify;
+    font-size: var(--font-size-250);
+}
+
+.web-dev-projects figure {
+    grid-row: 2 / 2;
+    grid-column: 2 / 2;
+    font-size: var(--font-size-100);
+    display: grid;
+    place-items: center;
+}
+
+.web-dev-projects figcaption {
+    width: 90%;
+    word-break: break-all;
+}
+
+.web-dev-projects-link {
+    font-size: var(--font-size-300);
+}
+
+.web-dev-projects figure img {
+    width: 35vmin;
+    margin-bottom: 5vmin;
+    border-radius: 5vmin;
+}
+
+@media (max-width: 1100px) {
+    .web-dev-projects {
+        display: grid;
+        place-items: center;
+        grid-template-rows: 1fr 10vh;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .web-dev-projects div h3 {
+        font-size: var(--font-size-200);
+    }
+
+    .web-dev-projects-link {
+        font-size: var(--font-size-200);
+    }
+
+    .web-dev-projects article {
+        grid-row: 1 / 1;
+        grid-column: 1 / span 2;
+        margin: 0;
+        width: 76vw;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .web-dev-projects article {
+        grid-template-rows: 1fr 2fr 3fr;
+        grid-template-columns: 1fr;
+    }
+
+    .web-dev-projects div h3 {
+        font-size: var(--font-size-300);
+    }
+
+    .web-dev-projects article div {
+        grid-row: 2 / 2;
+    }
+
+    .web-dev-projects figure {
+        grid-row: 3 / 3;
+        grid-column: 1 / 1;
+    }
+
+    .web-dev-projects figure img {
+        width: 55vmin;
+    }
+
+    .previous-project,
+    .next-project {
+        width: 45vmin;
+        height: 9vmin;
+        font-size: var(--font-size-300);
+    }
+
+    .web-dev-projects-link {
+        font-size: var(--font-size-300);
     }
 }
