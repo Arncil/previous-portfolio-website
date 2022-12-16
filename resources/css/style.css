@@ -2119,7 +2119,7 @@ main {
     row-gap: 4vmin;
 }
 
-.web-dev-projects div h3 {
+.web-dev-projects div p {
     text-align: justify;
     font-size: var(--font-size-250);
 }
@@ -2155,7 +2155,7 @@ main {
         grid-template-columns: 1fr 1fr;
     }
 
-    .web-dev-projects div h3 {
+    .web-dev-projects div p {
         font-size: var(--font-size-200);
     }
 
@@ -2169,16 +2169,23 @@ main {
         margin: 0;
         width: 76vw;
     }
+    .web-dev-projects figcaption {
+        width: 100%;
+    }
 }
 
 
 @media (max-width: 600px) {
     .web-dev-projects article {
+        width: 95vw;
+    }
+
+    .web-dev-projects article {
         grid-template-rows: 1fr 2fr 3fr;
         grid-template-columns: 1fr;
     }
 
-    .web-dev-projects div h3 {
+    .web-dev-projects div p {
         font-size: var(--font-size-300);
     }
 
@@ -2192,7 +2199,7 @@ main {
     }
 
     .web-dev-projects figure img {
-        width: 55vmin;
+        width: 40vmin;
     }
 
     .previous-project,
