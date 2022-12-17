@@ -2124,6 +2124,10 @@ main {
     transition: all 0.5s;
 }
 
+.web-dev-projects article * {
+    z-index: 3;
+}
+
 .web-dev-projects article::-webkit-scrollbar {
     /* position */
     display: none;
