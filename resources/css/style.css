@@ -2034,6 +2034,7 @@ main {
 /* 👑 PAGE: COLLECTION 👑 */
 /* 💻  MEDIUM   SCREEN 💻 */
 @media (max-width: 800px) and (min-width: 501px) {
+
     #collection-web-panel,
     #collection-design-panel {
         /* box model */
@@ -2112,6 +2113,8 @@ main {
     content: '';
     width: 58vw;
     height: 82vh;
+    height: calc(var(--vh, 1vh) * 82);
+
     /* border */
     border-image-source: url(../images/frames/page-frame.png);
     border-image-slice: 35%;
@@ -2239,6 +2242,9 @@ main {
     .web-dev-projects article {
         /* box model */
         width: 95vw;
+        height: 83vh;
+        height: calc(var(--vh, 1vh) * 83);
+
     }
 
     .web-dev-projects article {
@@ -2250,7 +2256,9 @@ main {
     .web-dev-projects article::before {
         /* box model */
         width: 92vw;
-        height: 83vh;
+        height: 81vh;
+        height: calc(var(--vh, 1vh) * 81);
+
     }
 
     .web-dev-projects div p {
