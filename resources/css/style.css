@@ -1816,7 +1816,11 @@ main {
     /* animation */
     animation: heartbeat 1.5s ease-in-out infinite both;
 }
-
+.container-skills-description {
+    width: 90%;
+    display: grid;
+    place-items: center;
+}
 .container-skills-description ul {
     /* text */
     list-style-type: '🔓';
