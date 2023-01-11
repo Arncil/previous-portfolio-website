@@ -1886,7 +1886,6 @@ main {
     .container-skills {
         /* box model */
         width: 50vmin;
-        min-height: 70vmin;
         /* position */
         grid-row: 2 / 2;
     }
@@ -1894,14 +1893,13 @@ main {
     .container-skills::before {
         /* box model */
         width: 48vmin;
-        min-height: 68vmin;
+        height: 58vmin;
     }
 
     .container-skills-nav,
     .container-categories-nav {
         /* box model */
         width: 20vmin;
-        min-height: 70vmin;
         /* position */
         grid-row: 2 / 2;
     }
@@ -1929,7 +1927,6 @@ main {
     .container-skills {
         /* box model */
         width: 90vmin;
-        min-height: 90vmin;
         /* position */
         grid-row: 3 / 3;
         grid-column: span 2;
@@ -1938,7 +1935,7 @@ main {
     .container-skills::before {
         /* box model */
         width: 88vmin;
-        min-height: 88vmin;
+        height: 58vmin;
     }
 
     .container-categories-nav {
