@@ -1638,7 +1638,7 @@ main {
 /* 🎹 SKILLS: PAGES 🎹 */
 .skills-pages {
     /* position */
-    grid-template-rows: 10vmin 1fr 3fr;
+    grid-template-rows: 10vmin 1fr 5fr 5vmin;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1vmin
 }
@@ -1816,11 +1816,13 @@ main {
     /* animation */
     animation: heartbeat 1.5s ease-in-out infinite both;
 }
+
 .container-skills-description {
     width: 90%;
     display: grid;
     place-items: center;
 }
+
 .container-skills-description ul {
     /* text */
     list-style-type: '🔓';
@@ -1869,13 +1871,61 @@ main {
     padding: 0
 }
 
+.skills-pages-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 5vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* background */
+    background-color: var(--color-red-100);
+    background-image: url(../images/background-images/menu-background-fill.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border */
+    border-image-source: url(../images/frames/page-background-frame.png);
+    border-image-slice: 8%;
+    border-image-width: 0.5vmin;
+    border-image-repeat: round;
+    border-style: solid;
+}
+
+.skills-pages-footer a {
+    font-size: var(--font-size-200);
+    opacity: 0.4;
+    text-decoration: none;
+    /* animation */
+    transition: all 0.5s;
+}
+
+.skills-pages-footer a:hover {
+    transform: scale(1.2);
+    opacity: 1;
+    cursor: pointer;
+}
+
+#current-skill-page {
+    opacity: 1;
+    font-weight: 800;
+    cursor: default;
+    transition: none;
+}
+
+#current-skill-page:hover {
+    transform: none;
+}
+
 /* 🎹🎹🎹🎹 🎹🎹🎹🎹 */
 /* 🎹 SKILLS: PAGES 🎹 */
 /* 💻  MEDIUM SCREEN 💻 */
 @media (max-width: 1100px) {
     .skills-pages {
         /* position */
-        grid-template-rows: 1fr 3fr;
+        grid-template-rows: 1fr 3fr 10vmin;
     }
 
     .skills-pages h1 {
@@ -1903,6 +1953,10 @@ main {
         /* position */
         grid-row: 2 / 2;
     }
+
+    .skills-pages-footer a {
+        font-size: var(--font-size-300);
+    }
 }
 
 /* 🎹🎹🎹🎹 🎹🎹🎹🎹 */
@@ -1911,7 +1965,7 @@ main {
 @media (max-width: 500px) {
     .skills-pages {
         /* position */
-        grid-template-rows: 1fr 1fr 10fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 10fr 1fr 10vmin;
         grid-template-columns: 1fr 1fr;
         gap: 5vmin
     }
