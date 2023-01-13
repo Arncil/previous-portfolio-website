@@ -1645,7 +1645,7 @@ main {
 
 .skills-pages h1 {
     /* text */
-    font-size: var(--font-size-700);
+    font-size: var(--font-size-600);
     /* position */
     grid-row: 2 / 2;
     grid-column: span 3;
