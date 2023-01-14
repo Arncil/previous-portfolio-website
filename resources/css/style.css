@@ -97,6 +97,162 @@
     }
 }
 
+@keyframes map-point-01 {
+    0% {
+        background-image: url(../images/history/point-01-colored.svg);
+        transform: scale(1.4);
+    }
+
+    100% {
+        background-image: url(../images/history/point-01.svg);
+        transform: scale(1);
+    }
+}
+
+@keyframes map-point-02 {
+    0% {
+        background-image: url(../images/history/point-02-colored.svg);
+        transform: scale(1.4);
+    }
+
+    100% {
+        background-image: url(../images/history/point-02.svg);
+        transform: scale(1);
+    }
+}
+
+@keyframes map-point-03 {
+    0% {
+        background-image: url(../images/history/point-03-colored.svg);
+        transform: scale(1.4);
+    }
+
+    100% {
+        background-image: url(../images/history/point-03.svg);
+        transform: scale(1);
+    }
+}
+
+@keyframes map-point-04 {
+    0% {
+        background-image: url(../images/history/point-04-colored.svg);
+        transform: scale(1.4);
+    }
+
+    100% {
+        background-image: url(../images/history/point-04.svg);
+        transform: scale(1);
+    }
+}
+
+@keyframes map-point-05 {
+    0% {
+        background-image: url(../images/history/point-05-colored.svg);
+        transform: scale(1.4);
+    }
+
+    100% {
+        background-image: url(../images/history/point-05.svg);
+        transform: scale(1);
+    }
+}
+
+@keyframes map-point-06 {
+    0% {
+        background-image: url(../images/history/point-06-colored.svg);
+        transform: scale(1.4);
+    }
+
+    100% {
+        background-image: url(../images/history/point-06.svg);
+        transform: scale(1);
+    }
+}
+
+@keyframes map-point-07 {
+    0% {
+        background-image: url(../images/history/point-07-colored.svg);
+        transform: scale(1.4);
+    }
+
+    100% {
+        background-image: url(../images/history/point-07.svg);
+        transform: scale(1);
+    }
+}
+
+@keyframes map-point-08 {
+    0% {
+        background-image: url(../images/history/point-08-colored.svg);
+        transform: scale(1.4);
+    }
+
+    100% {
+        background-image: url(../images/history/point-08.svg);
+        transform: scale(1);
+    }
+}
+
+@keyframes map-point-09 {
+    0% {
+        background-image: url(../images/history/point-09-colored.svg);
+        transform: scale(1.4);
+    }
+
+    100% {
+        background-image: url(../images/history/point-09.svg);
+        transform: scale(1);
+    }
+}
+
+@keyframes map-point-10 {
+    0% {
+        background-image: url(../images/history/point-10-colored.svg);
+        transform: scale(1.4);
+    }
+
+    100% {
+        background-image: url(../images/history/point-10.svg);
+        transform: scale(1);
+    }
+}
+
+@keyframes map-point-11 {
+    0% {
+        background-image: url(../images/history/point-11-colored.svg);
+        transform: scale(1.4);
+    }
+
+    100% {
+        background-image: url(../images/history/point-11.svg);
+        transform: scale(1);
+    }
+}
+
+@keyframes map-point-12 {
+    0% {
+        background-image: url(../images/history/point-12-colored.svg);
+        transform: scale(1.4);
+    }
+
+    100% {
+        background-image: url(../images/history/point-12.svg);
+        transform: scale(1);
+    }
+}
+
+@keyframes map-point-13 {
+    0% {
+        background-image: url(../images/history/point-13-colored.svg);
+        transform: scale(1.4);
+    }
+
+    100% {
+        background-image: url(../images/history/point-13.svg);
+        transform: scale(1);
+    }
+}
+
 @keyframes jello-horizontal {
     0% {
         transform: scale3d(1, 1, 1);
@@ -885,7 +1041,8 @@ main {
     grid-row: 2 / 2;
     display: grid;
     grid-template: repeat(14, 1fr) / repeat(20, 1fr);
-    grid-template-areas: ". . . . . . . . . . . . . . . . . . . ."
+    grid-template-areas:
+        ". . . . . . . . . . . . . . . . . . . ."
         ". . . . . . a a a a a a a a . . . . . ."
         ". . . . . . a a a a a a a a . . . . . ."
         ". . . . . . i i i i i i i i . . . . . ."
@@ -2352,5 +2509,448 @@ main {
     .web-dev-projects-link {
         /* text */
         font-size: var(--font-size-300);
+    }
+}
+
+/* 🏺🏺🏺🏺🏺🏺🏺 */
+/* 🏺 HISTORY 🏺 */
+#history {
+    grid-template-rows: 10vmin 1fr 8vmin;
+}
+
+#history-nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 8vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* background */
+    background-color: var(--color-red-100);
+    background-image: url(../images/background-images/menu-background-fill.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border */
+    border-image-source: url(../images/frames/page-background-frame.png);
+    border-image-slice: 8%;
+    border-image-width: 0.5vmin;
+    border-image-repeat: round;
+    border-style: solid;
+}
+
+#history-map {
+    grid-row: 2/2;
+    width: 92vmin;
+    height: 80vmin;
+    background-image: url(../images/history/map.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    grid-template: 9vmin repeat(10, 1fr) 9vmin / 7vmin repeat(10, 1fr) 7vmin;
+}
+
+.map-point {
+    /* background */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* animation */
+    transition: background-image 1.5s, transform 1.5s;
+}
+
+.map-point:hover,
+.map-point:active {
+    /* animation */
+    transform: scale(1.4);
+}
+
+#map-point-01 {
+    /* box model */
+    width: 8vmin;
+    height: 5vmin;
+    /* background */
+    background-image: url(../images/history/point-01.svg);
+    /* position */
+    grid-row: 11/11;
+    grid-column: 2/2;
+    /* animation */
+    animation: map-point-01 4s ease-in-out;
+}
+
+#map-point-01:hover,
+#map-point-01:active {
+    /* background */
+    background-image: url(../images/history/point-01-colored.svg);
+}
+
+#map-point-02 {
+    /* box model */
+    width: 12.5vmin;
+    height: 12vmin;
+    /* background */
+    background-image: url(../images/history/point-02.svg);
+    /* position */
+    grid-row: 8/10;
+    grid-column: 4/6;
+    /* animation */
+    animation: map-point-02 4s ease-in-out;
+}
+
+#map-point-02:hover,
+#map-point-02:active {
+    /* background */
+    background-image: url(../images/history/point-02-colored.svg);
+}
+
+
+#map-point-03 {
+    /* box model */
+    width: 6.5vmin;
+    height: 8vmin;
+    /* background */
+    background-image: url(../images/history/point-03.svg);
+    /* position */
+    grid-row: 7/9;
+    grid-column: 2/2;
+    /* animation */
+    animation: map-point-03 4s ease-in-out;
+}
+
+#map-point-03:hover,
+#map-point-03:active {
+    /* background */
+    background-image: url(../images/history/point-03-colored.svg);
+}
+
+#map-point-04 {
+    /* box model */
+    width: 6vmin;
+    height: 10vmin;
+    /* background */
+    background-image: url(../images/history/point-04.svg);
+    /* position */
+    grid-row: 5/7;
+    grid-column: 3/3;
+    /* animation */
+    animation: map-point-04 4s ease-in-out;
+}
+
+#map-point-04:hover,
+#map-point-04:active {
+    /* background */
+    background-image: url(../images/history/point-04-colored.svg);
+}
+
+#map-point-05 {
+    /* box model */
+    width: 15vmin;
+    height: 10vmin;
+    /* background */
+    background-image: url(../images/history/point-05.svg);
+    /* position */
+    grid-row: 2/4;
+    grid-column: 2/4;
+    /* animation */
+    animation: map-point-05 4s ease-in-out;
+}
+
+#map-point-05:hover,
+#map-point-05:active {
+    /* background */
+    background-image: url(../images/history/point-05-colored.svg);
+}
+
+#map-point-06 {
+    /* box model */
+    width: 14vmin;
+    height: 9.7vmin;
+    /* background */
+    background-image: url(../images/history/point-06.svg);
+    /* position */
+    grid-row: 4/7;
+    grid-column: 5/7;
+    /* animation */
+    animation: map-point-06 4s ease-in-out;
+}
+
+#map-point-06:hover,
+#map-point-06:active {
+    /* background */
+    background-image: url(../images/history/point-06-colored.svg);
+}
+
+#map-point-07 {
+    /* box model */
+    width: 11vmin;
+    height: 10vmin;
+    /* background */
+    background-image: url(../images/history/point-07.svg);
+    /* position */
+    grid-row: 6/9;
+    grid-column: 7/9;
+    /* animation */
+    animation: map-point-07 4s ease-in-out;
+}
+
+#map-point-07:hover,
+#map-point-07:active {
+    /* background */
+    background-image: url(../images/history/point-07-colored.svg);
+}
+
+#map-point-08 {
+    /* box model */
+    width: 12vmin;
+    height: 10.8vmin;
+    /* background */
+    background-image: url(../images/history/point-08.svg);
+    /* position */
+    grid-row: 2/4;
+    grid-column: 5/7;
+    /* animation */
+    animation: map-point-08 4s ease-in-out;
+}
+
+#map-point-08:hover,
+#map-point-08:active {
+    /* background */
+    background-image: url(../images/history/point-08-colored.svg);
+}
+
+#map-point-09 {
+    /* box model */
+    width: 18vmin;
+    height: 11vmin;
+    /* background */
+    background-image: url(../images/history/point-09.svg);
+    /* position */
+    grid-row: 2/4;
+    grid-column: 9/12;
+    /* animation */
+    animation: map-point-09 4s ease-in-out;
+}
+
+#map-point-09:hover,
+#map-point-09:active {
+    /* background */
+    background-image: url(../images/history/point-09-colored.svg);
+}
+
+#map-point-10 {
+    /* box model */
+    width: 8vmin;
+    height: 8.2vmin;
+    /* background */
+    background-image: url(../images/history/point-10.svg);
+    /* position */
+    grid-row: 5/7;
+    grid-column: 10/12;
+    /* animation */
+    animation: map-point-10 4s ease-in-out;
+}
+
+#map-point-10:hover,
+#map-point-10:active {
+    /* background */
+    background-image: url(../images/history/point-10-colored.svg);
+}
+
+#map-point-11 {
+    /* box model */
+    width: 13.2vmin;
+    height: 14vmin;
+    /* background */
+    background-image: url(../images/history/point-11.svg);
+    /* position */
+    grid-row: 8/10;
+    grid-column: 10/12;
+    /* animation */
+    animation: map-point-11 4s ease-in-out;
+}
+
+#map-point-11:hover,
+#map-point-11:active {
+    /* background */
+    background-image: url(../images/history/point-11-colored.svg);
+}
+
+#map-point-12 {
+    /* box model */
+    width: 12vmin;
+    height: 9.5vmin;
+    /* background */
+    background-image: url(../images/history/point-12.svg);
+    /* position */
+    grid-row: 9/12;
+    grid-column: 8/10;
+    /* animation */
+    animation: map-point-12 4s ease-in-out;
+}
+
+#map-point-12:hover,
+#map-point-12:active {
+    /* background */
+    background-image: url(../images/history/point-12-colored.svg);
+}
+
+#map-point-13 {
+    /* box model */
+    width: 8vmin;
+    height: 7vmin;
+    /* background */
+    background-image: url(../images/history/point-13.svg);
+    /* position */
+    grid-row: 10/12;
+    grid-column: 5/7;
+    /* animation */
+    animation: map-point-13 4s ease-in-out;
+}
+
+#map-point-13:hover,
+#map-point-13:active {
+    /* background */
+    background-image: url(../images/history/point-13-colored.svg);
+}
+
+/* 🏺🏺🏺🏺🏺🏺🏺🏺🏺🏺🏺 */
+/* 🏺🏺🏺 HISTORY  🏺🏺🏺 */
+/* 💻  MEDIUM   SCREEN 💻 */
+@media (max-width: 1100px) {
+    #history {
+        grid-template-rows: 1fr 8vmin;
+    }
+
+    #history-map {
+        grid-row: 1/1;
+    }
+}
+
+/* 🏺🏺🏺🏺🏺🏺🏺🏺🏺🏺🏺 */
+/* 🏺🏺🏺 HISTORY  🏺🏺🏺 */
+/* 📱📱 SMALL   SCREEN 📱📱 */
+@media (max-width: 500px) {
+    #history {
+        grid-template-rows: 1fr 15vmin;
+    }
+
+    #history-map {
+        grid-row: 1/1;
+        width: 96vmin;
+        height: 145vmin;
+        background-image: url(../images/history/map-mobile.svg);
+    }
+
+    #history-nav {
+        min-height: 15vmin;
+    }
+
+    #map-point-01 {
+        /* box model */
+        width: 12vmin;
+        height: 7vmin;
+        /* position */
+        grid-row: 11/11;
+        grid-column: 2/4;
+    }
+    #map-point-02 {
+        /* box model */
+        width: 15vmin;
+        height: 15vmin;
+        /* position */
+        grid-row: 9/11;
+        grid-column: 4/6;
+    }
+    #map-point-03 {
+        /* box model */
+        width: 11vmin;
+        height: 13vmin;
+        /* position */
+        grid-row: 7/9;
+        grid-column: 2/4;
+    }
+    #map-point-04 {
+        /* box model */
+        width: 9vmin;
+        height: 15vmin;
+        /* position */
+        grid-row: 5/7;
+        grid-column: 3/5;
+    }
+    #map-point-05 {
+        /* box model */
+        width: 25vmin;
+        height: 16vmin;
+        /* position */
+        grid-row: 2/4;
+        grid-column: 2/5;
+    }
+    #map-point-06 {
+        /* box model */
+        width: 18vmin;
+        height: 12vmin;
+        /* position */
+        grid-row: 6/8;
+        grid-column: 6/8;
+    }
+    #map-point-07 {
+        /* box model */
+        width: 16vmin;
+        height: 15vmin;
+        /* position */
+        grid-row: 4/6;
+        grid-column: 5/8;
+    }
+    #map-point-08 {
+        /* box model */
+        width: 16vmin;
+        height: 15vmin;
+        /* position */
+        grid-row: 2/4;
+        grid-column: 5/9;
+    }
+    #map-point-09 {
+        /* box model */
+        width: 23vmin;
+        height: 14vmin;
+        /* position */
+        grid-row: 2/5;
+        grid-column: 9/12;
+    }
+    #map-point-10 {
+        /* box model */
+        width: 12vmin;
+        height: 12vmin;
+        /* position */
+        grid-row: 5/7;
+        grid-column: 9/11;
+    }
+    #map-point-11 {
+        /* box model */
+        width: 16vmin;
+        height: 17vmin;
+        /* position */
+        grid-row: 8/10;
+        grid-column: 9/11;
+    }
+    #map-point-12 {
+        /* box model */
+        width: 15vmin;
+        height: 12vmin;
+        /* position */
+        grid-row: 10/12;
+        grid-column: 8/10;
+    }
+    #map-point-13 {
+        /* box model */
+        width: 12vmin;
+        height: 10.4vmin;
+        /* position */
+        grid-row: 8/10;
+        grid-column: 6/8;
     }
 }
