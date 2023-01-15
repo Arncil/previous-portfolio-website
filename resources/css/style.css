@@ -3215,7 +3215,7 @@ main {
         grid-row: 11/11;
         grid-column: 2/4;
         /* animation */
-        animation: mobile-map-point-01 4s ease-in-out infinite;
+        animation: mobile-map-point-01 7s ease-in-out;
         backface-visibility: hidden;
     }
 
@@ -3227,7 +3227,7 @@ main {
         grid-row: 9/11;
         grid-column: 4/6;
         /* animation */
-        animation: mobile-map-point-02 4s ease-in-out infinite;
+        animation: mobile-map-point-02 7s ease-in-out ;
         backface-visibility: hidden;
     }
 
@@ -3239,7 +3239,8 @@ main {
         grid-row: 7/9;
         grid-column: 2/4;
         /* animation */
-        animation: mobile-map-point-03 4s ease-in-out infinite;
+        animation: mobile-map-point-03 7s ease-in-out;
+        backface-visibility: hidden;
     }
 
     #map-point-04 {
@@ -3250,7 +3251,8 @@ main {
         grid-row: 5/7;
         grid-column: 3/5;
         /* animation */
-        animation: mobile-map-point-04 4s ease-in-out infinite;
+        animation: mobile-map-point-04 7s ease-in-out;
+        backface-visibility: hidden;
     }
 
     #map-point-05 {
@@ -3261,7 +3263,8 @@ main {
         grid-row: 2/4;
         grid-column: 2/5;
         /* animation */
-        animation: mobile-map-point-05 4s ease-in-out infinite;
+        animation: mobile-map-point-05 7s ease-in-out;
+        backface-visibility: hidden;
     }
 
     #map-point-06 {
@@ -3272,7 +3275,8 @@ main {
         grid-row: 6/8;
         grid-column: 6/8;
         /* animation */
-        animation: mobile-map-point-06 4s ease-in-out infinite;
+        animation: mobile-map-point-06 7s ease-in-out;
+        backface-visibility: hidden;
     }
 
     #map-point-07 {
@@ -3283,7 +3287,8 @@ main {
         grid-row: 4/6;
         grid-column: 5/8;
         /* animation */
-        animation: mobile-map-point-07 4s ease-in-out infinite;
+        animation: mobile-map-point-07 7s ease-in-out;
+        backface-visibility: hidden;
     }
 
     #map-point-08 {
@@ -3294,7 +3299,8 @@ main {
         grid-row: 2/4;
         grid-column: 5/9;
         /* animation */
-        animation: mobile-map-point-08 4s ease-in-out infinite;
+        animation: mobile-map-point-08 7s ease-in-out;
+        backface-visibility: hidden;
     }
 
     #map-point-09 {
@@ -3305,7 +3311,8 @@ main {
         grid-row: 2/5;
         grid-column: 9/12;
         /* animation */
-        animation: mobile-map-point-09 4s ease-in-out infinite;
+        animation: mobile-map-point-09 7s ease-in-out;
+        backface-visibility: hidden;
     }
 
     #map-point-10 {
@@ -3316,7 +3323,8 @@ main {
         grid-row: 5/7;
         grid-column: 9/11;
         /* animation */
-        animation: mobile-map-point-10 4s ease-in-out infinite;
+        animation: mobile-map-point-10 7s ease-in-out;
+        backface-visibility: hidden;
     }
 
     #map-point-11 {
@@ -3327,7 +3335,8 @@ main {
         grid-row: 8/10;
         grid-column: 9/11;
         /* animation */
-        animation: mobile-map-point-11 4s ease-in-out infinite;
+        animation: mobile-map-point-11 7s ease-in-out;
+        backface-visibility: hidden;
     }
 
     #map-point-12 {
@@ -3338,7 +3347,8 @@ main {
         grid-row: 10/12;
         grid-column: 8/10;
         /* animation */
-        animation: mobile-map-point-12 4s ease-in-out infinite;
+        animation: mobile-map-point-12 7s ease-in-out;
+        backface-visibility: hidden;
     }
 
     #map-point-13 {
@@ -3349,7 +3359,8 @@ main {
         grid-row: 8/10;
         grid-column: 6/8;
         /* animation */
-        animation: mobile-map-point-13 4s ease-in-out infinite;
+        animation: mobile-map-point-13 7s ease-in-out;
+        backface-visibility: hidden;
     }
 
     .point-descriptions {
