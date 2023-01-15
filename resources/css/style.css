@@ -2703,7 +2703,6 @@ main {
 }
 
 #map-point-01:hover,
-#map-point-01:active,
 .point-01-colored {
     /* background */
     background-image: url(../images/history/point-01-colored.svg) !important;
@@ -2724,7 +2723,6 @@ main {
 }
 
 #map-point-02:hover,
-#map-point-02:active,
 .point-02-colored {
     /* background */
     background-image: url(../images/history/point-02-colored.svg) !important;
@@ -2746,7 +2744,6 @@ main {
 }
 
 #map-point-03:hover,
-#map-point-03:active,
 .point-03-colored {
     /* background */
     background-image: url(../images/history/point-03-colored.svg) !important;
@@ -2767,7 +2764,6 @@ main {
 }
 
 #map-point-04:hover,
-#map-point-04:active,
 .point-04-colored {
     /* background */
     background-image: url(../images/history/point-04-colored.svg) !important;
@@ -2788,7 +2784,6 @@ main {
 }
 
 #map-point-05:hover,
-#map-point-05:active,
 .point-05-colored {
     /* background */
     background-image: url(../images/history/point-05-colored.svg) !important;
@@ -2809,7 +2804,6 @@ main {
 }
 
 #map-point-06:hover,
-#map-point-06:active,
 .point-06-colored {
     /* background */
     background-image: url(../images/history/point-06-colored.svg) !important;
@@ -2830,7 +2824,6 @@ main {
 }
 
 #map-point-07:hover,
-#map-point-07:active,
 .point-07-colored {
     /* background */
     background-image: url(../images/history/point-07-colored.svg) !important;
@@ -2851,7 +2844,6 @@ main {
 }
 
 #map-point-08:hover,
-#map-point-08:active,
 .point-08-colored {
     /* background */
     background-image: url(../images/history/point-08-colored.svg) !important;
@@ -2872,7 +2864,6 @@ main {
 }
 
 #map-point-09:hover,
-#map-point-09:active,
 .point-09-colored {
     /* background */
     background-image: url(../images/history/point-09-colored.svg) !important;
@@ -2893,7 +2884,6 @@ main {
 }
 
 #map-point-10:hover,
-#map-point-10:active,
 .point-10-colored {
     /* background */
     background-image: url(../images/history/point-10-colored.svg) !important;
@@ -2914,7 +2904,6 @@ main {
 }
 
 #map-point-11:hover,
-#map-point-11:active,
 .point-11-colored {
     /* background */
     background-image: url(../images/history/point-11-colored.svg) !important;
@@ -2935,7 +2924,6 @@ main {
 }
 
 #map-point-12:hover,
-#map-point-12:active,
 .point-12-colored {
     /* background */
     background-image: url(../images/history/point-12-colored.svg) !important;
@@ -2956,7 +2944,6 @@ main {
 }
 
 #map-point-13:hover,
-#map-point-13:active,
 .point-13-colored {
     /* background */
     background-image: url(../images/history/point-13-colored.svg) !important;
@@ -3138,6 +3125,8 @@ main {
     border-style: solid;
     /* position */
     position: absolute;
+    top: 51%; left: 50%;
+    transform: translate(-50%, -50%);
     display: none;
     place-items: center;
     z-index: 1;
@@ -3192,6 +3181,10 @@ main {
 
     #history-map {
         grid-row: 1/1;
+    }
+
+    .point-descriptions { 
+        top: 46%; left: 50%;
     }
 }
 
