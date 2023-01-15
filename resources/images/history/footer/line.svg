@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2593 30.78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="901.7" y1="15.39" x2="3494.7" y2="15.39" gradientTransform="translate(3494.7) rotate(-180) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8b7250"/>
+      <stop offset="1" stop-color="#493c2a"/>
+    </linearGradient>
+  </defs>
+  <g id="Warstwa_1" data-name="Warstwa 1">
+    <path class="cls-1" d="M2553.83,30.78c-40.35,0-80.7,0-121.04,0-105.3,0-210.59,0-315.89,0-146.63,0-293.26,0-439.89,0-164.34,0-328.69,0-493.03,0-158.44,0-316.88,0-475.31,0-128.92,0-257.83,0-386.75,0-75.77,0-151.55,0-227.32,0-10.58,0-21.16,0-31.74,0-2.57,0-62.86-7.7-62.86-15.39S60.28,0,62.86,0c40.35,0,80.7,0,121.04,0,105.3,0,210.59,0,315.89,0,146.63,0,293.26,0,439.89,0,164.34,0,328.69,0,493.03,0,158.44,0,316.88,0,475.31,0,128.92,0,257.83,0,386.75,0,75.77,0,151.55,0,227.32,0,10.58,0,21.16,0,31.74,0,2.57,0,39.17,7.7,39.17,15.39s-36.59,15.39-39.17,15.39h0Z"/>
+  </g>
+</svg>

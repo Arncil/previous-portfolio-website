@@ -227,6 +227,178 @@
     }
 }
 
+@keyframes mobile-map-point-01 {
+    0% {
+        background-image: url(../images/history/point-01-colored.svg);
+    }
+
+    50% {
+        background-image: url(../images/history/point-01.svg);
+    }
+
+    100% {
+        background-image: url(../images/history/point-01-colored.svg);
+    }
+}
+
+@keyframes mobile-map-point-02 {
+    0% {
+        background-image: url(../images/history/point-02-colored.svg);
+    }
+
+    50% {
+        background-image: url(../images/history/point-02.svg);
+    }
+
+    100% {
+        background-image: url(../images/history/point-02-colored.svg);
+    }
+}
+
+@keyframes mobile-map-point-03 {
+    0% {
+        background-image: url(../images/history/point-03-colored.svg);
+    }
+
+    50% {
+        background-image: url(../images/history/point-03.svg);
+    }
+
+    100% {
+        background-image: url(../images/history/point-03-colored.svg);
+    }
+}
+@keyframes mobile-map-point-04 {
+    0% {
+        background-image: url(../images/history/point-04-colored.svg);
+    }
+
+    50% {
+        background-image: url(../images/history/point-04.svg);
+    }
+
+    100% {
+        background-image: url(../images/history/point-04-colored.svg);
+    }
+}
+@keyframes mobile-map-point-05 {
+    0% {
+        background-image: url(../images/history/point-05-colored.svg);
+    }
+
+    50% {
+        background-image: url(../images/history/point-05.svg);
+    }
+
+    100% {
+        background-image: url(../images/history/point-05-colored.svg);
+    }
+}
+@keyframes mobile-map-point-06 {
+    0% {
+        background-image: url(../images/history/point-06-colored.svg);
+    }
+
+    50% {
+        background-image: url(../images/history/point-06.svg);
+    }
+
+    100% {
+        background-image: url(../images/history/point-06-colored.svg);
+    }
+}
+@keyframes mobile-map-point-07 {
+    0% {
+        background-image: url(../images/history/point-07-colored.svg);
+    }
+
+    50% {
+        background-image: url(../images/history/point-07.svg);
+    }
+
+    100% {
+        background-image: url(../images/history/point-07-colored.svg);
+    }
+}
+@keyframes mobile-map-point-08 {
+    0% {
+        background-image: url(../images/history/point-08-colored.svg);
+    }
+
+    50% {
+        background-image: url(../images/history/point-08.svg);
+    }
+
+    100% {
+        background-image: url(../images/history/point-08-colored.svg);
+    }
+}
+@keyframes mobile-map-point-09 {
+    0% {
+        background-image: url(../images/history/point-09-colored.svg);
+    }
+
+    50% {
+        background-image: url(../images/history/point-09.svg);
+    }
+
+    100% {
+        background-image: url(../images/history/point-09-colored.svg);
+    }
+}
+@keyframes mobile-map-point-10 {
+    0% {
+        background-image: url(../images/history/point-10-colored.svg);
+    }
+
+    50% {
+        background-image: url(../images/history/point-10.svg);
+    }
+
+    100% {
+        background-image: url(../images/history/point-10-colored.svg);
+    }
+}
+@keyframes mobile-map-point-11 {
+    0% {
+        background-image: url(../images/history/point-11-colored.svg);
+    }
+
+    50% {
+        background-image: url(../images/history/point-11.svg);
+    }
+
+    100% {
+        background-image: url(../images/history/point-11-colored.svg);
+    }
+}
+@keyframes mobile-map-point-12 {
+    0% {
+        background-image: url(../images/history/point-12-colored.svg);
+    }
+
+    50% {
+        background-image: url(../images/history/point-12.svg);
+    }
+
+    100% {
+        background-image: url(../images/history/point-12-colored.svg);
+    }
+}
+@keyframes mobile-map-point-13 {
+    0% {
+        background-image: url(../images/history/point-13-colored.svg);
+    }
+
+    50% {
+        background-image: url(../images/history/point-13.svg);
+    }
+
+    100% {
+        background-image: url(../images/history/point-13-colored.svg);
+    }
+}
+
 @keyframes jello-horizontal {
     0% {
         transform: scale3d(1, 1, 1);
@@ -955,6 +1127,7 @@ main {
     /* animation */
     transition: all 0.5s;
 }
+
 
 #character-description h1 {
     /* box model */
@@ -2492,29 +2665,6 @@ main {
     grid-template-rows: 10vmin 1fr 8vmin;
 }
 
-#history-nav {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    min-height: 8vmin;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    /* background */
-    background-color: var(--color-red-100);
-    background-image: url(../images/background-images/menu-background-fill.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* border */
-    border-image-source: url(../images/frames/page-background-frame.png);
-    border-image-slice: 8%;
-    border-image-width: 0.5vmin;
-    border-image-repeat: round;
-    border-style: solid;
-}
-
 #history-map {
     grid-row: 2/2;
     width: 92vmin;
@@ -2535,12 +2685,8 @@ main {
     background-repeat: no-repeat;
     /* animation */
     transition: background-image 1.5s, transform 1.5s;
-}
-
-.map-point:hover,
-.map-point:active {
-    /* animation */
-    transform: scale(1.4);
+    /* other */
+    cursor: pointer;
 }
 
 #map-point-01 {
@@ -2557,9 +2703,11 @@ main {
 }
 
 #map-point-01:hover,
-#map-point-01:active {
+#map-point-01:active,
+.point-01-colored {
     /* background */
-    background-image: url(../images/history/point-01-colored.svg);
+    background-image: url(../images/history/point-01-colored.svg) !important;
+    transform: scale(1.4);
 }
 
 #map-point-02 {
@@ -2576,9 +2724,11 @@ main {
 }
 
 #map-point-02:hover,
-#map-point-02:active {
+#map-point-02:active,
+.point-02-colored {
     /* background */
-    background-image: url(../images/history/point-02-colored.svg);
+    background-image: url(../images/history/point-02-colored.svg) !important;
+    transform: scale(1.4);
 }
 
 
@@ -2596,9 +2746,11 @@ main {
 }
 
 #map-point-03:hover,
-#map-point-03:active {
+#map-point-03:active,
+.point-03-colored {
     /* background */
-    background-image: url(../images/history/point-03-colored.svg);
+    background-image: url(../images/history/point-03-colored.svg) !important;
+    transform: scale(1.4);
 }
 
 #map-point-04 {
@@ -2615,9 +2767,11 @@ main {
 }
 
 #map-point-04:hover,
-#map-point-04:active {
+#map-point-04:active,
+.point-04-colored {
     /* background */
-    background-image: url(../images/history/point-04-colored.svg);
+    background-image: url(../images/history/point-04-colored.svg) !important;
+    transform: scale(1.4);
 }
 
 #map-point-05 {
@@ -2634,9 +2788,11 @@ main {
 }
 
 #map-point-05:hover,
-#map-point-05:active {
+#map-point-05:active,
+.point-05-colored {
     /* background */
-    background-image: url(../images/history/point-05-colored.svg);
+    background-image: url(../images/history/point-05-colored.svg) !important;
+    transform: scale(1.4);
 }
 
 #map-point-06 {
@@ -2653,9 +2809,11 @@ main {
 }
 
 #map-point-06:hover,
-#map-point-06:active {
+#map-point-06:active,
+.point-06-colored {
     /* background */
-    background-image: url(../images/history/point-06-colored.svg);
+    background-image: url(../images/history/point-06-colored.svg) !important;
+    transform: scale(1.4);
 }
 
 #map-point-07 {
@@ -2672,9 +2830,11 @@ main {
 }
 
 #map-point-07:hover,
-#map-point-07:active {
+#map-point-07:active,
+.point-07-colored {
     /* background */
-    background-image: url(../images/history/point-07-colored.svg);
+    background-image: url(../images/history/point-07-colored.svg) !important;
+    transform: scale(1.4);
 }
 
 #map-point-08 {
@@ -2691,9 +2851,11 @@ main {
 }
 
 #map-point-08:hover,
-#map-point-08:active {
+#map-point-08:active,
+.point-08-colored {
     /* background */
-    background-image: url(../images/history/point-08-colored.svg);
+    background-image: url(../images/history/point-08-colored.svg) !important;
+    transform: scale(1.4);
 }
 
 #map-point-09 {
@@ -2710,9 +2872,11 @@ main {
 }
 
 #map-point-09:hover,
-#map-point-09:active {
+#map-point-09:active,
+.point-09-colored {
     /* background */
-    background-image: url(../images/history/point-09-colored.svg);
+    background-image: url(../images/history/point-09-colored.svg) !important;
+    transform: scale(1.4);
 }
 
 #map-point-10 {
@@ -2729,9 +2893,11 @@ main {
 }
 
 #map-point-10:hover,
-#map-point-10:active {
+#map-point-10:active,
+.point-10-colored {
     /* background */
-    background-image: url(../images/history/point-10-colored.svg);
+    background-image: url(../images/history/point-10-colored.svg) !important;
+    transform: scale(1.4);
 }
 
 #map-point-11 {
@@ -2748,9 +2914,11 @@ main {
 }
 
 #map-point-11:hover,
-#map-point-11:active {
+#map-point-11:active,
+.point-11-colored {
     /* background */
-    background-image: url(../images/history/point-11-colored.svg);
+    background-image: url(../images/history/point-11-colored.svg) !important;
+    transform: scale(1.4);
 }
 
 #map-point-12 {
@@ -2767,9 +2935,11 @@ main {
 }
 
 #map-point-12:hover,
-#map-point-12:active {
+#map-point-12:active,
+.point-12-colored {
     /* background */
-    background-image: url(../images/history/point-12-colored.svg);
+    background-image: url(../images/history/point-12-colored.svg) !important;
+    transform: scale(1.4);
 }
 
 #map-point-13 {
@@ -2786,9 +2956,230 @@ main {
 }
 
 #map-point-13:hover,
-#map-point-13:active {
+#map-point-13:active,
+.point-13-colored {
     /* background */
-    background-image: url(../images/history/point-13-colored.svg);
+    background-image: url(../images/history/point-13-colored.svg) !important;
+    transform: scale(1.4);
+}
+
+#history-nav {
+    /* box model */
+    width: 100%;
+    height: 8vmin;
+    /* position */
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(16, 1fr);
+    /* background */
+    background-color: var(--color-red-100);
+    background-image: url(../images/background-images/menu-background-fill.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border */
+    border-image-source: url(../images/frames/page-background-frame.png);
+    border-image-slice: 8%;
+    border-image-width: 0.8vmin;
+    border-image-repeat: round;
+    border-style: solid;
+}
+
+#history-nav-arrow {
+    grid-row: 1/6;
+    grid-column: 14/15;
+    height: 5vmin;
+    width: 8vmin;
+    background-image: url(../images/history/footer/arrow.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#history-nav-dates {
+    grid-row: 4/6;
+    grid-column: 2/14;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#history-nav-date-marks {
+    grid-row: 3/3;
+    grid-column: 2/14;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.date-mark {
+    height: 1.5vmin;
+    width: 0.5vmin;
+    background-image: url(../images/history/footer/date-mark.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#history-nav-dates p {
+    font-size: var(--font-size-200);
+}
+
+#history-nav-line {
+    grid-row: 1/6;
+    grid-column: 2/14;
+    height: 0.5vmin;
+    width: 90vw;
+    background-image: url(../images/history/footer/line.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#history-nav-marks {
+    position: absolute;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    place-items: center;
+    width: 100%;
+}
+
+.time-marks {
+    width: 1.5vmin;
+    height: 4vmin;
+    background-image: url(../images/history/footer/mark.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.5s;
+    z-index: 2;
+    /* other */
+    cursor: pointer;
+}
+
+.time-marks:hover,
+.time-marks-hover {
+    transform: scale(1.3);
+}
+
+#time-mark-01 {
+    grid-column: 2/2;
+}
+
+#time-mark-02 {
+    grid-column: 5/5;
+}
+
+#time-mark-03 {
+    grid-column: 10/10;
+}
+
+#time-mark-04 {
+    grid-column: 11/11;
+}
+
+#time-mark-05 {
+    grid-column: 12/12;
+}
+
+#time-mark-06 {
+    grid-column: 15/15;
+}
+
+#time-mark-07 {
+    grid-column: 18/18;
+}
+
+#time-mark-08 {
+    grid-column: 19/19;
+}
+
+#time-mark-09 {
+    grid-column: 21/21;
+}
+
+#time-mark-10 {
+    grid-column: 22/22;
+}
+
+#time-mark-11 {
+    grid-column: 24/24;
+}
+
+#time-mark-12 {
+    grid-column: 25/25;
+}
+
+#time-mark-13 {
+    grid-column: 27/27;
+}
+
+.point-descriptions {
+    /* box model */
+    width: 80vmin;
+    height: 80vmin;
+    /* background */
+    background-image: url(../images/background-images/black-background-blur.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border */
+    border-image-source: url(../images/frames/page-background-frame.png);
+    border-image-slice: 8%;
+    border-image-width: 1vmin;
+    border-image-repeat: round;
+    border-style: solid;
+    /* position */
+    position: absolute;
+    display: none;
+    place-items: center;
+    z-index: 1;
+    /* animation */
+    transition: all 0.5s;
+    /* other */
+    overflow: scroll;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+
+}
+
+.point-descriptions::-webkit-scrollbar {
+    /* position */
+    display: none;
+    /* Chrome, Safari, and Opera */
+}
+
+.point-descriptions::before {
+    /* box model */
+    content: '';
+    width: 78vmin;
+    height: 78vmin;
+    /* border */
+    border-image-source: url(../images/frames/page-frame.png);
+    border-image-slice: 35%;
+    border-image-width: 15vmin;
+    border-image-repeat: round;
+    border-style: solid;
+    /* position */
+    position: absolute;
+    transform: translateZ(-1px);
+    /* animation */
+    transition: all 0.5s;
+}
+
+.back-to-map {
+    width: 20vmin;
+    height: 5vmin;
+    font-size: var(--font-size-200);
 }
 
 /* 🏺🏺🏺🏺🏺🏺🏺🏺🏺🏺🏺 */
@@ -2830,7 +3221,10 @@ main {
         /* position */
         grid-row: 11/11;
         grid-column: 2/4;
+        /* animation */
+        animation: mobile-map-point-01 4s ease-in-out infinite;
     }
+
     #map-point-02 {
         /* box model */
         width: 16vmin;
@@ -2838,7 +3232,10 @@ main {
         /* position */
         grid-row: 9/11;
         grid-column: 4/6;
+        /* animation */
+        animation: mobile-map-point-02 4s ease-in-out infinite;
     }
+
     #map-point-03 {
         /* box model */
         width: 11vmin;
@@ -2846,7 +3243,10 @@ main {
         /* position */
         grid-row: 7/9;
         grid-column: 2/4;
+        /* animation */
+        animation: mobile-map-point-03 4s ease-in-out infinite;
     }
+
     #map-point-04 {
         /* box model */
         width: 10vmin;
@@ -2854,15 +3254,21 @@ main {
         /* position */
         grid-row: 5/7;
         grid-column: 3/5;
+        /* animation */
+        animation: mobile-map-point-04 4s ease-in-out infinite;
     }
+
     #map-point-05 {
         /* box model */
-        width: 23vmin;
+        width: 25vmin;
         height: 17vmin;
         /* position */
         grid-row: 2/4;
         grid-column: 2/5;
+        /* animation */
+        animation: mobile-map-point-05 4s ease-in-out infinite;
     }
+
     #map-point-06 {
         /* box model */
         width: 18vmin;
@@ -2870,7 +3276,10 @@ main {
         /* position */
         grid-row: 6/8;
         grid-column: 6/8;
+        /* animation */
+        animation: mobile-map-point-06 4s ease-in-out infinite;
     }
+
     #map-point-07 {
         /* box model */
         width: 17vmin;
@@ -2878,7 +3287,10 @@ main {
         /* position */
         grid-row: 4/6;
         grid-column: 5/8;
+        /* animation */
+        animation: mobile-map-point-07 4s ease-in-out infinite;
     }
+
     #map-point-08 {
         /* box model */
         width: 17vmin;
@@ -2886,7 +3298,10 @@ main {
         /* position */
         grid-row: 2/4;
         grid-column: 5/9;
+        /* animation */
+        animation: mobile-map-point-08 4s ease-in-out infinite;
     }
+
     #map-point-09 {
         /* box model */
         width: 23vmin;
@@ -2894,7 +3309,10 @@ main {
         /* position */
         grid-row: 2/5;
         grid-column: 9/12;
+        /* animation */
+        animation: mobile-map-point-09 4s ease-in-out infinite;
     }
+
     #map-point-10 {
         /* box model */
         width: 12vmin;
@@ -2902,7 +3320,10 @@ main {
         /* position */
         grid-row: 5/7;
         grid-column: 9/11;
+        /* animation */
+        animation: mobile-map-point-10 4s ease-in-out infinite;
     }
+
     #map-point-11 {
         /* box model */
         width: 16vmin;
@@ -2910,7 +3331,10 @@ main {
         /* position */
         grid-row: 8/10;
         grid-column: 9/11;
+        /* animation */
+        animation: mobile-map-point-11 4s ease-in-out infinite;
     }
+
     #map-point-12 {
         /* box model */
         width: 15vmin;
@@ -2918,7 +3342,10 @@ main {
         /* position */
         grid-row: 10/12;
         grid-column: 8/10;
+        /* animation */
+        animation: mobile-map-point-12 4s ease-in-out infinite;
     }
+
     #map-point-13 {
         /* box model */
         width: 12vmin;
@@ -2926,5 +3353,33 @@ main {
         /* position */
         grid-row: 8/10;
         grid-column: 6/8;
+        /* animation */
+        animation: mobile-map-point-13 4s ease-in-out infinite;
+    }
+
+    .point-descriptions {
+        /* box model */
+        width: 80vmin;
+        height: 130vmin;
+        /* border */
+        border-image-slice: 6%;
+        border-image-width: 1.5vmin;
+    }
+
+    .point-descriptions::before {
+        /* box model */
+        width: 76vmin;
+        height: 126vmin;
+    }
+
+    .time-marks {
+        width: 2vmin;
+        height: 7vmin;
+    }
+
+    .back-to-map {
+        width: 30vmin;
+        height: 8vmin;
+        font-size: var(--font-size-300);
     }
 }
