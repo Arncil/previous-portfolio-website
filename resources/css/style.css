@@ -3004,6 +3004,21 @@ main {
     font-size: var(--font-size-200);
 }
 
+#history-start {
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr;
+}
+
+#history-start p {
+    font-size: var(--font-size-300);
+    width: 80%;
+    text-align: center;
+}
+
+#history-start-button {
+    font-size: var(--font-size-300);
+}
+
 /* 🏺🏺🏺🏺🏺🏺🏺🏺🏺🏺🏺 */
 /* 🏺🏺🏺 HISTORY  🏺🏺🏺 */
 /* 💻  MEDIUM   SCREEN 💻 */
@@ -3039,6 +3054,11 @@ main {
 
     #history-nav {
         min-height: 15vmin;
+    }
+
+    .map-point {
+        /* animation */
+        transition: none
     }
 
     #map-point-01 {
@@ -3247,5 +3267,12 @@ main {
         width: 30vmin;
         height: 8vmin;
         font-size: var(--font-size-300);
+    }
+    #history-start p {
+        font-size: var(--font-size-400);
+    }
+    
+    #history-start-button {
+        font-size: var(--font-size-400);
     }
 }

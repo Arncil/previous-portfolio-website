@@ -54,6 +54,12 @@ const back11 = document.getElementById("back-to-map-11")
 const back12 = document.getElementById("back-to-map-12")
 const back13 = document.getElementById("back-to-map-13")
 
+const start = document.getElementById("history-start")
+const startButton = document.getElementById("history-start-button")
+
+startButton.addEventListener('click', () => {
+    start.style.display = "none"
+})
 
 mark01.addEventListener('mouseover', () => {
     point01.classList.add('map-point-hover')
