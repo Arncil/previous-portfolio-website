@@ -230,14 +230,17 @@
 @keyframes mobile-map-point-01 {
     0% {
         background-image: url(../images/history/point-01-colored.svg);
+        transform: scale(1);
     }
 
     50% {
         background-image: url(../images/history/point-01.svg);
+        transform: scale(1);
     }
 
     100% {
         background-image: url(../images/history/point-01-colored.svg);
+        transform: scale(1);
     }
 }
 
