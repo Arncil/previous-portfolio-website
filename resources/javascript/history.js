@@ -246,6 +246,8 @@ mark01.addEventListener('click', () => {
 })
 back01.addEventListener('click', () => {
     article01.style.display = "none"
+    point01.classList.add('point-01-colored')
+    point01.classList.remove('mobile-animation-jello')
 })
 
 point02.addEventListener('click', () => {
@@ -268,6 +270,8 @@ mark02.addEventListener('click', () => {
 })
 back02.addEventListener('click', () => {
     article02.style.display = "none"
+    point02.classList.add('point-02-colored')
+    point02.classList.remove('mobile-animation-jello')
 })
 
 point03.addEventListener('click', () => {
@@ -290,6 +294,8 @@ mark03.addEventListener('click', () => {
 })
 back03.addEventListener('click', () => {
     article03.style.display = "none"
+    point03.classList.add('point-03-colored')
+    point03.classList.remove('mobile-animation-jello')
 })
 
 point04.addEventListener('click', () => {
@@ -312,6 +318,8 @@ mark04.addEventListener('click', () => {
 })
 back04.addEventListener('click', () => {
     article04.style.display = "none"
+    point04.classList.add('point-04-colored')
+    point04.classList.remove('mobile-animation-jello')
 })
 
 point05.addEventListener('click', () => {
@@ -334,6 +342,8 @@ mark05.addEventListener('click', () => {
 })
 back05.addEventListener('click', () => {
     article05.style.display = "none"
+    point05.classList.add('point-05-colored')
+    point05.classList.remove('mobile-animation-jello')
 })
 
 point06.addEventListener('click', () => {
@@ -356,6 +366,8 @@ mark06.addEventListener('click', () => {
 })
 back06.addEventListener('click', () => {
     article06.style.display = "none"
+    point06.classList.add('point-06-colored')
+    point06.classList.remove('mobile-animation-jello')
 })
 
 point07.addEventListener('click', () => {
@@ -378,6 +390,8 @@ mark07.addEventListener('click', () => {
 })
 back07.addEventListener('click', () => {
     article07.style.display = "none"
+    point07.classList.add('point-07-colored')
+    point07.classList.remove('mobile-animation-jello')
 })
 
 point08.addEventListener('click', () => {
@@ -400,6 +414,8 @@ mark08.addEventListener('click', () => {
 })
 back08.addEventListener('click', () => {
     article08.style.display = "none"
+    point08.classList.add('point-08-colored')
+    point08.classList.remove('mobile-animation-jello')
 })
 
 point09.addEventListener('click', () => {
@@ -422,6 +438,8 @@ mark09.addEventListener('click', () => {
 })
 back09.addEventListener('click', () => {
     article09.style.display = "none"
+    point09.classList.add('point-09-colored')
+    point09.classList.remove('mobile-animation-jello')
 })
 
 point10.addEventListener('click', () => {
@@ -444,6 +462,8 @@ mark10.addEventListener('click', () => {
 })
 back10.addEventListener('click', () => {
     article10.style.display = "none"
+    point10.classList.add('point-10-colored')
+    point10.classList.remove('mobile-animation-jello')
 })
 
 point11.addEventListener('click', () => {
@@ -466,6 +486,8 @@ mark11.addEventListener('click', () => {
 })
 back11.addEventListener('click', () => {
     article11.style.display = "none"
+    point11.classList.add('point-11-colored')
+    point11.classList.remove('mobile-animation-jello')
 })
 
 point12.addEventListener('click', () => {
@@ -488,6 +510,8 @@ mark12.addEventListener('click', () => {
 })
 back12.addEventListener('click', () => {
     article12.style.display = "none"
+    point12.classList.add('point-12-colored')
+    point12.classList.remove('mobile-animation-jello')
 })
 
 point13.addEventListener('click', () => {
@@ -510,4 +534,6 @@ mark13.addEventListener('click', () => {
 })
 back13.addEventListener('click', () => {
     article13.style.display = "none"
+    point13.classList.add('point-13-colored')
+    point13.classList.remove('mobile-animation-jello')
 })

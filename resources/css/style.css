@@ -227,178 +227,6 @@
     }
 }
 
-@keyframes mobile-map-point-01 {
-    0% {
-        background-image: url(../images/history/point-01-colored.svg);
-    }
-
-    50% {
-        background-image: url(../images/history/point-01.svg);
-    }
-
-    100% {
-        background-image: url(../images/history/point-01-colored.svg);
-    }
-}
-
-@keyframes mobile-map-point-02 {
-    0% {
-        background-image: url(../images/history/point-02-colored.svg);
-    }
-
-    50% {
-        background-image: url(../images/history/point-02.svg);
-    }
-
-    100% {
-        background-image: url(../images/history/point-02-colored.svg);
-    }
-}
-
-@keyframes mobile-map-point-03 {
-    0% {
-        background-image: url(../images/history/point-03-colored.svg);
-    }
-
-    50% {
-        background-image: url(../images/history/point-03.svg);
-    }
-
-    100% {
-        background-image: url(../images/history/point-03-colored.svg);
-    }
-}
-@keyframes mobile-map-point-04 {
-    0% {
-        background-image: url(../images/history/point-04-colored.svg);
-    }
-
-    50% {
-        background-image: url(../images/history/point-04.svg);
-    }
-
-    100% {
-        background-image: url(../images/history/point-04-colored.svg);
-    }
-}
-@keyframes mobile-map-point-05 {
-    0% {
-        background-image: url(../images/history/point-05-colored.svg);
-    }
-
-    50% {
-        background-image: url(../images/history/point-05.svg);
-    }
-
-    100% {
-        background-image: url(../images/history/point-05-colored.svg);
-    }
-}
-@keyframes mobile-map-point-06 {
-    0% {
-        background-image: url(../images/history/point-06-colored.svg);
-    }
-
-    50% {
-        background-image: url(../images/history/point-06.svg);
-    }
-
-    100% {
-        background-image: url(../images/history/point-06-colored.svg);
-    }
-}
-@keyframes mobile-map-point-07 {
-    0% {
-        background-image: url(../images/history/point-07-colored.svg);
-    }
-
-    50% {
-        background-image: url(../images/history/point-07.svg);
-    }
-
-    100% {
-        background-image: url(../images/history/point-07-colored.svg);
-    }
-}
-@keyframes mobile-map-point-08 {
-    0% {
-        background-image: url(../images/history/point-08-colored.svg);
-    }
-
-    50% {
-        background-image: url(../images/history/point-08.svg);
-    }
-
-    100% {
-        background-image: url(../images/history/point-08-colored.svg);
-    }
-}
-@keyframes mobile-map-point-09 {
-    0% {
-        background-image: url(../images/history/point-09-colored.svg);
-    }
-
-    50% {
-        background-image: url(../images/history/point-09.svg);
-    }
-
-    100% {
-        background-image: url(../images/history/point-09-colored.svg);
-    }
-}
-@keyframes mobile-map-point-10 {
-    0% {
-        background-image: url(../images/history/point-10-colored.svg);
-    }
-
-    50% {
-        background-image: url(../images/history/point-10.svg);
-    }
-
-    100% {
-        background-image: url(../images/history/point-10-colored.svg);
-    }
-}
-@keyframes mobile-map-point-11 {
-    0% {
-        background-image: url(../images/history/point-11-colored.svg);
-    }
-
-    50% {
-        background-image: url(../images/history/point-11.svg);
-    }
-
-    100% {
-        background-image: url(../images/history/point-11-colored.svg);
-    }
-}
-@keyframes mobile-map-point-12 {
-    0% {
-        background-image: url(../images/history/point-12-colored.svg);
-    }
-
-    50% {
-        background-image: url(../images/history/point-12.svg);
-    }
-
-    100% {
-        background-image: url(../images/history/point-12-colored.svg);
-    }
-}
-@keyframes mobile-map-point-13 {
-    0% {
-        background-image: url(../images/history/point-13-colored.svg);
-    }
-
-    50% {
-        background-image: url(../images/history/point-13.svg);
-    }
-
-    100% {
-        background-image: url(../images/history/point-13-colored.svg);
-    }
-}
-
 @keyframes jello-horizontal {
     0% {
         transform: scale3d(1, 1, 1);
@@ -2706,7 +2534,6 @@ main {
 .point-01-colored {
     /* background */
     background-image: url(../images/history/point-01-colored.svg) !important;
-    transform: scale(1.4);
 }
 
 #map-point-02 {
@@ -2726,7 +2553,6 @@ main {
 .point-02-colored {
     /* background */
     background-image: url(../images/history/point-02-colored.svg) !important;
-    transform: scale(1.4);
 }
 
 
@@ -2747,7 +2573,6 @@ main {
 .point-03-colored {
     /* background */
     background-image: url(../images/history/point-03-colored.svg) !important;
-    transform: scale(1.4);
 }
 
 #map-point-04 {
@@ -2767,7 +2592,6 @@ main {
 .point-04-colored {
     /* background */
     background-image: url(../images/history/point-04-colored.svg) !important;
-    transform: scale(1.4);
 }
 
 #map-point-05 {
@@ -2787,7 +2611,6 @@ main {
 .point-05-colored {
     /* background */
     background-image: url(../images/history/point-05-colored.svg) !important;
-    transform: scale(1.4);
 }
 
 #map-point-06 {
@@ -2807,7 +2630,6 @@ main {
 .point-06-colored {
     /* background */
     background-image: url(../images/history/point-06-colored.svg) !important;
-    transform: scale(1.4);
 }
 
 #map-point-07 {
@@ -2827,7 +2649,6 @@ main {
 .point-07-colored {
     /* background */
     background-image: url(../images/history/point-07-colored.svg) !important;
-    transform: scale(1.4);
 }
 
 #map-point-08 {
@@ -2847,7 +2668,6 @@ main {
 .point-08-colored {
     /* background */
     background-image: url(../images/history/point-08-colored.svg) !important;
-    transform: scale(1.4);
 }
 
 #map-point-09 {
@@ -2867,7 +2687,6 @@ main {
 .point-09-colored {
     /* background */
     background-image: url(../images/history/point-09-colored.svg) !important;
-    transform: scale(1.4);
 }
 
 #map-point-10 {
@@ -2887,7 +2706,6 @@ main {
 .point-10-colored {
     /* background */
     background-image: url(../images/history/point-10-colored.svg) !important;
-    transform: scale(1.4);
 }
 
 #map-point-11 {
@@ -2907,7 +2725,6 @@ main {
 .point-11-colored {
     /* background */
     background-image: url(../images/history/point-11-colored.svg) !important;
-    transform: scale(1.4);
 }
 
 #map-point-12 {
@@ -2927,7 +2744,6 @@ main {
 .point-12-colored {
     /* background */
     background-image: url(../images/history/point-12-colored.svg) !important;
-    transform: scale(1.4);
 }
 
 #map-point-13 {
@@ -2947,7 +2763,10 @@ main {
 .point-13-colored {
     /* background */
     background-image: url(../images/history/point-13-colored.svg) !important;
-    transform: scale(1.4);
+}
+
+.mobile-animation-jello {
+    animation: jello-horizontal 5s both infinite !important;
 }
 
 #history-nav {
@@ -3214,9 +3033,6 @@ main {
         /* position */
         grid-row: 11/11;
         grid-column: 2/4;
-        /* animation */
-        animation: mobile-map-point-01 7s ease-in-out;
-        backface-visibility: hidden;
     }
 
     #map-point-02 {
@@ -3226,9 +3042,6 @@ main {
         /* position */
         grid-row: 9/11;
         grid-column: 4/6;
-        /* animation */
-        animation: mobile-map-point-02 7s ease-in-out ;
-        backface-visibility: hidden;
     }
 
     #map-point-03 {
@@ -3238,9 +3051,6 @@ main {
         /* position */
         grid-row: 7/9;
         grid-column: 2/4;
-        /* animation */
-        animation: mobile-map-point-03 7s ease-in-out;
-        backface-visibility: hidden;
     }
 
     #map-point-04 {
@@ -3250,9 +3060,6 @@ main {
         /* position */
         grid-row: 5/7;
         grid-column: 3/5;
-        /* animation */
-        animation: mobile-map-point-04 7s ease-in-out;
-        backface-visibility: hidden;
     }
 
     #map-point-05 {
@@ -3262,9 +3069,6 @@ main {
         /* position */
         grid-row: 2/4;
         grid-column: 2/5;
-        /* animation */
-        animation: mobile-map-point-05 7s ease-in-out;
-        backface-visibility: hidden;
     }
 
     #map-point-06 {
@@ -3274,9 +3078,6 @@ main {
         /* position */
         grid-row: 6/8;
         grid-column: 6/8;
-        /* animation */
-        animation: mobile-map-point-06 7s ease-in-out;
-        backface-visibility: hidden;
     }
 
     #map-point-07 {
@@ -3286,9 +3087,6 @@ main {
         /* position */
         grid-row: 4/6;
         grid-column: 5/8;
-        /* animation */
-        animation: mobile-map-point-07 7s ease-in-out;
-        backface-visibility: hidden;
     }
 
     #map-point-08 {
@@ -3298,9 +3096,6 @@ main {
         /* position */
         grid-row: 2/4;
         grid-column: 5/9;
-        /* animation */
-        animation: mobile-map-point-08 7s ease-in-out;
-        backface-visibility: hidden;
     }
 
     #map-point-09 {
@@ -3310,9 +3105,6 @@ main {
         /* position */
         grid-row: 2/5;
         grid-column: 9/12;
-        /* animation */
-        animation: mobile-map-point-09 7s ease-in-out;
-        backface-visibility: hidden;
     }
 
     #map-point-10 {
@@ -3322,9 +3114,6 @@ main {
         /* position */
         grid-row: 5/7;
         grid-column: 9/11;
-        /* animation */
-        animation: mobile-map-point-10 7s ease-in-out;
-        backface-visibility: hidden;
     }
 
     #map-point-11 {
@@ -3334,9 +3123,6 @@ main {
         /* position */
         grid-row: 8/10;
         grid-column: 9/11;
-        /* animation */
-        animation: mobile-map-point-11 7s ease-in-out;
-        backface-visibility: hidden;
     }
 
     #map-point-12 {
@@ -3346,9 +3132,6 @@ main {
         /* position */
         grid-row: 10/12;
         grid-column: 8/10;
-        /* animation */
-        animation: mobile-map-point-12 7s ease-in-out;
-        backface-visibility: hidden;
     }
 
     #map-point-13 {
@@ -3358,9 +3141,6 @@ main {
         /* position */
         grid-row: 8/10;
         grid-column: 6/8;
-        /* animation */
-        animation: mobile-map-point-13 7s ease-in-out;
-        backface-visibility: hidden;
     }
 
     .point-descriptions {
