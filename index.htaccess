@@ -32,6 +32,11 @@
     </header>
     <script src="/resources/javascript/mobileSizeFix.js"></script>
     <script src="/resources/javascript/language.js"></script>
+    <script type="text/javascript">
+        window.onload = () => {
+            alert('The selected page does not exist, you have been redirected to the home page.')
+        }
+    </script>
 </body>
 
 </html>
