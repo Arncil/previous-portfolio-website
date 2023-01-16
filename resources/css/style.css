@@ -3172,7 +3172,7 @@ main {
 
     .map-point {
         /* animation */
-        transition: none
+        transition: none !important;
     }
 
     #map-point-01 {
