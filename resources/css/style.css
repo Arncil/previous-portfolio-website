@@ -633,7 +633,7 @@ main {
 /* ◀️◀️ CLASS: SIDE-MENU ◀️◀️ */
 .side-menu {
     /* box model */
-    width: 70vw;
+    width: 80vw;
     height: 100%;
     /* background */
     background-color: var(--color-red-100);
@@ -672,7 +672,7 @@ main {
 
 .side-menu li {
     /* box model */
-    width: 42vmin;
+    width: 60vmin;
     height: 7vmin;
     /* position */
     display: grid;
@@ -711,7 +711,7 @@ main {
 
     .side-menu li {
         /* box model */
-        width: 52vmin;
+        width: 62vmin;
         height: 10vmin;
     }
 
