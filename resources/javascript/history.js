@@ -439,6 +439,7 @@ back01.addEventListener('click', () => {
     article01.style.display = "none"
     point01.classList.add('map-point-01-colored')
     point01.classList.remove('mobile-animation-jello')
+    point01.style.animation = "none !important"
     usedBack01 = true
     triggerEndNote()
 })
@@ -476,6 +477,7 @@ back02.addEventListener('click', () => {
     article02.style.display = "none"
     point02.classList.add('map-point-02-colored')
     point02.classList.remove('mobile-animation-jello')
+    point02.style.animation = "none !important"
     usedBack02 = true
     triggerEndNote()
 })
@@ -513,6 +515,7 @@ back03.addEventListener('click', () => {
     article03.style.display = "none"
     point03.classList.add('map-point-03-colored')
     point03.classList.remove('mobile-animation-jello')
+    point03.style.animation = "none !important"
     usedBack03 = true
     triggerEndNote()
 })
@@ -552,6 +555,7 @@ back04.addEventListener('click', () => {
     article04.style.display = "none"
     point04.classList.add('map-point-04-colored')
     point04.classList.remove('mobile-animation-jello')
+    point04.style.animation = "none !important"
     usedBack04 = true
     triggerEndNote()
 })
@@ -589,6 +593,7 @@ back05.addEventListener('click', () => {
     article05.style.display = "none"
     point05.classList.add('map-point-05-colored')
     point05.classList.remove('mobile-animation-jello')
+    point05.style.animation = "none !important"
     usedBack05 = true
     triggerEndNote()
 })
@@ -627,6 +632,7 @@ back06.addEventListener('click', () => {
     article06.style.display = "none"
     point06.classList.add('map-point-06-colored')
     point06.classList.remove('mobile-animation-jello')
+    point06.style.animation = "none !important"
     usedBack06 = true
     triggerEndNote()
 })
@@ -666,6 +672,7 @@ back07.addEventListener('click', () => {
     article07.style.display = "none"
     point07.classList.add('map-point-07-colored')
     point07.classList.remove('mobile-animation-jello')
+    point07.style.animation = "none !important"
     usedBack07 = true
     triggerEndNote()
 })
@@ -707,6 +714,7 @@ back08.addEventListener('click', () => {
     article08.style.display = "none"
     point08.classList.add('map-point-08-colored')
     point08.classList.remove('mobile-animation-jello')
+    point08.style.animation = "none !important"
     usedBack08 = true
     triggerEndNote()
 })
@@ -744,6 +752,7 @@ back09.addEventListener('click', () => {
     article09.style.display = "none"
     point09.classList.add('map-point-09-colored')
     point09.classList.remove('mobile-animation-jello')
+    point09.style.animation = "none !important"
     usedBack09 = true
     triggerEndNote()
 })
@@ -785,6 +794,7 @@ back10.addEventListener('click', () => {
     article10.style.display = "none"
     point10.classList.add('map-point-10-colored')
     point10.classList.remove('mobile-animation-jello')
+    point10.style.animation = "none !important"
     usedBack10 = true
     triggerEndNote()
 })
@@ -824,6 +834,7 @@ back11.addEventListener('click', () => {
     article11.style.display = "none"
     point11.classList.add('map-point-11-colored')
     point11.classList.remove('mobile-animation-jello')
+    point11.style.animation = "none !important"
     usedBack11 = true
     triggerEndNote()
 })
@@ -861,6 +872,7 @@ back12.addEventListener('click', () => {
     article12.style.display = "none"
     point12.classList.add('map-point-12-colored')
     point12.classList.remove('mobile-animation-jello')
+    point12.style.animation = "none !important"
     usedBack12 = true
     triggerEndNote()
 })
@@ -900,6 +912,7 @@ back13.addEventListener('click', () => {
     article13.style.display = "none"
     point13.classList.add('map-point-13-colored')
     point13.classList.remove('mobile-animation-jello')
+    point13.style.animation = "none !important"
     usedBack13 = true
     triggerEndNote()
 })

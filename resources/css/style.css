@@ -3183,8 +3183,6 @@ main {
         /* position */
         grid-row: 11/11;
         grid-column: 2/4;
-        /* animation */
-        animation: none !important;
     }
 
     #map-point-02 {
@@ -3194,9 +3192,6 @@ main {
         /* position */
         grid-row: 9/11;
         grid-column: 4/6;
-        /* animation */
-        animation: none !important;
-        animation: jello-horizontal 5s both infinite !important;
     }
 
     #map-point-03 {
@@ -3206,9 +3201,6 @@ main {
         /* position */
         grid-row: 7/9;
         grid-column: 2/4;
-        /* animation */
-        animation: none !important;
-        animation: jello-horizontal 5s both infinite !important;
     }
 
     #map-point-04 {
@@ -3218,9 +3210,6 @@ main {
         /* position */
         grid-row: 5/7;
         grid-column: 3/5;
-        /* animation */
-        animation: none !important;
-        animation: jello-horizontal 5s both infinite !important;
     }
 
     #map-point-05 {
@@ -3230,9 +3219,6 @@ main {
         /* position */
         grid-row: 2/4;
         grid-column: 2/5;
-        /* animation */
-        animation: none !important;
-        animation: jello-horizontal 5s both infinite !important;
     }
 
     #map-point-06 {
@@ -3242,9 +3228,6 @@ main {
         /* position */
         grid-row: 6/8;
         grid-column: 6/8;
-        /* animation */
-        animation: none !important;
-        animation: jello-horizontal 5s both infinite !important;
     }
 
     #map-point-07 {
@@ -3254,9 +3237,6 @@ main {
         /* position */
         grid-row: 4/6;
         grid-column: 5/8;
-        /* animation */
-        animation: none !important;
-        animation: jello-horizontal 5s both infinite !important;
     }
 
     #map-point-08 {
@@ -3266,9 +3246,6 @@ main {
         /* position */
         grid-row: 2/4;
         grid-column: 5/9;
-        /* animation */
-        animation: none !important;
-        animation: jello-horizontal 5s both infinite !important;
     }
 
     #map-point-09 {
@@ -3278,9 +3255,6 @@ main {
         /* position */
         grid-row: 2/5;
         grid-column: 9/12;
-        /* animation */
-        animation: none !important;
-        animation: jello-horizontal 5s both infinite !important;
     }
 
     #map-point-10 {
@@ -3290,9 +3264,6 @@ main {
         /* position */
         grid-row: 5/7;
         grid-column: 9/11;
-        /* animation */
-        animation: none !important;
-        animation: jello-horizontal 5s both infinite !important;
     }
 
     #map-point-11 {
@@ -3302,9 +3273,6 @@ main {
         /* position */
         grid-row: 8/10;
         grid-column: 9/11;
-        /* animation */
-        animation: none !important;
-        animation: jello-horizontal 5s both infinite !important;
     }
 
     #map-point-12 {
@@ -3314,9 +3282,6 @@ main {
         /* position */
         grid-row: 10/12;
         grid-column: 8/10;
-        /* animation */
-        animation: none !important;
-        animation: jello-horizontal 5s both infinite !important;
     }
 
     #map-point-13 {
@@ -3326,9 +3291,6 @@ main {
         /* position */
         grid-row: 8/10;
         grid-column: 6/8;
-        /* animation */
-        animation: none !important;
-        animation: jello-horizontal 5s both infinite !important;
     }
 
     .point-descriptions {
