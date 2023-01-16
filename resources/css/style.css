@@ -226,137 +226,7 @@
         background-image: url(../images/history/point-13.svg);
     }
 }
-@media (max-width: 500px) {
-    @keyframes map-point-01 {
-        0% {
-            background-image: url(../images/history/point-01.svg);
-        }
-    
-        100% {
-            background-image: url(../images/history/point-01.svg);
-        }
-    }
-    
-    @keyframes map-point-02 {
-        0% {
-            background-image: url(../images/history/point-02.svg);
-        }
-    
-        100% {
-            background-image: url(../images/history/point-02.svg);
-        }
-    }
-    
-    @keyframes map-point-03 {
-        0% {
-            background-image: url(../images/history/point-03.svg);
-        }
-    
-        100% {
-            background-image: url(../images/history/point-03.svg);
-        }
-    }
-    
-    @keyframes map-point-04 {
-        0% {
-            background-image: url(../images/history/point-04.svg);
-        }
-    
-        100% {
-            background-image: url(../images/history/point-04.svg);
-        }
-    }
-    
-    @keyframes map-point-05 {
-        0% {
-            background-image: url(../images/history/point-05.svg);
-        }
-    
-        100% {
-            background-image: url(../images/history/point-05.svg);
-        }
-    }
-    
-    @keyframes map-point-06 {
-        0% {
-            background-image: url(../images/history/point-06.svg);
-        }
-    
-        100% {
-            background-image: url(../images/history/point-06.svg);
-        }
-    }
-    
-    @keyframes map-point-07 {
-        0% {
-            background-image: url(../images/history/point-07.svg);
-        }
-    
-        100% {
-            background-image: url(../images/history/point-07.svg);
-        }
-    }
-    
-    @keyframes map-point-08 {
-        0% {
-            background-image: url(../images/history/point-08.svg);
-        }
-    
-        100% {
-            background-image: url(../images/history/point-08.svg);
-        }
-    }
-    
-    @keyframes map-point-09 {
-        0% {
-            background-image: url(../images/history/point-09.svg);
-        }
-    
-        100% {
-            background-image: url(../images/history/point-09.svg);
-        }
-    }
-    
-    @keyframes map-point-10 {
-        0% {
-            background-image: url(../images/history/point-10.svg);
-        }
-    
-        100% {
-            background-image: url(../images/history/point-10.svg);
-        }
-    }
-    
-    @keyframes map-point-11 {
-        0% {
-            background-image: url(../images/history/point-11.svg);
-        }
-    
-        100% {
-            background-image: url(../images/history/point-11.svg);
-        }
-    }
-    
-    @keyframes map-point-12 {
-        0% {
-            background-image: url(../images/history/point-12.svg);
-        }
-    
-        100% {
-            background-image: url(../images/history/point-12.svg);
-        }
-    }
-    
-    @keyframes map-point-13 {
-        0% {
-            background-image: url(../images/history/point-13.svg);
-        }
-    
-        100% {
-            background-image: url(../images/history/point-13.svg);
-        }
-    }
-}
+
 @keyframes jello-horizontal {
     0% {
         transform: scale3d(1, 1, 1);
@@ -3313,11 +3183,8 @@ main {
         /* position */
         grid-row: 11/11;
         grid-column: 2/4;
-    }
-
-    #map-point-01:hover {
-        /* background */
-        background-image: url(../images/history/point-01.svg);
+        /* animation */
+        animation: none;
     }
 
     #map-point-02 {
@@ -3327,11 +3194,8 @@ main {
         /* position */
         grid-row: 9/11;
         grid-column: 4/6;
-    }
-
-    #map-point-02:hover {
-        /* background */
-        background-image: url(../images/history/point-02.svg);
+        /* animation */
+        animation: none;
     }
 
     #map-point-03 {
@@ -3341,11 +3205,8 @@ main {
         /* position */
         grid-row: 7/9;
         grid-column: 2/4;
-    }
-
-    #map-point-03:hover {
-        /* background */
-        background-image: url(../images/history/point-03.svg);
+        /* animation */
+        animation: none;
     }
 
     #map-point-04 {
@@ -3355,11 +3216,8 @@ main {
         /* position */
         grid-row: 5/7;
         grid-column: 3/5;
-    }
-
-    #map-point-04:hover {
-        /* background */
-        background-image: url(../images/history/point-04.svg);
+        /* animation */
+        animation: none;
     }
 
     #map-point-05 {
@@ -3369,11 +3227,8 @@ main {
         /* position */
         grid-row: 2/4;
         grid-column: 2/5;
-    }
-
-    #map-point-05:hover {
-        /* background */
-        background-image: url(../images/history/point-05.svg);
+        /* animation */
+        animation: none;
     }
 
     #map-point-06 {
@@ -3383,11 +3238,8 @@ main {
         /* position */
         grid-row: 6/8;
         grid-column: 6/8;
-    }
-
-    #map-point-06:hover {
-        /* background */
-        background-image: url(../images/history/point-06.svg);
+        /* animation */
+        animation: none;
     }
 
     #map-point-07 {
@@ -3397,11 +3249,8 @@ main {
         /* position */
         grid-row: 4/6;
         grid-column: 5/8;
-    }
-
-    #map-point-07:hover {
-        /* background */
-        background-image: url(../images/history/point-07.svg);
+        /* animation */
+        animation: none;
     }
 
     #map-point-08 {
@@ -3411,11 +3260,8 @@ main {
         /* position */
         grid-row: 2/4;
         grid-column: 5/9;
-    }
-
-    #map-point-08:hover {
-        /* background */
-        background-image: url(../images/history/point-08.svg);
+        /* animation */
+        animation: none;
     }
 
     #map-point-09 {
@@ -3425,11 +3271,8 @@ main {
         /* position */
         grid-row: 2/5;
         grid-column: 9/12;
-    }
-
-    #map-point-09:hover {
-        /* background */
-        background-image: url(../images/history/point-09.svg);
+        /* animation */
+        animation: none;
     }
 
     #map-point-10 {
@@ -3439,11 +3282,8 @@ main {
         /* position */
         grid-row: 5/7;
         grid-column: 9/11;
-    }
-
-    #map-point-10:hover {
-        /* background */
-        background-image: url(../images/history/point-10.svg);
+        /* animation */
+        animation: none;
     }
 
     #map-point-11 {
@@ -3453,11 +3293,8 @@ main {
         /* position */
         grid-row: 8/10;
         grid-column: 9/11;
-    }
-
-    #map-point-11:hover {
-        /* background */
-        background-image: url(../images/history/point-11.svg);
+        /* animation */
+        animation: none;
     }
 
     #map-point-12 {
@@ -3467,11 +3304,8 @@ main {
         /* position */
         grid-row: 10/12;
         grid-column: 8/10;
-    }
-
-    #map-point-12:hover {
-        /* background */
-        background-image: url(../images/history/point-12.svg);
+        /* animation */
+        animation: none;
     }
 
     #map-point-13 {
@@ -3481,11 +3315,8 @@ main {
         /* position */
         grid-row: 8/10;
         grid-column: 6/8;
-    }
-
-    #map-point-13:hover {
-        /* background */
-        background-image: url(../images/history/point-13.svg);
+        /* animation */
+        animation: none;
     }
 
     .point-descriptions {
