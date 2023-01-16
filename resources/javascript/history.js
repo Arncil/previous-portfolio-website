@@ -57,6 +57,150 @@ const back13 = document.getElementById("back-to-map-13")
 const start = document.getElementById("history-start")
 const startButton = document.getElementById("history-start-button")
 
+const description01_01 = document.getElementById("point-text-01-01")
+const description01_02 = document.getElementById("point-text-01-02")
+const description01_03 = document.getElementById("point-text-01-03")
+
+const arrowDown01_01 = document.getElementById("arrow-down-01-01")
+const arrowUp01_01 = document.getElementById("arrow-up-01-01")
+const arrowDown01_02 = document.getElementById("arrow-down-01-02")
+const arrowUp01_02 = document.getElementById("arrow-up-01-02")
+
+const description02_01 = document.getElementById("point-text-02-01")
+const description02_02 = document.getElementById("point-text-02-02")
+const description02_03 = document.getElementById("point-text-02-03")
+
+const arrowDown02_01 = document.getElementById("arrow-down-02-01")
+const arrowUp02_01 = document.getElementById("arrow-up-02-01")
+const arrowDown02_02 = document.getElementById("arrow-down-02-02")
+const arrowUp02_02 = document.getElementById("arrow-up-02-02")
+
+const description03_01 = document.getElementById("point-text-03-01")
+const description03_02 = document.getElementById("point-text-03-02")
+const description03_03 = document.getElementById("point-text-03-03")
+
+const arrowDown03_01 = document.getElementById("arrow-down-03-01")
+const arrowUp03_01 = document.getElementById("arrow-up-03-01")
+const arrowDown03_02 = document.getElementById("arrow-down-03-02")
+const arrowUp03_02 = document.getElementById("arrow-up-03-02")
+
+const description04_01 = document.getElementById("point-text-04-01")
+const description04_02 = document.getElementById("point-text-04-02")
+const description04_03 = document.getElementById("point-text-04-03")
+const description04_04 = document.getElementById("point-text-04-04")
+
+const arrowDown04_01 = document.getElementById("arrow-down-04-01")
+const arrowUp04_01 = document.getElementById("arrow-up-04-01")
+const arrowDown04_02 = document.getElementById("arrow-down-04-02")
+const arrowUp04_02 = document.getElementById("arrow-up-04-02")
+const arrowDown04_03 = document.getElementById("arrow-down-04-03")
+const arrowUp04_03 = document.getElementById("arrow-up-04-03")
+
+const description05_01 = document.getElementById("point-text-05-01")
+const description05_02 = document.getElementById("point-text-05-02")
+const description05_03 = document.getElementById("point-text-05-03")
+
+const arrowDown05_01 = document.getElementById("arrow-down-05-01")
+const arrowUp05_01 = document.getElementById("arrow-up-05-01")
+const arrowDown05_02 = document.getElementById("arrow-down-05-02")
+const arrowUp05_02 = document.getElementById("arrow-up-05-02")
+
+const description06_01 = document.getElementById("point-text-06-01")
+const description06_02 = document.getElementById("point-text-06-02")
+const description06_03 = document.getElementById("point-text-06-03")
+const description06_04 = document.getElementById("point-text-06-04")
+
+const arrowDown06_01 = document.getElementById("arrow-down-06-01")
+const arrowUp06_01 = document.getElementById("arrow-up-06-01")
+const arrowDown06_02 = document.getElementById("arrow-down-06-02")
+const arrowUp06_02 = document.getElementById("arrow-up-06-02")
+const arrowDown06_03 = document.getElementById("arrow-down-06-03")
+const arrowUp06_03 = document.getElementById("arrow-up-06-03")
+
+const description07_01 = document.getElementById("point-text-07-01")
+const description07_02 = document.getElementById("point-text-07-02")
+const description07_03 = document.getElementById("point-text-07-03")
+const description07_04 = document.getElementById("point-text-07-04")
+
+const arrowDown07_01 = document.getElementById("arrow-down-07-01")
+const arrowUp07_01 = document.getElementById("arrow-up-07-01")
+const arrowDown07_02 = document.getElementById("arrow-down-07-02")
+const arrowUp07_02 = document.getElementById("arrow-up-07-02")
+const arrowDown07_03 = document.getElementById("arrow-down-07-03")
+const arrowUp07_03 = document.getElementById("arrow-up-07-03")
+
+const description08_01 = document.getElementById("point-text-08-01")
+const description08_02 = document.getElementById("point-text-08-02")
+const description08_03 = document.getElementById("point-text-08-03")
+const description08_04 = document.getElementById("point-text-08-04")
+const description08_05 = document.getElementById("point-text-08-05")
+
+const arrowDown08_01 = document.getElementById("arrow-down-08-01")
+const arrowUp08_01 = document.getElementById("arrow-up-08-01")
+const arrowDown08_02 = document.getElementById("arrow-down-08-02")
+const arrowUp08_02 = document.getElementById("arrow-up-08-02")
+const arrowDown08_03 = document.getElementById("arrow-down-08-03")
+const arrowUp08_03 = document.getElementById("arrow-up-08-03")
+const arrowDown08_04 = document.getElementById("arrow-down-08-04")
+const arrowUp08_04 = document.getElementById("arrow-up-08-04")
+
+const description09_01 = document.getElementById("point-text-09-01")
+const description09_02 = document.getElementById("point-text-09-02")
+const description09_03 = document.getElementById("point-text-09-03")
+
+const arrowDown09_01 = document.getElementById("arrow-down-09-01")
+const arrowUp09_01 = document.getElementById("arrow-up-09-01")
+const arrowDown09_02 = document.getElementById("arrow-down-09-02")
+const arrowUp09_02 = document.getElementById("arrow-up-09-02")
+
+const description10_01 = document.getElementById("point-text-10-01")
+const description10_02 = document.getElementById("point-text-10-02")
+const description10_03 = document.getElementById("point-text-10-03")
+const description10_04 = document.getElementById("point-text-10-04")
+const description10_05 = document.getElementById("point-text-10-05")
+
+const arrowDown10_01 = document.getElementById("arrow-down-10-01")
+const arrowUp10_01 = document.getElementById("arrow-up-10-01")
+const arrowDown10_02 = document.getElementById("arrow-down-10-02")
+const arrowUp10_02 = document.getElementById("arrow-up-10-02")
+const arrowDown10_03 = document.getElementById("arrow-down-10-03")
+const arrowUp10_03 = document.getElementById("arrow-up-10-03")
+const arrowDown10_04 = document.getElementById("arrow-down-10-04")
+const arrowUp10_04 = document.getElementById("arrow-up-10-04")
+
+const description11_01 = document.getElementById("point-text-11-01")
+const description11_02 = document.getElementById("point-text-11-02")
+const description11_03 = document.getElementById("point-text-11-03")
+const description11_04 = document.getElementById("point-text-11-04")
+
+const arrowDown11_01 = document.getElementById("arrow-down-11-01")
+const arrowUp11_01 = document.getElementById("arrow-up-11-01")
+const arrowDown11_02 = document.getElementById("arrow-down-11-02")
+const arrowUp11_02 = document.getElementById("arrow-up-11-02")
+const arrowDown11_03 = document.getElementById("arrow-down-11-03")
+const arrowUp11_03 = document.getElementById("arrow-up-11-03")
+
+const description12_01 = document.getElementById("point-text-12-01")
+const description12_02 = document.getElementById("point-text-12-02")
+const description12_03 = document.getElementById("point-text-12-03")
+
+const arrowDown12_01 = document.getElementById("arrow-down-12-01")
+const arrowUp12_01 = document.getElementById("arrow-up-12-01")
+const arrowDown12_02 = document.getElementById("arrow-down-12-02")
+const arrowUp12_02 = document.getElementById("arrow-up-12-02")
+
+const description13_01 = document.getElementById("point-text-13-01")
+const description13_02 = document.getElementById("point-text-13-02")
+const description13_03 = document.getElementById("point-text-13-03")
+const description13_04 = document.getElementById("point-text-13-04")
+
+const arrowDown13_01 = document.getElementById("arrow-down-13-01")
+const arrowUp13_01 = document.getElementById("arrow-up-13-01")
+const arrowDown13_02 = document.getElementById("arrow-down-13-02")
+const arrowUp13_02 = document.getElementById("arrow-up-13-02")
+const arrowDown13_03 = document.getElementById("arrow-down-13-03")
+const arrowUp13_03 = document.getElementById("arrow-up-13-03")
+
 startButton.addEventListener('click', () => {
     start.style.display = "none"
 })
@@ -232,9 +376,17 @@ point13.addEventListener('mouseout', () => {
     mark13.classList.remove('time-marks-hover')
 })
 
+
+
 point01.addEventListener('click', () => {
     article01.style.display = "grid"
+    description01_01.style.display = "flex"
+    description01_02.style.display = "none"
+    description01_03.style.display = "none"
+    back01.style.display = "none"
+    article01.classList.remove("point-descriptions-grid")
 })
+
 mark01.addEventListener('click', () => {
     article01.style.display = "grid"
     article02.style.display = "none"
@@ -249,6 +401,12 @@ mark01.addEventListener('click', () => {
     article11.style.display = "none"
     article12.style.display = "none"
     article13.style.display = "none"
+    start.style.display = "none"
+    description01_01.style.display = "flex"
+    description01_02.style.display = "none"
+    description01_03.style.display = "none"
+    back01.style.display = "none"
+    article01.classList.remove("point-descriptions-grid")
 })
 back01.addEventListener('click', () => {
     article01.style.display = "none"
@@ -258,6 +416,11 @@ back01.addEventListener('click', () => {
 
 point02.addEventListener('click', () => {
     article02.style.display = "grid"
+    description02_01.style.display = "flex"
+    description02_02.style.display = "none"
+    description02_03.style.display = "none"
+    back02.style.display = "none"
+    article02.classList.remove("point-descriptions-grid")
 })
 mark02.addEventListener('click', () => {
     article01.style.display = "none"
@@ -273,6 +436,12 @@ mark02.addEventListener('click', () => {
     article11.style.display = "none"
     article12.style.display = "none"
     article13.style.display = "none"
+    start.style.display = "none"
+    description02_01.style.display = "flex"
+    description02_02.style.display = "none"
+    description02_03.style.display = "none"
+    back02.style.display = "none"
+    article02.classList.remove("point-descriptions-grid")
 })
 back02.addEventListener('click', () => {
     article02.style.display = "none"
@@ -282,6 +451,11 @@ back02.addEventListener('click', () => {
 
 point03.addEventListener('click', () => {
     article03.style.display = "grid"
+    description03_01.style.display = "flex"
+    description03_02.style.display = "none"
+    description03_03.style.display = "none"
+    back03.style.display = "none"
+    article03.classList.remove("point-descriptions-grid")
 })
 mark03.addEventListener('click', () => {
     article01.style.display = "none"
@@ -297,6 +471,12 @@ mark03.addEventListener('click', () => {
     article11.style.display = "none"
     article12.style.display = "none"
     article13.style.display = "none"
+    start.style.display = "none"
+    description03_01.style.display = "flex"
+    description03_02.style.display = "none"
+    description03_03.style.display = "none"
+    back03.style.display = "none"
+    article03.classList.remove("point-descriptions-grid")
 })
 back03.addEventListener('click', () => {
     article03.style.display = "none"
@@ -306,6 +486,12 @@ back03.addEventListener('click', () => {
 
 point04.addEventListener('click', () => {
     article04.style.display = "grid"
+    description04_01.style.display = "flex"
+    description04_02.style.display = "none"
+    description04_03.style.display = "none"
+    description04_04.style.display = "none"
+    back04.style.display = "none"
+    article04.classList.remove("point-descriptions-grid")
 })
 mark04.addEventListener('click', () => {
     article01.style.display = "none"
@@ -321,6 +507,13 @@ mark04.addEventListener('click', () => {
     article11.style.display = "none"
     article12.style.display = "none"
     article13.style.display = "none"
+    start.style.display = "none"
+    description04_01.style.display = "flex"
+    description04_02.style.display = "none"
+    description04_03.style.display = "none"
+    description04_04.style.display = "none"
+    back04.style.display = "none"
+    article04.classList.remove("point-descriptions-grid")
 })
 back04.addEventListener('click', () => {
     article04.style.display = "none"
@@ -330,6 +523,11 @@ back04.addEventListener('click', () => {
 
 point05.addEventListener('click', () => {
     article05.style.display = "grid"
+    description05_01.style.display = "flex"
+    description05_02.style.display = "none"
+    description05_03.style.display = "none"
+    back05.style.display = "none"
+    article05.classList.remove("point-descriptions-grid")
 })
 mark05.addEventListener('click', () => {
     article01.style.display = "none"
@@ -345,6 +543,12 @@ mark05.addEventListener('click', () => {
     article11.style.display = "none"
     article12.style.display = "none"
     article13.style.display = "none"
+    start.style.display = "none"
+    description05_01.style.display = "flex"
+    description05_02.style.display = "none"
+    description05_03.style.display = "none"
+    back05.style.display = "none"
+    article05.classList.remove("point-descriptions-grid")
 })
 back05.addEventListener('click', () => {
     article05.style.display = "none"
@@ -354,6 +558,11 @@ back05.addEventListener('click', () => {
 
 point06.addEventListener('click', () => {
     article06.style.display = "grid"
+    description06_01.style.display = "flex"
+    description06_02.style.display = "none"
+    description06_03.style.display = "none"
+    back06.style.display = "none"
+    article06.classList.remove("point-descriptions-grid")
 })
 mark06.addEventListener('click', () => {
     article01.style.display = "none"
@@ -369,6 +578,13 @@ mark06.addEventListener('click', () => {
     article11.style.display = "none"
     article12.style.display = "none"
     article13.style.display = "none"
+    start.style.display = "none"
+    description06_01.style.display = "flex"
+    description06_02.style.display = "none"
+    description06_03.style.display = "none"
+    description06_04.style.display = "none"
+    back06.style.display = "none"
+    article06.classList.remove("point-descriptions-grid")
 })
 back06.addEventListener('click', () => {
     article06.style.display = "none"
@@ -378,6 +594,12 @@ back06.addEventListener('click', () => {
 
 point07.addEventListener('click', () => {
     article07.style.display = "grid"
+    description07_01.style.display = "flex"
+    description07_02.style.display = "none"
+    description07_03.style.display = "none"
+    description07_04.style.display = "none"
+    back07.style.display = "none"
+    article07.classList.remove("point-descriptions-grid")
 })
 mark07.addEventListener('click', () => {
     article01.style.display = "none"
@@ -393,6 +615,13 @@ mark07.addEventListener('click', () => {
     article11.style.display = "none"
     article12.style.display = "none"
     article13.style.display = "none"
+    start.style.display = "none"
+    description07_01.style.display = "flex"
+    description07_02.style.display = "none"
+    description07_03.style.display = "none"
+    description07_04.style.display = "none"
+    back07.style.display = "none"
+    article07.classList.remove("point-descriptions-grid")
 })
 back07.addEventListener('click', () => {
     article07.style.display = "none"
@@ -402,6 +631,13 @@ back07.addEventListener('click', () => {
 
 point08.addEventListener('click', () => {
     article08.style.display = "grid"
+    description08_01.style.display = "flex"
+    description08_02.style.display = "none"
+    description08_03.style.display = "none"
+    description08_04.style.display = "none"
+    description08_05.style.display = "none"
+    back08.style.display = "none"
+    article08.classList.remove("point-descriptions-grid")
 })
 mark08.addEventListener('click', () => {
     article01.style.display = "none"
@@ -417,6 +653,14 @@ mark08.addEventListener('click', () => {
     article11.style.display = "none"
     article12.style.display = "none"
     article13.style.display = "none"
+    start.style.display = "none"
+    description08_01.style.display = "flex"
+    description08_02.style.display = "none"
+    description08_03.style.display = "none"
+    description08_04.style.display = "none"
+    description08_05.style.display = "none"
+    back08.style.display = "none"
+    article08.classList.remove("point-descriptions-grid")
 })
 back08.addEventListener('click', () => {
     article08.style.display = "none"
@@ -426,6 +670,11 @@ back08.addEventListener('click', () => {
 
 point09.addEventListener('click', () => {
     article09.style.display = "grid"
+    description09_01.style.display = "flex"
+    description09_02.style.display = "none"
+    description09_03.style.display = "none"
+    back09.style.display = "none"
+    article09.classList.remove("point-descriptions-grid")
 })
 mark09.addEventListener('click', () => {
     article01.style.display = "none"
@@ -441,6 +690,12 @@ mark09.addEventListener('click', () => {
     article11.style.display = "none"
     article12.style.display = "none"
     article13.style.display = "none"
+    start.style.display = "none"
+    description09_01.style.display = "flex"
+    description09_02.style.display = "none"
+    description09_03.style.display = "none"
+    back09.style.display = "none"
+    article09.classList.remove("point-descriptions-grid")
 })
 back09.addEventListener('click', () => {
     article09.style.display = "none"
@@ -450,6 +705,13 @@ back09.addEventListener('click', () => {
 
 point10.addEventListener('click', () => {
     article10.style.display = "grid"
+    description10_01.style.display = "flex"
+    description10_02.style.display = "none"
+    description10_03.style.display = "none"
+    description10_04.style.display = "none"
+    description10_05.style.display = "none"
+    back10.style.display = "none"
+    article10.classList.remove("point-descriptions-grid")
 })
 mark10.addEventListener('click', () => {
     article01.style.display = "none"
@@ -465,6 +727,14 @@ mark10.addEventListener('click', () => {
     article11.style.display = "none"
     article12.style.display = "none"
     article13.style.display = "none"
+    start.style.display = "none"
+    description10_01.style.display = "flex"
+    description10_02.style.display = "none"
+    description10_03.style.display = "none"
+    description10_04.style.display = "none"
+    description10_05.style.display = "none"
+    back10.style.display = "none"
+    article10.classList.remove("point-descriptions-grid")
 })
 back10.addEventListener('click', () => {
     article10.style.display = "none"
@@ -474,6 +744,12 @@ back10.addEventListener('click', () => {
 
 point11.addEventListener('click', () => {
     article11.style.display = "grid"
+    description11_01.style.display = "flex"
+    description11_02.style.display = "none"
+    description11_03.style.display = "none"
+    description11_04.style.display = "none"
+    back11.style.display = "none"
+    article11.classList.remove("point-descriptions-grid")
 })
 mark11.addEventListener('click', () => {
     article01.style.display = "none"
@@ -489,6 +765,13 @@ mark11.addEventListener('click', () => {
     article11.style.display = "grid"
     article12.style.display = "none"
     article13.style.display = "none"
+    start.style.display = "none"
+    description11_01.style.display = "flex"
+    description11_02.style.display = "none"
+    description11_03.style.display = "none"
+    description11_04.style.display = "none"
+    back11.style.display = "none"
+    article11.classList.remove("point-descriptions-grid")
 })
 back11.addEventListener('click', () => {
     article11.style.display = "none"
@@ -498,6 +781,11 @@ back11.addEventListener('click', () => {
 
 point12.addEventListener('click', () => {
     article12.style.display = "grid"
+    description12_01.style.display = "flex"
+    description12_02.style.display = "none"
+    description12_03.style.display = "none"
+    back12.style.display = "none"
+    article12.classList.remove("point-descriptions-grid")
 })
 mark12.addEventListener('click', () => {
     article01.style.display = "none"
@@ -513,6 +801,12 @@ mark12.addEventListener('click', () => {
     article11.style.display = "none"
     article12.style.display = "grid"
     article13.style.display = "none"
+    start.style.display = "none"
+    description12_01.style.display = "flex"
+    description12_02.style.display = "none"
+    description12_03.style.display = "none"
+    back12.style.display = "none"
+    article12.classList.remove("point-descriptions-grid")
 })
 back12.addEventListener('click', () => {
     article12.style.display = "none"
@@ -522,6 +816,12 @@ back12.addEventListener('click', () => {
 
 point13.addEventListener('click', () => {
     article13.style.display = "grid"
+    description13_01.style.display = "flex"
+    description13_02.style.display = "none"
+    description13_03.style.display = "none"
+    description13_04.style.display = "none"
+    back13.style.display = "none"
+    article13.classList.remove("point-descriptions-grid")
 })
 mark13.addEventListener('click', () => {
     article01.style.display = "none"
@@ -537,9 +837,520 @@ mark13.addEventListener('click', () => {
     article11.style.display = "none"
     article12.style.display = "none"
     article13.style.display = "grid"
+    start.style.display = "none"
+    description13_01.style.display = "flex"
+    description13_02.style.display = "none"
+    description13_03.style.display = "none"
+    description13_04.style.display = "none"
+    back13.style.display = "none"
+    article13.classList.remove("point-descriptions-grid")
 })
 back13.addEventListener('click', () => {
     article13.style.display = "none"
     point13.classList.add('map-point-13-colored')
     point13.classList.remove('mobile-animation-jello')
+})
+
+
+
+arrowDown01_01.addEventListener('click', () => {
+    description01_01.style.display = "none"
+    description01_02.style.display = "flex"
+    back01.style.display = "none"
+    article01.classList.remove("point-descriptions-grid")
+})
+
+arrowUp01_01.addEventListener('click', () => {
+    description01_01.style.display = "flex"
+    description01_02.style.display = "none"
+    back01.style.display = "none"
+    article01.classList.remove("point-descriptions-grid")
+})
+
+arrowDown01_02.addEventListener('click', () => {
+    description01_02.style.display = "none"
+    description01_03.style.display = "flex"
+    back01.style.display = "grid"
+    article01.classList.add("point-descriptions-grid")
+})
+
+arrowUp01_02.addEventListener('click', () => {
+    description01_02.style.display = "flex"
+    description01_03.style.display = "none"
+    back01.style.display = "none"
+    article01.classList.remove("point-descriptions-grid")
+})
+
+
+arrowDown02_01.addEventListener('click', () => {
+    description02_01.style.display = "none"
+    description02_02.style.display = "flex"
+    back02.style.display = "none"
+    article02.classList.remove("point-descriptions-grid")
+})
+
+arrowUp02_01.addEventListener('click', () => {
+    description02_01.style.display = "flex"
+    description02_02.style.display = "none"
+    back02.style.display = "none"
+    article02.classList.remove("point-descriptions-grid")
+})
+
+arrowDown02_02.addEventListener('click', () => {
+    description02_02.style.display = "none"
+    description02_03.style.display = "flex"
+    back02.style.display = "grid"
+    article02.classList.add("point-descriptions-grid")
+})
+
+arrowUp02_02.addEventListener('click', () => {
+    description02_02.style.display = "flex"
+    description02_03.style.display = "none"
+    back02.style.display = "none"
+    article02.classList.remove("point-descriptions-grid")
+})
+
+
+arrowDown03_01.addEventListener('click', () => {
+    description03_01.style.display = "none"
+    description03_02.style.display = "flex"
+    back03.style.display = "none"
+    article03.classList.remove("point-descriptions-grid")
+})
+
+arrowUp03_01.addEventListener('click', () => {
+    description03_01.style.display = "flex"
+    description03_02.style.display = "none"
+    back03.style.display = "none"
+    article03.classList.remove("point-descriptions-grid")
+})
+
+arrowDown03_02.addEventListener('click', () => {
+    description03_02.style.display = "none"
+    description03_03.style.display = "flex"
+    back03.style.display = "grid"
+    article03.classList.add("point-descriptions-grid")
+})
+
+arrowUp03_02.addEventListener('click', () => {
+    description03_02.style.display = "flex"
+    description03_03.style.display = "none"
+    back03.style.display = "none"
+    article03.classList.remove("point-descriptions-grid")
+})
+
+
+arrowDown04_01.addEventListener('click', () => {
+    description04_01.style.display = "none"
+    description04_02.style.display = "flex"
+    back04.style.display = "none"
+    article04.classList.remove("point-descriptions-grid")
+})
+
+arrowUp04_01.addEventListener('click', () => {
+    description04_01.style.display = "flex"
+    description04_02.style.display = "none"
+    back04.style.display = "none"
+    article04.classList.remove("point-descriptions-grid")
+})
+
+arrowDown04_02.addEventListener('click', () => {
+    description04_02.style.display = "none"
+    description04_03.style.display = "flex"
+    back04.style.display = "none"
+    article04.classList.remove("point-descriptions-grid")
+})
+
+arrowUp04_02.addEventListener('click', () => {
+    description04_02.style.display = "flex"
+    description04_03.style.display = "none"
+    back04.style.display = "none"
+    article04.classList.remove("point-descriptions-grid")
+})
+
+arrowDown04_03.addEventListener('click', () => {
+    description04_03.style.display = "none"
+    description04_04.style.display = "flex"
+    back04.style.display = "grid"
+    article04.classList.add("point-descriptions-grid")
+})
+
+arrowUp04_03.addEventListener('click', () => {
+    description04_03.style.display = "flex"
+    description04_04.style.display = "none"
+    back04.style.display = "none"
+    article04.classList.remove("point-descriptions-grid")
+})
+
+
+arrowDown05_01.addEventListener('click', () => {
+    description05_01.style.display = "none"
+    description05_02.style.display = "flex"
+    back05.style.display = "none"
+    article05.classList.remove("point-descriptions-grid")
+})
+
+arrowUp05_01.addEventListener('click', () => {
+    description05_01.style.display = "flex"
+    description05_02.style.display = "none"
+    back05.style.display = "none"
+    article05.classList.remove("point-descriptions-grid")
+})
+
+arrowDown05_02.addEventListener('click', () => {
+    description05_02.style.display = "none"
+    description05_03.style.display = "flex"
+    back05.style.display = "grid"
+    article05.classList.add("point-descriptions-grid")
+})
+
+arrowUp05_02.addEventListener('click', () => {
+    description05_02.style.display = "flex"
+    description05_03.style.display = "none"
+    back05.style.display = "none"
+    article05.classList.remove("point-descriptions-grid")
+})
+
+
+arrowDown06_01.addEventListener('click', () => {
+    description06_01.style.display = "none"
+    description06_02.style.display = "flex"
+    back06.style.display = "none"
+    article06.classList.remove("point-descriptions-grid")
+})
+
+arrowUp06_01.addEventListener('click', () => {
+    description06_01.style.display = "flex"
+    description06_02.style.display = "none"
+    back06.style.display = "none"
+    article06.classList.remove("point-descriptions-grid")
+})
+
+arrowDown06_02.addEventListener('click', () => {
+    description06_02.style.display = "none"
+    description06_03.style.display = "flex"
+    back06.style.display = "none"
+    article06.classList.remove("point-descriptions-grid")
+})
+
+arrowUp06_02.addEventListener('click', () => {
+    description06_02.style.display = "flex"
+    description06_03.style.display = "none"
+    back06.style.display = "none"
+    article06.classList.remove("point-descriptions-grid")
+})
+
+arrowDown06_03.addEventListener('click', () => {
+    description06_03.style.display = "none"
+    description06_04.style.display = "flex"
+    back06.style.display = "grid"
+    article06.classList.add("point-descriptions-grid")
+})
+
+arrowUp06_03.addEventListener('click', () => {
+    description06_03.style.display = "flex"
+    description06_04.style.display = "none"
+    back06.style.display = "none"
+    article06.classList.remove("point-descriptions-grid")
+})
+
+
+arrowDown07_01.addEventListener('click', () => {
+    description07_01.style.display = "none"
+    description07_02.style.display = "flex"
+    back07.style.display = "none"
+    article07.classList.remove("point-descriptions-grid")
+})
+
+arrowUp07_01.addEventListener('click', () => {
+    description07_01.style.display = "flex"
+    description07_02.style.display = "none"
+    back07.style.display = "none"
+    article07.classList.remove("point-descriptions-grid")
+})
+
+arrowDown07_02.addEventListener('click', () => {
+    description07_02.style.display = "none"
+    description07_03.style.display = "flex"
+    back07.style.display = "none"
+    article07.classList.remove("point-descriptions-grid")
+})
+
+arrowUp07_02.addEventListener('click', () => {
+    description07_02.style.display = "flex"
+    description07_03.style.display = "none"
+    back07.style.display = "none"
+    article07.classList.remove("point-descriptions-grid")
+})
+
+arrowDown07_03.addEventListener('click', () => {
+    description07_03.style.display = "none"
+    description07_04.style.display = "flex"
+    back07.style.display = "grid"
+    article07.classList.add("point-descriptions-grid")
+})
+
+arrowUp07_03.addEventListener('click', () => {
+    description07_03.style.display = "flex"
+    description07_04.style.display = "none"
+    back07.style.display = "none"
+    article07.classList.remove("point-descriptions-grid")
+})
+
+
+arrowDown08_01.addEventListener('click', () => {
+    description08_01.style.display = "none"
+    description08_02.style.display = "flex"
+    back08.style.display = "none"
+    article08.classList.remove("point-descriptions-grid")
+})
+
+arrowUp08_01.addEventListener('click', () => {
+    description08_01.style.display = "flex"
+    description08_02.style.display = "none"
+    back08.style.display = "none"
+    article08.classList.remove("point-descriptions-grid")
+})
+
+arrowDown08_02.addEventListener('click', () => {
+    description08_02.style.display = "none"
+    description08_03.style.display = "flex"
+    back08.style.display = "none"
+    article08.classList.remove("point-descriptions-grid")
+})
+
+arrowUp08_02.addEventListener('click', () => {
+    description08_02.style.display = "flex"
+    description08_03.style.display = "none"
+    back08.style.display = "none"
+    article08.classList.remove("point-descriptions-grid")
+})
+
+arrowDown08_03.addEventListener('click', () => {
+    description08_03.style.display = "none"
+    description08_04.style.display = "flex"
+    back08.style.display = "none"
+    article08.classList.remove("point-descriptions-grid")
+})
+
+arrowUp08_03.addEventListener('click', () => {
+    description08_03.style.display = "flex"
+    description08_04.style.display = "none"
+    back08.style.display = "none"
+    article08.classList.remove("point-descriptions-grid")
+})
+
+arrowDown08_04.addEventListener('click', () => {
+    description08_04.style.display = "none"
+    description08_05.style.display = "flex"
+    back08.style.display = "grid"
+    article08.classList.add("point-descriptions-grid")
+})
+
+arrowUp08_04.addEventListener('click', () => {
+    description08_04.style.display = "flex"
+    description08_05.style.display = "none"
+    back08.style.display = "none"
+    article08.classList.remove("point-descriptions-grid")
+})
+
+
+arrowDown09_01.addEventListener('click', () => {
+    description09_01.style.display = "none"
+    description09_02.style.display = "flex"
+    back09.style.display = "none"
+    article09.classList.remove("point-descriptions-grid")
+})
+
+arrowUp09_01.addEventListener('click', () => {
+    description09_01.style.display = "flex"
+    description09_02.style.display = "none"
+    back09.style.display = "none"
+    article09.classList.remove("point-descriptions-grid")
+})
+
+arrowDown09_02.addEventListener('click', () => {
+    description09_02.style.display = "none"
+    description09_03.style.display = "flex"
+    back09.style.display = "grid"
+    article09.classList.add("point-descriptions-grid")
+})
+
+arrowUp09_02.addEventListener('click', () => {
+    description09_02.style.display = "flex"
+    description09_03.style.display = "none"
+    back09.style.display = "none"
+    article09.classList.remove("point-descriptions-grid")
+})
+
+
+arrowDown10_01.addEventListener('click', () => {
+    description10_01.style.display = "none"
+    description10_02.style.display = "flex"
+    back10.style.display = "none"
+    article10.classList.remove("point-descriptions-grid")
+})
+
+arrowUp10_01.addEventListener('click', () => {
+    description10_01.style.display = "flex"
+    description10_02.style.display = "none"
+    back10.style.display = "none"
+    article10.classList.remove("point-descriptions-grid")
+})
+
+arrowDown10_02.addEventListener('click', () => {
+    description10_02.style.display = "none"
+    description10_03.style.display = "flex"
+    back10.style.display = "none"
+    article10.classList.remove("point-descriptions-grid")
+})
+
+arrowUp10_02.addEventListener('click', () => {
+    description10_02.style.display = "flex"
+    description10_03.style.display = "none"
+    back10.style.display = "none"
+    article10.classList.remove("point-descriptions-grid")
+})
+
+arrowDown10_03.addEventListener('click', () => {
+    description10_03.style.display = "none"
+    description10_04.style.display = "flex"
+    back10.style.display = "none"
+    article10.classList.remove("point-descriptions-grid")
+})
+
+arrowUp10_03.addEventListener('click', () => {
+    description10_03.style.display = "flex"
+    description10_04.style.display = "none"
+    back10.style.display = "none"
+    article10.classList.remove("point-descriptions-grid")
+})
+
+arrowDown10_04.addEventListener('click', () => {
+    description10_04.style.display = "none"
+    description10_05.style.display = "flex"
+    back10.style.display = "grid"
+    article10.classList.add("point-descriptions-grid")
+})
+
+arrowUp10_04.addEventListener('click', () => {
+    description10_04.style.display = "flex"
+    description10_05.style.display = "none"
+    back10.style.display = "none"
+    article10.classList.remove("point-descriptions-grid")
+})
+
+
+arrowDown11_01.addEventListener('click', () => {
+    description11_01.style.display = "none"
+    description11_02.style.display = "flex"
+    back11.style.display = "none"
+    article11.classList.remove("point-descriptions-grid")
+})
+
+arrowUp11_01.addEventListener('click', () => {
+    description11_01.style.display = "flex"
+    description11_02.style.display = "none"
+    back11.style.display = "none"
+    article11.classList.remove("point-descriptions-grid")
+})
+
+arrowDown11_02.addEventListener('click', () => {
+    description11_02.style.display = "none"
+    description11_03.style.display = "flex"
+    back11.style.display = "none"
+    article11.classList.remove("point-descriptions-grid")
+})
+
+arrowUp11_02.addEventListener('click', () => {
+    description11_02.style.display = "flex"
+    description11_03.style.display = "none"
+    back11.style.display = "none"
+    article11.classList.remove("point-descriptions-grid")
+})
+
+arrowDown11_03.addEventListener('click', () => {
+    description11_03.style.display = "none"
+    description11_04.style.display = "flex"
+    back11.style.display = "grid"
+    article11.classList.add("point-descriptions-grid")
+})
+
+arrowUp11_03.addEventListener('click', () => {
+    description11_03.style.display = "flex"
+    description11_04.style.display = "none"
+    back11.style.display = "none"
+    article11.classList.remove("point-descriptions-grid")
+})
+
+
+arrowDown12_01.addEventListener('click', () => {
+    description12_01.style.display = "none"
+    description12_02.style.display = "flex"
+    back12.style.display = "none"
+    article12.classList.remove("point-descriptions-grid")
+})
+
+arrowUp12_01.addEventListener('click', () => {
+    description12_01.style.display = "flex"
+    description12_02.style.display = "none"
+    back12.style.display = "none"
+    article12.classList.remove("point-descriptions-grid")
+})
+
+arrowDown12_02.addEventListener('click', () => {
+    description12_02.style.display = "none"
+    description12_03.style.display = "flex"
+    back12.style.display = "grid"
+    article12.classList.add("point-descriptions-grid")
+})
+
+arrowUp12_02.addEventListener('click', () => {
+    description12_02.style.display = "flex"
+    description12_03.style.display = "none"
+    back12.style.display = "none"
+    article12.classList.remove("point-descriptions-grid")
+})
+
+
+arrowDown13_01.addEventListener('click', () => {
+    description13_01.style.display = "none"
+    description13_02.style.display = "flex"
+    back13.style.display = "none"
+    article13.classList.remove("point-descriptions-grid")
+})
+
+arrowUp13_01.addEventListener('click', () => {
+    description13_01.style.display = "flex"
+    description13_02.style.display = "none"
+    back13.style.display = "none"
+    article13.classList.remove("point-descriptions-grid")
+})
+
+arrowDown13_02.addEventListener('click', () => {
+    description13_02.style.display = "none"
+    description13_03.style.display = "flex"
+    back13.style.display = "none"
+    article13.classList.remove("point-descriptions-grid")
+})
+
+arrowUp13_02.addEventListener('click', () => {
+    description13_02.style.display = "flex"
+    description13_03.style.display = "none"
+    back13.style.display = "none"
+    article13.classList.remove("point-descriptions-grid")
+})
+
+arrowDown13_03.addEventListener('click', () => {
+    description13_03.style.display = "none"
+    description13_04.style.display = "flex"
+    back13.style.display = "grid"
+    article13.classList.add("point-descriptions-grid")
+})
+
+arrowUp13_03.addEventListener('click', () => {
+    description13_03.style.display = "flex"
+    description13_04.style.display = "none"
+    back13.style.display = "none"
+    article13.classList.remove("point-descriptions-grid")
 })
