@@ -854,6 +854,9 @@ main {
     text-decoration: none;
     font-size: var(--font-size-300);
 }
+#language-pl {
+    display: none;
+}
 
 /* 🏠 🏠🏠 🏠🏠 🏠 */
 /* 🏠 PAGE: HOME 🏠 */

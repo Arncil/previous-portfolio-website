@@ -1,13 +1,12 @@
-const language = document.getElementById("language")
-let help = 0
+const eng = document.getElementById("language-eng")
+const pl = document.getElementById("language-pl")
 
-    addEventListener('click', () => {
-        if (help % 2 === 0) {
-            // language.innerHTML = "Language: PL"
-            language.innerHTML = "🛠 Maintenance 🛠"
-        }
-        else {
-            language.innerHTML = "Language: ENG"
-        }
-        help++
-    })
+eng.addEventListener('click', () => {
+    eng.style.display = "none"
+    pl.style.display = "grid"
+})
+
+pl.addEventListener('click', () => {
+    eng.style.display = "grid"
+    pl.style.display = "none"
+})
