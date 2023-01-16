@@ -226,7 +226,137 @@
         background-image: url(../images/history/point-13.svg);
     }
 }
-
+@media (max-width: 500px) {
+    @keyframes map-point-01 {
+        0% {
+            background-image: url(../images/history/point-01.svg);
+        }
+    
+        100% {
+            background-image: url(../images/history/point-01.svg);
+        }
+    }
+    
+    @keyframes map-point-02 {
+        0% {
+            background-image: url(../images/history/point-02.svg);
+        }
+    
+        100% {
+            background-image: url(../images/history/point-02.svg);
+        }
+    }
+    
+    @keyframes map-point-03 {
+        0% {
+            background-image: url(../images/history/point-03.svg);
+        }
+    
+        100% {
+            background-image: url(../images/history/point-03.svg);
+        }
+    }
+    
+    @keyframes map-point-04 {
+        0% {
+            background-image: url(../images/history/point-04.svg);
+        }
+    
+        100% {
+            background-image: url(../images/history/point-04.svg);
+        }
+    }
+    
+    @keyframes map-point-05 {
+        0% {
+            background-image: url(../images/history/point-05.svg);
+        }
+    
+        100% {
+            background-image: url(../images/history/point-05.svg);
+        }
+    }
+    
+    @keyframes map-point-06 {
+        0% {
+            background-image: url(../images/history/point-06.svg);
+        }
+    
+        100% {
+            background-image: url(../images/history/point-06.svg);
+        }
+    }
+    
+    @keyframes map-point-07 {
+        0% {
+            background-image: url(../images/history/point-07.svg);
+        }
+    
+        100% {
+            background-image: url(../images/history/point-07.svg);
+        }
+    }
+    
+    @keyframes map-point-08 {
+        0% {
+            background-image: url(../images/history/point-08.svg);
+        }
+    
+        100% {
+            background-image: url(../images/history/point-08.svg);
+        }
+    }
+    
+    @keyframes map-point-09 {
+        0% {
+            background-image: url(../images/history/point-09.svg);
+        }
+    
+        100% {
+            background-image: url(../images/history/point-09.svg);
+        }
+    }
+    
+    @keyframes map-point-10 {
+        0% {
+            background-image: url(../images/history/point-10.svg);
+        }
+    
+        100% {
+            background-image: url(../images/history/point-10.svg);
+        }
+    }
+    
+    @keyframes map-point-11 {
+        0% {
+            background-image: url(../images/history/point-11.svg);
+        }
+    
+        100% {
+            background-image: url(../images/history/point-11.svg);
+        }
+    }
+    
+    @keyframes map-point-12 {
+        0% {
+            background-image: url(../images/history/point-12.svg);
+        }
+    
+        100% {
+            background-image: url(../images/history/point-12.svg);
+        }
+    }
+    
+    @keyframes map-point-13 {
+        0% {
+            background-image: url(../images/history/point-13.svg);
+        }
+    
+        100% {
+            background-image: url(../images/history/point-13.svg);
+        }
+    }
+}
 @keyframes jello-horizontal {
     0% {
         transform: scale3d(1, 1, 1);
@@ -3129,7 +3259,8 @@ main {
 #back-to-map-13,
 #point-text-13-02,
 #point-text-13-03,
-#point-text-13-04 {
+#point-text-13-04,
+#history-end-note  {
     display: none;
 }
 

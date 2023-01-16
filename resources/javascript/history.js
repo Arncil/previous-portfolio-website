@@ -54,8 +54,26 @@ const back11 = document.getElementById("back-to-map-11")
 const back12 = document.getElementById("back-to-map-12")
 const back13 = document.getElementById("back-to-map-13")
 
+let usedBack01 = false
+let usedBack02 = false
+let usedBack03 = false
+let usedBack04 = false
+let usedBack05 = false
+let usedBack06 = false
+let usedBack07 = false
+let usedBack08 = false
+let usedBack09 = false
+let usedBack10 = false
+let usedBack11 = false
+let usedBack12 = false
+let usedBack13 = false
+
+
 const start = document.getElementById("history-start")
 const startButton = document.getElementById("history-start-button")
+
+const endNote = document.getElementById("history-end-note")
+const endNoteButton = document.getElementById("history-end-note-button")
 
 const description01_01 = document.getElementById("point-text-01-01")
 const description01_02 = document.getElementById("point-text-01-02")
@@ -200,6 +218,15 @@ const arrowDown13_02 = document.getElementById("arrow-down-13-02")
 const arrowUp13_02 = document.getElementById("arrow-up-13-02")
 const arrowDown13_03 = document.getElementById("arrow-down-13-03")
 const arrowUp13_03 = document.getElementById("arrow-up-13-03")
+
+const triggerEndNote = () => {
+    if (usedBack01 + usedBack02 + usedBack03 + usedBack04 +
+        usedBack05 + usedBack06 + usedBack07 + usedBack08 +
+        usedBack09 + usedBack10 + usedBack11 + usedBack12 +
+        usedBack13 === 13) {
+            endNote.style.display = "grid"
+        }
+}
 
 startButton.addEventListener('click', () => {
     start.style.display = "none"
@@ -412,6 +439,8 @@ back01.addEventListener('click', () => {
     article01.style.display = "none"
     point01.classList.add('map-point-01-colored')
     point01.classList.remove('mobile-animation-jello')
+    usedBack01 = true
+    triggerEndNote()
 })
 
 point02.addEventListener('click', () => {
@@ -447,6 +476,8 @@ back02.addEventListener('click', () => {
     article02.style.display = "none"
     point02.classList.add('map-point-02-colored')
     point02.classList.remove('mobile-animation-jello')
+    usedBack02 = true
+    triggerEndNote()
 })
 
 point03.addEventListener('click', () => {
@@ -482,6 +513,8 @@ back03.addEventListener('click', () => {
     article03.style.display = "none"
     point03.classList.add('map-point-03-colored')
     point03.classList.remove('mobile-animation-jello')
+    usedBack03 = true
+    triggerEndNote()
 })
 
 point04.addEventListener('click', () => {
@@ -519,6 +552,8 @@ back04.addEventListener('click', () => {
     article04.style.display = "none"
     point04.classList.add('map-point-04-colored')
     point04.classList.remove('mobile-animation-jello')
+    usedBack04 = true
+    triggerEndNote()
 })
 
 point05.addEventListener('click', () => {
@@ -554,6 +589,8 @@ back05.addEventListener('click', () => {
     article05.style.display = "none"
     point05.classList.add('map-point-05-colored')
     point05.classList.remove('mobile-animation-jello')
+    usedBack05 = true
+    triggerEndNote()
 })
 
 point06.addEventListener('click', () => {
@@ -590,6 +627,8 @@ back06.addEventListener('click', () => {
     article06.style.display = "none"
     point06.classList.add('map-point-06-colored')
     point06.classList.remove('mobile-animation-jello')
+    usedBack06 = true
+    triggerEndNote()
 })
 
 point07.addEventListener('click', () => {
@@ -627,6 +666,8 @@ back07.addEventListener('click', () => {
     article07.style.display = "none"
     point07.classList.add('map-point-07-colored')
     point07.classList.remove('mobile-animation-jello')
+    usedBack07 = true
+    triggerEndNote()
 })
 
 point08.addEventListener('click', () => {
@@ -666,6 +707,8 @@ back08.addEventListener('click', () => {
     article08.style.display = "none"
     point08.classList.add('map-point-08-colored')
     point08.classList.remove('mobile-animation-jello')
+    usedBack08 = true
+    triggerEndNote()
 })
 
 point09.addEventListener('click', () => {
@@ -701,6 +744,8 @@ back09.addEventListener('click', () => {
     article09.style.display = "none"
     point09.classList.add('map-point-09-colored')
     point09.classList.remove('mobile-animation-jello')
+    usedBack09 = true
+    triggerEndNote()
 })
 
 point10.addEventListener('click', () => {
@@ -740,6 +785,8 @@ back10.addEventListener('click', () => {
     article10.style.display = "none"
     point10.classList.add('map-point-10-colored')
     point10.classList.remove('mobile-animation-jello')
+    usedBack10 = true
+    triggerEndNote()
 })
 
 point11.addEventListener('click', () => {
@@ -777,6 +824,8 @@ back11.addEventListener('click', () => {
     article11.style.display = "none"
     point11.classList.add('map-point-11-colored')
     point11.classList.remove('mobile-animation-jello')
+    usedBack11 = true
+    triggerEndNote()
 })
 
 point12.addEventListener('click', () => {
@@ -812,6 +861,8 @@ back12.addEventListener('click', () => {
     article12.style.display = "none"
     point12.classList.add('map-point-12-colored')
     point12.classList.remove('mobile-animation-jello')
+    usedBack12 = true
+    triggerEndNote()
 })
 
 point13.addEventListener('click', () => {
@@ -849,6 +900,8 @@ back13.addEventListener('click', () => {
     article13.style.display = "none"
     point13.classList.add('map-point-13-colored')
     point13.classList.remove('mobile-animation-jello')
+    usedBack13 = true
+    triggerEndNote()
 })
 
 
@@ -1353,4 +1406,8 @@ arrowUp13_03.addEventListener('click', () => {
     description13_04.style.display = "none"
     back13.style.display = "none"
     article13.classList.remove("point-descriptions-grid")
+})
+
+endNoteButton.addEventListener('click', () => {
+    endNote.style.display = "none"
 })
