@@ -2526,8 +2526,6 @@ main {
     /* position */
     grid-row: 11/11;
     grid-column: 2/2;
-    /* animation */
-    animation: map-point-01 4s ease-in-out;
 }
 
 #map-point-01:hover,
@@ -2546,8 +2544,6 @@ main {
     /* position */
     grid-row: 8/10;
     grid-column: 4/6;
-    /* animation */
-    animation: map-point-02 4s ease-in-out;
 }
 
 #map-point-02:hover,
@@ -2567,8 +2563,6 @@ main {
     /* position */
     grid-row: 7/9;
     grid-column: 2/2;
-    /* animation */
-    animation: map-point-03 4s ease-in-out;
 }
 
 #map-point-03:hover,
@@ -2587,8 +2581,6 @@ main {
     /* position */
     grid-row: 5/7;
     grid-column: 3/3;
-    /* animation */
-    animation: map-point-04 4s ease-in-out;
 }
 
 #map-point-04:hover,
@@ -2607,8 +2599,6 @@ main {
     /* position */
     grid-row: 2/4;
     grid-column: 2/4;
-    /* animation */
-    animation: map-point-05 4s ease-in-out;
 }
 
 #map-point-05:hover,
@@ -2627,8 +2617,6 @@ main {
     /* position */
     grid-row: 4/7;
     grid-column: 5/7;
-    /* animation */
-    animation: map-point-06 4s ease-in-out;
 }
 
 #map-point-06:hover,
@@ -2647,8 +2635,6 @@ main {
     /* position */
     grid-row: 6/9;
     grid-column: 7/9;
-    /* animation */
-    animation: map-point-07 4s ease-in-out;
 }
 
 #map-point-07:hover,
@@ -2667,8 +2653,6 @@ main {
     /* position */
     grid-row: 2/4;
     grid-column: 5/7;
-    /* animation */
-    animation: map-point-08 4s ease-in-out;
 }
 
 #map-point-08:hover,
@@ -2687,8 +2671,6 @@ main {
     /* position */
     grid-row: 2/4;
     grid-column: 9/12;
-    /* animation */
-    animation: map-point-09 4s ease-in-out;
 }
 
 #map-point-09:hover,
@@ -2707,8 +2689,6 @@ main {
     /* position */
     grid-row: 5/7;
     grid-column: 10/12;
-    /* animation */
-    animation: map-point-10 4s ease-in-out;
 }
 
 #map-point-10:hover,
@@ -2727,8 +2707,6 @@ main {
     /* position */
     grid-row: 8/10;
     grid-column: 10/12;
-    /* animation */
-    animation: map-point-11 4s ease-in-out;
 }
 
 #map-point-11:hover,
@@ -2747,8 +2725,6 @@ main {
     /* position */
     grid-row: 9/12;
     grid-column: 8/10;
-    /* animation */
-    animation: map-point-12 4s ease-in-out;
 }
 
 #map-point-12:hover,
@@ -2767,8 +2743,6 @@ main {
     /* position */
     grid-row: 10/12;
     grid-column: 5/7;
-    /* animation */
-    animation: map-point-13 4s ease-in-out;
 }
 
 #map-point-13:hover,
@@ -2779,7 +2753,7 @@ main {
 }
 
 .mobile-animation-jello {
-    animation: jello-horizontal 5s both infinite !important;
+    animation: jello-horizontal 5s both infinite;
 }
 
 #history-nav {
@@ -3130,7 +3104,7 @@ main {
 #point-text-13-02,
 #point-text-13-03,
 #point-text-13-04,
-#history-end-note  {
+#history-end-note {
     display: none;
 }
 
