@@ -3469,7 +3469,7 @@ main {
     z-index: 2;
 }
 
-.achievement-description img {
+.achievement-description picture {
     position: absolute;
     width: 53vmin;
     height: 53vmin;
@@ -3549,8 +3549,8 @@ main {
         z-index: 2;
     }
 
-    .achievement-description img {
-        width: 78vmin;
-        height: 68vmin;
+    .achievement-description picture {
+        width: 100%;
+        height: 100%;
     }
 }
