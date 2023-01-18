@@ -855,10 +855,6 @@ main {
     font-size: var(--font-size-300);
 }
 
-#language-pl {
-    display: none;
-}
-
 /* 🏠 🏠🏠 🏠🏠 🏠 */
 /* 🏠 PAGE: HOME 🏠 */
 /* 📱 SMALL SCREEN 📱*/
@@ -3441,9 +3437,11 @@ main {
     /* animation */
     transition: all 0.5s;
 }
+
 .achievement-description div {
     width: 90%;
-} 
+}
+
 .achievement-description h3 {
     font-size: var(--font-size-400);
     z-index: 2;
