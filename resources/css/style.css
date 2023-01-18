@@ -854,6 +854,7 @@ main {
     text-decoration: none;
     font-size: var(--font-size-300);
 }
+
 #language-pl {
     display: none;
 }
@@ -3326,5 +3327,230 @@ main {
 
     .point-description-image {
         width: 8vmin;
+    }
+}
+
+
+/* 🔓🔓🔓🔓 🔓🔓🔓🔓 */
+/* 🔓 ACHIEVEMENTS 🔓 */
+#achievements {
+    grid-template-rows: 10vmin 1fr;
+}
+
+#achievements-container {
+    grid-row: 2/2;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 104vmin;
+    gap: 2vmin
+}
+
+.achievement-box {
+    width: 15vmin;
+    height: 15vmin;
+    /* background */
+    background-image: url(../images/background-images/black-background-blur.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border */
+    border-image-source: url(../images/frames/page-background-frame.png);
+    border-image-slice: 8%;
+    border-image-width: 2vmin;
+    border-image-repeat: round;
+    border-style: solid;
+    /* position */
+    display: grid;
+    place-items: center;
+    /* animation */
+    transition: all 0.5s;
+    /* other */
+    cursor: pointer;
+}
+
+.achievement-box:hover {
+    box-shadow: 0 0 3vmin 0 var(--color-gold-500);
+    transform: scale(1.2);
+}
+
+.achievement-box img {
+    width: 84%;
+}
+
+/* .achievement-description {
+    display: none;
+} */
+
+.achievement-description {
+    /* box model */
+    width: 55vmin;
+    height: 55vmin;
+    /* background */
+    background-image: url(../images/background-images/black-background-blur.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border */
+    border-image-source: url(../images/frames/page-background-frame.png);
+    border-image-slice: 8%;
+    border-image-width: 2vmin;
+    border-image-repeat: round;
+    border-style: solid;
+    /* position */
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    place-items: center;
+    grid-template-rows: 15vmin 1fr 10vmin;
+    z-index: 1;
+    /* animation */
+    transition: all 0.5s;
+    /* other */
+    overflow: scroll;
+    -ms-overflow-style: none;
+    box-shadow: 0 0 7vmin 0 var(--color-gold-500);
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.achievement-description::-webkit-scrollbar {
+    /* position */
+    display: none;
+    /* Chrome, Safari, and Opera */
+}
+
+.achievement-description::before {
+    /* box model */
+    content: '';
+    width: 51vmin;
+    height: 52vmin;
+    /* border */
+    border-image-source: url(../images/frames/page-frame.png);
+    border-image-slice: 35%;
+    border-image-width: 10vmin;
+    border-image-repeat: round;
+    border-style: solid;
+    /* position */
+    position: absolute;
+    transform: translateZ(-1px);
+    /* animation */
+    transition: all 0.5s;
+}
+.achievement-description div {
+    width: 90%;
+} 
+.achievement-description h3 {
+    font-size: var(--font-size-400);
+    z-index: 2;
+}
+
+.achievement-description h4 {
+    font-size: var(--font-size-200);
+    font-style: italic;
+    z-index: 2;
+}
+
+.achievement-description p {
+    font-size: var(--font-size-250);
+    line-height: var(--font-size-400);
+    z-index: 2;
+    width: 90%;
+}
+
+.achievement-description button {
+    width: 15vmin;
+    height: 5vmin;
+    font-size: var(--font-size-250);
+    z-index: 2;
+}
+
+.achievement-description img {
+    position: absolute;
+    width: 53vmin;
+    height: 53vmin;
+    z-index: -1;
+    opacity: 0.15;
+}
+
+.none {
+    display: none;
+}
+
+/* 🔓🔓🔓🔓🔓🔓🔓🔓🔓🔓🔓 */
+/* 🔓🔓  ACHIEVEMENTS 🔓🔓 */
+/* 💻  MEDIUM   SCREEN 💻 */
+@media (max-width: 1100px) {
+    #achievements {
+        grid-template-rows: 1fr;
+    }
+
+    #achievements-container {
+        grid-row: 1/1;
+    }
+}
+
+/* 🔓🔓🔓🔓🔓🔓🔓🔓🔓🔓🔓 */
+/* 🔓🔓  ACHIEVEMENTS 🔓🔓 */
+/* 📱📱 SMALL   SCREEN 📱📱 */
+@media (max-width: 500px) {
+    #achievements-container {
+        width: 100%
+    }
+
+    .achievement-box {
+        width: 20vmin;
+        height: 20vmin;
+    }
+
+    .achievement-description {
+        /* box model */
+        width: 80vmin;
+        height: 90vmin;
+        /* border */
+        border-image-width: 3vmin;
+        /* position */
+        grid-template-rows: 20vmin 1fr 15vmin;
+    }
+
+    .achievement-description::before {
+        /* box model */
+        width: 75vmin;
+        height: 85vmin;
+        /* border */
+        border-image-width: 15vmin;
+    }
+
+    .achievement-description h3 {
+        font-size: var(--font-size-600);
+        z-index: 2;
+    }
+
+    .achievement-description h4 {
+        font-size: var(--font-size-300);
+        font-style: italic;
+        z-index: 2;
+    }
+
+    .achievement-description p {
+        font-size: var(--font-size-400);
+        line-height: var(--font-size-600);
+        z-index: 2;
+    }
+
+    .achievement-description button {
+        width: 25vmin;
+        height: 8vmin;
+        font-size: var(--font-size-400);
+        z-index: 2;
+    }
+
+    .achievement-description img {
+        width: 78vmin;
+        height: 68vmin;
     }
 }
