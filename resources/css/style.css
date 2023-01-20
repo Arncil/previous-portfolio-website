@@ -2646,6 +2646,14 @@ main {
     .design-projects-contents {
         grid-row: 1/1;
     }
+
+    #main-design {
+        grid-template-rows: 1fr;
+    }
+
+    #design-menu {
+        grid-row: 1/1;
+    }
 }
 
 /*  🖌️🖌️🖌️🖌️🖌️🖌️🖌️🖌️🖌️ */
@@ -2656,12 +2664,48 @@ main {
         width: 90vmin;
         height: 90vmin;
     }
+
     .design-projects-previous {
         transform: translateY(-35%) scale(0.8);
     }
-    
+
     .design-projects-next {
         transform: translateY(35%) scale(0.8);
+    }
+
+    #design-menu {
+        /* box model */
+        width: 80vmin;
+        height: 130vmin;
+        /* border */
+        border-image-width: 2vmin;
+    }
+
+    #design-menu::before {
+        /* box model */
+        width: 77vmin;
+        height: 127vmin;
+        /* border */
+        border-image-width: 25vmin;
+    }
+
+    #design-menu h1 {
+        font-size: var(--font-size-small-screen-800);
+    }
+
+    #design-menu li {
+        /* box model */
+        width: 56vmin;
+        height: 7vmin;
+        margin: 4vmin 0;
+        /* position */
+        display: grid;
+        place-items: center;
+    }
+
+    #design-menu a {
+        /* text */
+        font-size: var(--font-size-400);
     }
 }
 
