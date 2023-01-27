@@ -2366,7 +2366,8 @@ main {
     row-gap: 4vmin;
 }
 
-.web-dev-projects div p {
+.web-dev-projects div p,
+.web-dev-projects div p a {
     /* text */
     text-align: justify;
     font-size: var(--font-size-250);
@@ -2414,7 +2415,8 @@ main {
         grid-template-columns: 1fr 1fr;
     }
 
-    .web-dev-projects div p {
+    .web-dev-projects div p,
+    .web-dev-projects div p a {
         /* text */
         font-size: var(--font-size-200);
     }
@@ -2471,7 +2473,8 @@ main {
 
     }
 
-    .web-dev-projects div p {
+    .web-dev-projects div p,
+    .web-dev-projects div p a {
         /* text */
         font-size: var(--font-size-300);
     }
