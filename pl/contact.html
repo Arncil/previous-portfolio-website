@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/resources/css/style.css">
+    <title>Kontakt</title>
+</head>
+
+<body class="slide-in-fwd-center">
+    <header id="top-menu-header">
+        <img id="show-menu-icon" class="menu-icon" src="/resources/images/icons/show-menu-white-icon.png">
+        <img id="hide-menu-icon" class="menu-icon" src="/resources/images/icons/show-menu-gold-icon.png">
+        <nav id="top-menu" class="top-menu">
+            <ul>
+                <li><a class="button" href="/pl/index.html">Menu Główne</a></li>
+                <li><a class="button" href="/pl/profile.html">Profil</a></li>
+                <li><a class="button" href="/pl/skills.html">Umiejętności</a></li>
+                <li><a class="button" href="/pl/collection.html">Kolekcja</a></li>
+                <li><a class="button" href="/pl/history.html">Historia</a></li>
+                <li><a class="button button-pressed" href="#">Kontakt</a></li>
+                <li><a class="button" href="/pl/achievements.html">Osiągnięcia</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="contact-page">
+        <nav id="side-menu" class="side-menu">
+            <ul>
+                <li><a class="button" href="/pl/index.html">Menu Główne</a></li>
+                <li><a class="button" href="/pl/profile.html">Profil</a></li>
+                <li><a class="button" href="/pl/skills.html">Umiejętności</a></li>
+                <li><a class="button" href="/pl/collection.html">Kolekcja</a></li>
+                <li><a class="button" href="/pl/history.html">Historia</a></li>
+                <li><a class="button button-pressed" href="#">Kontakt</a></li>
+                <li><a class="button" href="/pl/achievements.html">Osiągnięcia</a></li>
+            </ul>
+        </nav>
+        <section id="contact-form">
+            <h1>Kontakt</h1>
+            <form method="POST" action="https://formspree.io/f/xvoynbab">
+                <br>
+                <label for="contact-email">E-Mail:</label><br>
+                <input class="contact-input-text" type="text" id="contact-email" name="contact-email" required><br><br>
+                <label for="contact-email-title">Tytuł:</label><br>
+                <input class="contact-input-text" type="text" id="contact-email-title" name="contact-email-title"
+                    required><br><br>
+                <label for="contact-message">Treść wiadomości:</label><br>
+                <textarea id="contact-message" class="contact-input-text" name="contact-message"
+                    required></textarea><br><br>
+                <button id="contact-send-button" class="button" type="submit">Wyślij</button>
+            </form>
+        </section>
+        <section id="contact-socials">
+            <ul>
+                <li><a target="_blank" href="https://github.com/Arncil"><img class="contact-social-image"
+                            src="/resources/images/icons/github-icon.png" alt="GitHub"></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/milosz-jackowiak/"><img
+                            class="contact-social-image" src="/resources/images/icons/linkedin-icon.png" alt="LinkedIn"></a>
+                </li>
+                <li><a target="_blank" href="https://discordapp.com/users/407535950118387712"><img
+                            class="contact-social-image" src="/resources/images/icons/discord-icon.png" alt="Discord"></a></li>
+                <li><a target="_blank" href="https://wa.link/l8bwux"><img class="contact-social-image"
+                            src="/resources/images/icons/whatsapp-icon.png" alt="WhatsApp"></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/miloszjackowiak"><img class="contact-social-image"
+                            src="/resources/images/icons/facebook-icon.png" alt="Facebook"></a></li>
+                <li><a target="_blank" href="https://twitter.com/Arncil37"><img class="contact-social-image"
+                            src="/resources/images/icons/twitter-icon.png" alt="Twitter"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/arncil/"><img class="contact-social-image"
+                            src="/resources/images/icons/instagram-icon.png" alt="Instagram"></a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+<script src="/resources/javascript/main.js"></script>
+<script src="/resources/javascript/mobileSizeFix.js"></script>
+<script src="/resources/javascript/contact.js"></script>
+
+</html>
