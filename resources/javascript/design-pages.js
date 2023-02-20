@@ -20,38 +20,40 @@ let alts = []
 let current = 1
 
 switch (title) {
-    case 'Design: Illustrations': {
-        images = [
-            "/resources/images/collection/design/illustrations/cinewoman.jpg",
-            "/resources/images/collection/design/illustrations/druid.jpg",
-            "/resources/images/collection/design/illustrations/serious-man.jpg",
-            "/resources/images/collection/design/illustrations/monkey.jpg",
-            "/resources/images/collection/design/illustrations/pig.jpg",
-            "/resources/images/collection/design/illustrations/coala.jpg",
-            "/resources/images/collection/design/illustrations/glasses-man.jpg",
-            "/resources/images/collection/design/illustrations/larrina.jpg"
-        ]
-        imagesMobile = [
-            "/resources/images/collection/design/illustrations/cinewoman-mobile.jpg",
-            "/resources/images/collection/design/illustrations/druid-mobile.jpg",
-            "/resources/images/collection/design/illustrations/serious-man-mobile.jpg",
-            "/resources/images/collection/design/illustrations/monkey-mobile.jpg",
-            "/resources/images/collection/design/illustrations/pig-mobile.jpg",
-            "/resources/images/collection/design/illustrations/coala-mobile.jpg",
-            "/resources/images/collection/design/illustrations/glasses-man-mobile.jpg",
-            "/resources/images/collection/design/illustrations/larrina-mobile.jpg"
-        ]
-        alts = [
-            "Woman Selling Tickets Illustration",
-            "Celtic Druid Illustration",
-            "Serious Man Illustration",
-            "Candy Style Monkey Illustration",
-            "Candy Style Pig Illustration",
-            "Candy Style Coala Illustration",
-            "Smiled Man Wearing Glasses Illustration",
-            "Woman Selling Sweets Illustration"
-        ]
-    } break
+    case 'Design: Illustrations':
+    case 'Design: Ilustracja':
+        {
+            images = [
+                "/resources/images/collection/design/illustrations/cinewoman.jpg",
+                "/resources/images/collection/design/illustrations/druid.jpg",
+                "/resources/images/collection/design/illustrations/serious-man.jpg",
+                "/resources/images/collection/design/illustrations/monkey.jpg",
+                "/resources/images/collection/design/illustrations/pig.jpg",
+                "/resources/images/collection/design/illustrations/coala.jpg",
+                "/resources/images/collection/design/illustrations/glasses-man.jpg",
+                "/resources/images/collection/design/illustrations/larrina.jpg"
+            ]
+            imagesMobile = [
+                "/resources/images/collection/design/illustrations/cinewoman-mobile.jpg",
+                "/resources/images/collection/design/illustrations/druid-mobile.jpg",
+                "/resources/images/collection/design/illustrations/serious-man-mobile.jpg",
+                "/resources/images/collection/design/illustrations/monkey-mobile.jpg",
+                "/resources/images/collection/design/illustrations/pig-mobile.jpg",
+                "/resources/images/collection/design/illustrations/coala-mobile.jpg",
+                "/resources/images/collection/design/illustrations/glasses-man-mobile.jpg",
+                "/resources/images/collection/design/illustrations/larrina-mobile.jpg"
+            ]
+            alts = [
+                "Woman Selling Tickets Illustration",
+                "Celtic Druid Illustration",
+                "Serious Man Illustration",
+                "Candy Style Monkey Illustration",
+                "Candy Style Pig Illustration",
+                "Candy Style Coala Illustration",
+                "Smiled Man Wearing Glasses Illustration",
+                "Woman Selling Sweets Illustration"
+            ]
+        } break
     case 'Design: Mascot Logo': {
         images = [
             "/resources/images/collection/design/mascot-logo/mascot-logo-lisy.jpg",
@@ -107,52 +109,56 @@ switch (title) {
             "Design of the Medical Products Catalog's Page"
         ]
     } break
-    case 'Design: Photo-Editing': {
-        images = [
-            "/resources/images/collection/design/photo-editing/dog-tag-1.jpg",
-            "/resources/images/collection/design/photo-editing/paracords.jpg",
-            "/resources/images/collection/design/photo-editing/dog-tag-2.jpg",
-            "/resources/images/collection/design/photo-editing/dog-tag-3.jpg",
-            "/resources/images/collection/design/photo-editing/dog-tag-4.jpg",
-            "/resources/images/collection/design/photo-editing/dog-tag-5.jpg",
-            "/resources/images/collection/design/photo-editing/dog-tag-6.jpg"
-        ]
-        imagesMobile = [
-            "/resources/images/collection/design/photo-editing/dog-tag-1-mobile.jpg",
-            "/resources/images/collection/design/photo-editing/paracords-mobile.jpg",
-            "/resources/images/collection/design/photo-editing/dog-tag-2-mobile.jpg",
-            "/resources/images/collection/design/photo-editing/dog-tag-3-mobile.jpg",
-            "/resources/images/collection/design/photo-editing/dog-tag-4-mobile.jpg",
-            "/resources/images/collection/design/photo-editing/dog-tag-5-mobile.jpg",
-            "/resources/images/collection/design/photo-editing/dog-tag-6-mobile.jpg"
-        ]
-        alts = [
-            "Picture of a Fully Black Dog Tag",
-            "Picture of Paracords Bracelets",
-            "Picture of a Fully Black Dog Tag",
-            "Picture of a Classic Dog Tag",
-            "Picture of a Classic Dog Tag",
-            "Picture of a Camo Dog Tag",
-            "Picture of a Blue Dog Tag"
-        ]
-    } break
-    case 'Design: Photo-Manipulation': {
-        images = [
-            "/resources/images/collection/design/photo-manipulation/sliced-head.png",
-            "/resources/images/collection/design/photo-manipulation/portal.png",
-            "/resources/images/collection/design/photo-manipulation/movie-poster.png"
-        ]
-        imagesMobile = [
-            "/resources/images/collection/design/photo-manipulation/sliced-head-mobile.png",
-            "/resources/images/collection/design/photo-manipulation/portal-mobile.png",
-            "/resources/images/collection/design/photo-manipulation/movie-poster-mobile.png"
-        ]
-        alts = [
-            "Edited Photo of Sliced Head",
-            "Edited Photo of the Portal to Another Dimension",
-            "Edited Movie Poster"
-        ]
-    } break
+    case 'Design: Photo-Editing':
+    case 'Design: Edycja Zdjęć':
+        {
+            images = [
+                "/resources/images/collection/design/photo-editing/dog-tag-1.jpg",
+                "/resources/images/collection/design/photo-editing/paracords.jpg",
+                "/resources/images/collection/design/photo-editing/dog-tag-2.jpg",
+                "/resources/images/collection/design/photo-editing/dog-tag-3.jpg",
+                "/resources/images/collection/design/photo-editing/dog-tag-4.jpg",
+                "/resources/images/collection/design/photo-editing/dog-tag-5.jpg",
+                "/resources/images/collection/design/photo-editing/dog-tag-6.jpg"
+            ]
+            imagesMobile = [
+                "/resources/images/collection/design/photo-editing/dog-tag-1-mobile.jpg",
+                "/resources/images/collection/design/photo-editing/paracords-mobile.jpg",
+                "/resources/images/collection/design/photo-editing/dog-tag-2-mobile.jpg",
+                "/resources/images/collection/design/photo-editing/dog-tag-3-mobile.jpg",
+                "/resources/images/collection/design/photo-editing/dog-tag-4-mobile.jpg",
+                "/resources/images/collection/design/photo-editing/dog-tag-5-mobile.jpg",
+                "/resources/images/collection/design/photo-editing/dog-tag-6-mobile.jpg"
+            ]
+            alts = [
+                "Picture of a Fully Black Dog Tag",
+                "Picture of Paracords Bracelets",
+                "Picture of a Fully Black Dog Tag",
+                "Picture of a Classic Dog Tag",
+                "Picture of a Classic Dog Tag",
+                "Picture of a Camo Dog Tag",
+                "Picture of a Blue Dog Tag"
+            ]
+        } break
+    case 'Design: Photo-Manipulation':
+    case 'Design: Fotomanipulacja':
+        {
+            images = [
+                "/resources/images/collection/design/photo-manipulation/sliced-head.png",
+                "/resources/images/collection/design/photo-manipulation/portal.png",
+                "/resources/images/collection/design/photo-manipulation/movie-poster.png"
+            ]
+            imagesMobile = [
+                "/resources/images/collection/design/photo-manipulation/sliced-head-mobile.png",
+                "/resources/images/collection/design/photo-manipulation/portal-mobile.png",
+                "/resources/images/collection/design/photo-manipulation/movie-poster-mobile.png"
+            ]
+            alts = [
+                "Edited Photo of Sliced Head",
+                "Edited Photo of the Portal to Another Dimension",
+                "Edited Movie Poster"
+            ]
+        } break
     case 'Design: Pixel Art': {
         images = [
             "/resources/images/collection/design/pixel-art/jack-lumber-breath-1000.gif",
