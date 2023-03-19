@@ -1,4 +1,4 @@
 # Web Developer Portfolio
 #### Miłosz Jackowiak
-##### This is my first github repository. Soon it will evolve into my web dev portfolio!
-##### To see the web page I'm building here visit: https://arncil.github.io/
+##### This is my first GitHub repository, a project I've been working on when I've just started learning about front-end.
+##### https://arncil.github.io/previous-portfolio-website
