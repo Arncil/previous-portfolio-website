@@ -24,24 +24,24 @@ switch (title) {
     case 'Design: Ilustracja':
         {
             images = [
-                "/resources/images/collection/design/illustrations/cinewoman.jpg",
-                "/resources/images/collection/design/illustrations/druid.jpg",
-                "/resources/images/collection/design/illustrations/serious-man.jpg",
-                "/resources/images/collection/design/illustrations/monkey.jpg",
-                "/resources/images/collection/design/illustrations/pig.jpg",
-                "/resources/images/collection/design/illustrations/coala.jpg",
-                "/resources/images/collection/design/illustrations/glasses-man.jpg",
-                "/resources/images/collection/design/illustrations/larrina.jpg"
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/cinewoman.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/druid.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/serious-man.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/monkey.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/pig.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/coala.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/glasses-man.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/larrina.jpg"
             ]
             imagesMobile = [
-                "/resources/images/collection/design/illustrations/cinewoman-mobile.jpg",
-                "/resources/images/collection/design/illustrations/druid-mobile.jpg",
-                "/resources/images/collection/design/illustrations/serious-man-mobile.jpg",
-                "/resources/images/collection/design/illustrations/monkey-mobile.jpg",
-                "/resources/images/collection/design/illustrations/pig-mobile.jpg",
-                "/resources/images/collection/design/illustrations/coala-mobile.jpg",
-                "/resources/images/collection/design/illustrations/glasses-man-mobile.jpg",
-                "/resources/images/collection/design/illustrations/larrina-mobile.jpg"
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/cinewoman-mobile.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/druid-mobile.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/serious-man-mobile.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/monkey-mobile.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/pig-mobile.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/coala-mobile.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/glasses-man-mobile.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/illustrations/larrina-mobile.jpg"
             ]
             alts = [
                 "Woman Selling Tickets Illustration",
@@ -56,26 +56,26 @@ switch (title) {
         } break
     case 'Design: Mascot Logo': {
         images = [
-            "/resources/images/collection/design/mascot-logo/mascot-logo-lisy.jpg",
-            "/resources/images/collection/design/mascot-logo/mascot-logo-meowtaurant.jpg",
-            "/resources/images/collection/design/mascot-logo/mascot-logo-pugs.jpg",
-            "/resources/images/collection/design/mascot-logo/mascot-logo-spine.jpg",
-            "/resources/images/collection/design/mascot-logo/mascot-logo-blackcoat.jpg",
-            "/resources/images/collection/design/mascot-logo/mascot-logo-foxtales.jpg",
-            "/resources/images/collection/design/mascot-logo/mascot-logo-zanily-toy.jpg",
-            "/resources/images/collection/design/mascot-logo/mascot-logo-knights.jpg",
-            "/resources/images/collection/design/mascot-logo/arncil-avatar.jpg"
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-lisy.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-meowtaurant.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-pugs.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-spine.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-blackcoat.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-foxtales.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-zanily-toy.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-knights.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/arncil-avatar.jpg"
         ]
         imagesMobile = [
-            "/resources/images/collection/design/mascot-logo/mascot-logo-lisy-mobile.jpg",
-            "/resources/images/collection/design/mascot-logo/mascot-logo-meowtaurant-mobile.jpg",
-            "/resources/images/collection/design/mascot-logo/mascot-logo-pugs-mobile.jpg",
-            "/resources/images/collection/design/mascot-logo/mascot-logo-spine-mobile.jpg",
-            "/resources/images/collection/design/mascot-logo/mascot-logo-blackcoat-mobile.jpg",
-            "/resources/images/collection/design/mascot-logo/mascot-logo-foxtales-mobile.jpg",
-            "/resources/images/collection/design/mascot-logo/mascot-logo-zanily-toy-mobile.jpg",
-            "/resources/images/collection/design/mascot-logo/mascot-logo-knights-mobile.jpg",
-            "/resources/images/collection/design/mascot-logo/arncil-avatar-mobile.jpg"
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-lisy-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-meowtaurant-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-pugs-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-spine-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-blackcoat-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-foxtales-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-zanily-toy-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/mascot-logo-knights-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/mascot-logo/arncil-avatar-mobile.jpg"
         ]
         alts = [
             "Fox Mascot Logo",
@@ -91,16 +91,16 @@ switch (title) {
     } break
     case 'Design: Marketing': {
         images = [
-            "/resources/images/collection/design/marketing/catalog-cover.png",
-            "/resources/images/collection/design/marketing/gaming-house-wall.jpg",
-            "/resources/images/collection/design/marketing/ecozone.png",
-            "/resources/images/collection/design/marketing/catalog-page.png"
+            "/previous-portfolio-website/resources/images/collection/design/marketing/catalog-cover.png",
+            "/previous-portfolio-website/resources/images/collection/design/marketing/gaming-house-wall.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/marketing/ecozone.png",
+            "/previous-portfolio-website/resources/images/collection/design/marketing/catalog-page.png"
         ]
         imagesMobile = [
-            "/resources/images/collection/design/marketing/catalog-cover-mobile.png",
-            "/resources/images/collection/design/marketing/gaming-house-wall-mobile.jpg",
-            "/resources/images/collection/design/marketing/ecozone-mobile.png",
-            "/resources/images/collection/design/marketing/catalog-page-mobile.png"
+            "/previous-portfolio-website/resources/images/collection/design/marketing/catalog-cover-mobile.png",
+            "/previous-portfolio-website/resources/images/collection/design/marketing/gaming-house-wall-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/marketing/ecozone-mobile.png",
+            "/previous-portfolio-website/resources/images/collection/design/marketing/catalog-page-mobile.png"
         ]
         alts = [
             "Design of a Medical Products Catalog",
@@ -113,22 +113,22 @@ switch (title) {
     case 'Design: Edycja Zdjęć':
         {
             images = [
-                "/resources/images/collection/design/photo-editing/dog-tag-1.jpg",
-                "/resources/images/collection/design/photo-editing/paracords.jpg",
-                "/resources/images/collection/design/photo-editing/dog-tag-2.jpg",
-                "/resources/images/collection/design/photo-editing/dog-tag-3.jpg",
-                "/resources/images/collection/design/photo-editing/dog-tag-4.jpg",
-                "/resources/images/collection/design/photo-editing/dog-tag-5.jpg",
-                "/resources/images/collection/design/photo-editing/dog-tag-6.jpg"
+                "/previous-portfolio-website/resources/images/collection/design/photo-editing/dog-tag-1.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/photo-editing/paracords.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/photo-editing/dog-tag-2.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/photo-editing/dog-tag-3.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/photo-editing/dog-tag-4.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/photo-editing/dog-tag-5.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/photo-editing/dog-tag-6.jpg"
             ]
             imagesMobile = [
-                "/resources/images/collection/design/photo-editing/dog-tag-1-mobile.jpg",
-                "/resources/images/collection/design/photo-editing/paracords-mobile.jpg",
-                "/resources/images/collection/design/photo-editing/dog-tag-2-mobile.jpg",
-                "/resources/images/collection/design/photo-editing/dog-tag-3-mobile.jpg",
-                "/resources/images/collection/design/photo-editing/dog-tag-4-mobile.jpg",
-                "/resources/images/collection/design/photo-editing/dog-tag-5-mobile.jpg",
-                "/resources/images/collection/design/photo-editing/dog-tag-6-mobile.jpg"
+                "/previous-portfolio-website/resources/images/collection/design/photo-editing/dog-tag-1-mobile.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/photo-editing/paracords-mobile.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/photo-editing/dog-tag-2-mobile.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/photo-editing/dog-tag-3-mobile.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/photo-editing/dog-tag-4-mobile.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/photo-editing/dog-tag-5-mobile.jpg",
+                "/previous-portfolio-website/resources/images/collection/design/photo-editing/dog-tag-6-mobile.jpg"
             ]
             alts = [
                 "Picture of a Fully Black Dog Tag",
@@ -144,14 +144,14 @@ switch (title) {
     case 'Design: Fotomanipulacja':
         {
             images = [
-                "/resources/images/collection/design/photo-manipulation/sliced-head.png",
-                "/resources/images/collection/design/photo-manipulation/portal.png",
-                "/resources/images/collection/design/photo-manipulation/movie-poster.png"
+                "/previous-portfolio-website/resources/images/collection/design/photo-manipulation/sliced-head.png",
+                "/previous-portfolio-website/resources/images/collection/design/photo-manipulation/portal.png",
+                "/previous-portfolio-website/resources/images/collection/design/photo-manipulation/movie-poster.png"
             ]
             imagesMobile = [
-                "/resources/images/collection/design/photo-manipulation/sliced-head-mobile.png",
-                "/resources/images/collection/design/photo-manipulation/portal-mobile.png",
-                "/resources/images/collection/design/photo-manipulation/movie-poster-mobile.png"
+                "/previous-portfolio-website/resources/images/collection/design/photo-manipulation/sliced-head-mobile.png",
+                "/previous-portfolio-website/resources/images/collection/design/photo-manipulation/portal-mobile.png",
+                "/previous-portfolio-website/resources/images/collection/design/photo-manipulation/movie-poster-mobile.png"
             ]
             alts = [
                 "Edited Photo of Sliced Head",
@@ -161,18 +161,18 @@ switch (title) {
         } break
     case 'Design: Pixel Art': {
         images = [
-            "/resources/images/collection/design/pixel-art/jack-lumber-breath-1000.gif",
-            "/resources/images/collection/design/pixel-art/red_full.gif",
-            "/resources/images/collection/design/pixel-art/john-hunter-breath-1000.gif",
-            "/resources/images/collection/design/pixel-art/sheryl-hunter-breath-1000.gif",
-            "/resources/images/collection/design/pixel-art/pygmy.gif"
+            "/previous-portfolio-website/resources/images/collection/design/pixel-art/jack-lumber-breath-1000.gif",
+            "/previous-portfolio-website/resources/images/collection/design/pixel-art/red_full.gif",
+            "/previous-portfolio-website/resources/images/collection/design/pixel-art/john-hunter-breath-1000.gif",
+            "/previous-portfolio-website/resources/images/collection/design/pixel-art/sheryl-hunter-breath-1000.gif",
+            "/previous-portfolio-website/resources/images/collection/design/pixel-art/pygmy.gif"
         ]
         imagesMobile = [
-            "/resources/images/collection/design/pixel-art/jack-lumber-breath-1000.gif",
-            "/resources/images/collection/design/pixel-art/red_full.gif",
-            "/resources/images/collection/design/pixel-art/john-hunter-breath-1000.gif",
-            "/resources/images/collection/design/pixel-art/sheryl-hunter-breath-1000.gif",
-            "/resources/images/collection/design/pixel-art/pygmy.gif"
+            "/previous-portfolio-website/resources/images/collection/design/pixel-art/jack-lumber-breath-1000.gif",
+            "/previous-portfolio-website/resources/images/collection/design/pixel-art/red_full.gif",
+            "/previous-portfolio-website/resources/images/collection/design/pixel-art/john-hunter-breath-1000.gif",
+            "/previous-portfolio-website/resources/images/collection/design/pixel-art/sheryl-hunter-breath-1000.gif",
+            "/previous-portfolio-website/resources/images/collection/design/pixel-art/pygmy.gif"
         ]
         alts = [
             "Animated Pixel Art of a Logger",
@@ -184,32 +184,32 @@ switch (title) {
     } break
     case 'Design: NFT': {
         images = [
-            "/resources/images/collection/design/nft/lunar-beasts-pig.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-rat.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-ox.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-tiger.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-rabbit.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-dragon.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-snake.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-horse.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-goat.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-monkey.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-rooster.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-dog.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-pig.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-rat.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-ox.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-tiger.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-rabbit.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-dragon.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-snake.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-horse.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-goat.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-monkey.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-rooster.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-dog.jpg",
         ]
         imagesMobile = [
-            "/resources/images/collection/design/nft/lunar-beasts-pig-mobile.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-rat-mobile.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-ox-mobile.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-tiger-mobile.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-rabbit-mobile.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-dragon-mobile.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-snake-mobile.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-horse-mobile.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-goat-mobile.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-monkey-mobile.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-rooster-mobile.jpg",
-            "/resources/images/collection/design/nft/lunar-beasts-dog-mobile.jpg"
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-pig-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-rat-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-ox-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-tiger-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-rabbit-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-dragon-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-snake-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-horse-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-goat-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-monkey-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-rooster-mobile.jpg",
+            "/previous-portfolio-website/resources/images/collection/design/nft/lunar-beasts-dog-mobile.jpg"
         ]
         alts = [
             "Lunar Beast NFT Pig",
